@@ -1,0 +1,42 @@
+{{FSPS street|McCleery Street|35|ident=FSPSMS3|folder=7|folder_order=9|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS McCleery Street 001, No 25, 18-H-13.png
+File:FSPS McCleery Street 002, No 17, 18-2-A, 1979.png
+File:FSPS McCleery Street 003, No 17, 18-2-A, 1979.png
+File:FSPS McCleery Street 004, No 5, 1979.png
+File:FSPS McCleery Street 005, Side of No 20 Lefroy, 18-14-79.png
+File:FSPS McCleery Street 006, Side of 163A and 165B Solomon St, 18-14-79.png
+File:FSPS McCleery Street 007, No 42, 18-14-79.png
+File:FSPS McCleery Street 008, No 32, 18-14, 79.png
+File:FSPS McCleery Street 009, No 28, 18-14-79.png
+File:FSPS McCleery Street 010, No 24, 18-3-B, 1979.png
+File:FSPS McCleery Street 011, No 22, 18-3-B, 1979.png
+File:FSPS McCleery Street 012, No 20, 18-3-B, 1979.png
+File:FSPS McCleery Street 013, No 18, 18-3-B, 1979.png
+File:FSPS McCleery Street 014, No 16, 18-3-B, 1979.png
+File:FSPS McCleery Street 015, No 14, 18-3-B, 1979.png
+File:FSPS McCleery Street 016, No 10, 18-3-B, 1979.png
+File:FSPS McCleery Street 017, Side of 81 South St, 18-3-B, 1979.png
+File:FSPS McCleery Street 018, No 15, 18-2-A, 1979.png
+File:FSPS McCleery Street 019, No 13, 18-2-A, 1979.png
+File:FSPS McCleery Street 020, No 11, 18-2-A, 1979.png
+File:FSPS McCleery Street 021, No 9, 18-2-A, 1979.png
+File:FSPS McCleery Street 022, No 7, 18-2-A, 1979.png
+File:FSPS McCleery Street 023, No 3, 18-2-A, 1979.png
+File:FSPS McCleery Street 024, No 1, 18-2-A, 1979.png
+File:FSPS McCleery Street 025, No 2, 18-3-B, 1979.png
+File:FSPS McCleery Street 026, No 4, 18-3-B, 1979.png
+File:FSPS McCleery Street 027, No 6, 18-3-B, 1979.png
+File:FSPS McCleery Street 028, No 8, 18-3-B, 1979.png
+File:FSPS McCleery Street 029, No 12, 18-3-B, 1979.png
+File:FSPS McCleery Street 030, No 26, 18-3-B, 1979.png
+File:FSPS McCleery Street 031, cnr Lefroy, 18-13-H, 1979.png
+File:FSPS McCleery Street 032, No 27, 18-13-H.png
+File:FSPS McCleery Street 033, No 23, 18-13-H.png
+File:FSPS McCleery Street 034, No 21, 18-13-H.png
+File:FSPS McCleery Street 035, No 19, 18-13-H.png
+</gallery>

@@ -1,0 +1,20 @@
+{{FSPS street|Francisco Street|16|ident=FSPSFS3|folder=6|folder_order=7|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Francisco Street 001, No 3, 17-6-A, 1978.png
+File:FSPS Francisco Street 002, No 12, 17-8-C2, 1978.png
+File:FSPS Francisco Street 003, No 8, 17-5-B, 1978.png
+File:FSPS Francisco Street 004, No 4, 17-5-B, 1978.png
+File:FSPS Francisco Street 005, No 2 (maybe), rear of 35 South St, 17-5-B, 1978.png
+File:FSPS Francisco Street 006, No 6, 17-5-B, 1978.png
+File:FSPS Francisco Street 007, No 10, 17-8-C2, 1978.png
+File:FSPS Francisco Street 008, No 25 Gold, cnr Francisco, 17-8-C2, 1978.png
+File:FSPS Francisco Street 009, Cnr with Gold, 17-6-A, 1978.png
+File:FSPS Francisco Street 010, Park at cnr of Gold, 17-6-A, 1978.png
+File:FSPS Francisco Street 011, No 1, 17-6-A, 1978.png
+File:FSPS Francisco Street 012, No 7, 17-6-C, 1978.png
+File:FSPS Francisco Street 013, No 5, 17-6-C, 1978.png
+File:FSPS Francisco Street 014, No 9 demolished early 1979, 17-6-C, 1978.png
+File:FSPS Francisco Street 015, No 11, 17-6-C, 1978.png
+File:FSPS Francisco Street 016, Side of cnr Silver St, 17-6-C, 1978.png
+</gallery>

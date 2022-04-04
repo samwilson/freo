@@ -1,0 +1,58 @@
+{{FSPS street|High Street|52|ident=|folder=15|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS High Street 001, Between 170 and Stirling St, CBC, B, 1978.png
+File:FSPS High Street 002, cnr Parry St, 8-3-G, 1978.png
+File:FSPS High Street 003, Side 199, 8-3-5, 1978.png
+File:FSPS High Street 004, No 191, WE-3, 1980.png
+File:FSPS High Street 005, No 199, 8-3-G, 1978.png
+File:FSPS High Street 006, No 201, demolished, 8-3-G, 1978.png
+File:FSPS High Street 007, Nos 207-203, 8-3-G, 1978.png
+File:FSPS High Street 008, Nos 203-215, 8-3-G, 1978.png
+File:FSPS High Street 009, Nos 215-211, 8-3-G, 1978.png
+File:FSPS High Street 010, No 217, 8-3-G, 1978.png
+File:FSPS High Street 011, NO 219, 8-3-G, 1978.png
+File:FSPS High Street 012, No 221, 8-3-G, 1978.png
+File:FSPS High Street 013, No 223, 8-3-G, 1978.png
+File:FSPS High Street 014, No 225, 8-3-G, 1978.png
+File:FSPS High Street 015, No 229, 8-3-G, 1978.png
+File:FSPS High Street 016, Side 5 Ord St, 8-3-B, 1978.png
+File:FSPS High Street 017, No 235, 8-4-F, 1978.png
+File:FSPS High Street 018, Side No 235 8-4-F, 1978.png
+File:FSPS High Street 019, No 237, 8-4-F, 1978.png
+File:FSPS High Street 020, NO 239, 8-4-F, 1978.png
+File:FSPS High Street 021, No 241, 8-4-F, 1978.png
+File:FSPS High Street 022, No 243, 8-4-F, 1978.png
+File:FSPS High Street 023, No 247, 8-5-E, 1978.png
+File:FSPS High Street 024, No 160, A, 8-1-A, 1978.png
+File:FSPS High Street 025, NO 160, B, 8-1-A, 1978.png
+File:FSPS High Street 026, Bateman St side No 247, 8-5-E, 1978.png
+File:FSPS High Street 027, No 160, C, 8-1-A, 1978.png
+File:FSPS High Street 028, No 162, 8-1-A, 1978.png
+File:FSPS High Street 029, No 164, 8-1-A, 1978.png
+File:FSPS High Street 030, No 166, 8-1-A, 1978.png
+File:FSPS High Street 031, No 166, B, 8-1-A, 1978.png
+File:FSPS High Street 032, No 168, 8-1-A, 1978.png
+File:FSPS High Street 033, No 170, 8-1-A, 1978.png
+File:FSPS High Street 034, Between 170 and Stirling St, CBC, C, 8-1-A, 1978.png
+File:FSPS High Street 035, Between 170 and Stirling, CBC, D, 1978.png
+File:FSPS High Street 036, Between 170 and Stirling St, CBC, F, 8-1-A, 1978.png
+File:FSPS High Street 037, Between 170 and Stirling St, CBC, A, 8-1-A, 1978.png
+File:FSPS High Street 038, No 186, 8-6-C, 1978.png
+File:FSPS High Street 039, No 192, 8-6-C, 1978.png
+File:FSPS High Street 040, No 194, 8-6-C, 1978.png
+File:FSPS High Street 041, cnr Ord St, 8-5-E, 1978.png
+File:FSPS High Street 042, No 204, 8-6-C, 1978.png
+File:FSPS High Street 043, 8-6-C, 1978.png
+File:FSPS High Street 044, No 206, 8-7-C.png
+File:FSPS High Street 045, No 208, 8-7-C.png
+File:FSPS High Street 046, No 210, 8-7-C.png
+File:FSPS High Street 047, No 212, 8-7-C.png
+File:FSPS High Street 048, No 214, 8-6-C, 1978.png
+File:FSPS High Street 049, No 214, 8-7-C.png
+File:FSPS High Street 050, No 216, 8-7-D.png
+File:FSPS High Street 051, No 218, 8-7-D.png
+File:FSPS High Street 052, East St side of No 218, 8-7-D.png
+</gallery>

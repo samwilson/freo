@@ -1,0 +1,25 @@
+{{FSPS street|Stirling Street|19|ident=|folder=11|folder_order=5|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Stirling Street 001, 8-5-F, 1978.png
+File:FSPS Stirling Street 002, 8-5-F, 1978.png
+File:FSPS Stirling Street 003, No 7, 8-3-G, 1978.png
+File:FSPS Stirling Street 004, No 5, 8-3-G, 1978.png
+File:FSPS Stirling Street 005, No 3, 8-3-G, 1978.png
+File:FSPS Stirling Street 006, No 1, 8-3-G, 1978.png
+File:FSPS Stirling Street 007, No 1, 8-3-G, 1978.png
+File:FSPS Stirling Street 008, Between High and Ellen (A), 8-1-A, 1978.png
+File:FSPS Stirling Street 009, Between High and Ellen (B), 8-1-A, 1978.png
+File:FSPS Stirling Street 010, Between High and Ellen (C), 8-1-A, 1978.png
+File:FSPS Stirling Street 011, Between High and Ellen (D), 8-1-A, 1978.png
+File:FSPS Stirling Street 012, Side of 51 Ellen (E), 8-1-A, 1978.png
+File:FSPS Stirling Street 013, No 6, 8-2-A, 1978.png
+File:FSPS Stirling Street 014, High St side of No 6, 8-2-A, 1978.png
+File:FSPS Stirling Street 015, No 4, 8-2-A, 1978.png
+File:FSPS Stirling Street 016, No 2, 8-2-A, 1978.png
+File:FSPS Stirling Street 017, No 9, 8-4-H, 1978.png
+File:FSPS Stirling Street 018, No 11, 8-4-H, 1978.png
+File:FSPS Stirling Street 019, No 8, 8-4-F, 1978.png
+</gallery>

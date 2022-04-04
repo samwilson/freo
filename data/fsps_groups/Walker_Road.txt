@@ -1,0 +1,40 @@
+{{FSPS street|Walker Road|35|ident=|folder=11|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Walker Road 001, Side of No 9 Douro Rd, 21-3-B, 1979.png
+File:FSPS Walker Road 002, No 3, 21-3-B, 1979.png
+File:FSPS Walker Road 003, No 5, 21-3-B, 1979.png
+File:FSPS Walker Road 004, No 9, 21-3-B, 1979.png
+File:FSPS Walker Road 005, No 13, 21-3-B, 1979.png
+File:FSPS Walker Road 006, No 17, 21-3-B, 1979.png
+File:FSPS Walker Road 007, No 21, 21-3-B, 1979.png
+File:FSPS Walker Road 008, No 25, 21-3-B, 1979.png
+File:FSPS Walker Road 009, No 29, 21-2-B, 1979.png
+File:FSPS Walker Road 010, No 31, 21-2-B, 1979.png
+File:FSPS Walker Road 011, Side of 11 Douro, 21-3-C, 1979.png
+File:FSPS Walker Road 012, No 4 (No 2 not exists), 21-3-C, 1979.png
+File:FSPS Walker Road 013, No 12, 21-3-C, 1979.png
+File:FSPS Walker Road 014, Side yard of No 28, 21-4-C, 1979.png
+File:FSPS Walker Road 015, No 28, 21-4-C, 1979.png
+File:FSPS Walker Road 016, No 30, 21-4-C, 1979.png
+File:FSPS Walker Road 017, No 32, 21-4-C, 1979.png
+File:FSPS Walker Road 018, No 34, 21-4-C, 1979.png
+File:FSPS Walker Road 019, No 23, 21-3-B, 1979.png
+File:FSPS Walker Road 020, No 15, 21-3-B, 1979.png
+File:FSPS Walker Road 021, No 19, 21-3-B, 1979.png
+File:FSPS Walker Road 022, No 7, 21-3-B, 1979.png
+File:FSPS Walker Road 023, No 11, 21-3-B, 1979.png
+File:FSPS Walker Road 024, No 1, 21-3-B, 1979.png
+File:FSPS Walker Road 025, No 6, 21-3-C, 1979.png
+File:FSPS Walker Road 026, No 8, 21-3-C, 1979.png
+File:FSPS Walker Road 027, No 10, 21-3-C, 1979.png
+File:FSPS Walker Road 028, No 14, 21-3-C, 1979.png
+File:FSPS Walker Road 029, Nos 16-18, 21-3-C, 1979.png
+File:FSPS Walker Road 030, No 36, 21-4-C, 1979.png
+File:FSPS Walker Road 031, No 26, 21-3-C, 1979.png
+File:FSPS Walker Road 032, No 24, 21-3-C, 1979.png
+File:FSPS Walker Road 033, No 22, 21-3-C, 1979.png
+File:FSPS Walker Road 034, No 20, 21-3-C, 1979.png
+File:FSPS Walker Road 035, No 27, 21-3-B, 1979.png
+</gallery>

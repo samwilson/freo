@@ -1,0 +1,27 @@
+{{FSPS street|McLaren Street|21|ident=FSPSMS4|folder=7|folder_order=10|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS McLaren Street 001, No 24, 19-2-C, 1978.png
+File:FSPS McLaren Street 002, No 22, 19-2-C, 1978.png
+File:FSPS McLaren Street 003, No 20, 19-2-C, 1978.png
+File:FSPS McLaren Street 004, Nos 16-18, 19-2-C, 1978.png
+File:FSPS McLaren Street 005, No 14, 19-2-C, 1978.png
+File:FSPS McLaren Street 006, No 12, 19-2-C, 1978.png
+File:FSPS McLaren Street 007, No 2, 19-2-C, 1978.png
+File:FSPS McLaren Street 008, No 19, 19-3-E, 1978.png
+File:FSPS McLaren Street 009, No 21, 19-3-E, 1978.png
+File:FSPS McLaren Street 010, Nos 9-7, 19-4-E, 1978.png
+File:FSPS McLaren Street 011, No 13, 19-4-E, 1978.png
+File:FSPS McLaren Street 012, No 11, 19-4-E, 1978.png
+File:FSPS McLaren Street 013, No 1, 19-4-E, 1978.png
+File:FSPS McLaren Street 014, No 3, 19-4-E, 1978.png
+File:FSPS McLaren Street 015, No 5, 19-4-E, 1978.png
+File:FSPS McLaren Street 016, No 15, 19-3-E, 1978.png
+File:FSPS McLaren Street 017, No 17, 19-3-E, 1978.png
+File:FSPS McLaren Street 018, No 10, 19-2-C, 1978.png
+File:FSPS McLaren Street 019, No 8, 19-2-C, 1978.png
+File:FSPS McLaren Street 020, No 6, 19-2-C, 1978.png
+File:FSPS McLaren Street 021, No 4, 19-2-C, 1978.png
+</gallery>

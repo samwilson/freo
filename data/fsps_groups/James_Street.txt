@@ -1,0 +1,16 @@
+{{FSPS street|James Street|9|ident=FSPSJS2|folder=6|folder_order=12|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS James Street 001, between Queen Vic and Quarry, 7-1-C, 1980.png
+File:FSPS James Street 002, Council car park, 7-3-F, 1980.png
+File:FSPS James Street 003, SW cnr Queen Vic St, 7-5-J, 1980.png
+File:FSPS James Street 004, NW cnr Elder Place, 7-5-J, 1980.png
+File:FSPS James Street 005, Nos 16-18, 7-1-D, 1980.png
+File:FSPS James Street 006, Side No 2 Tuckfield, 7-1-D, 1980.png
+File:FSPS James Street 007, Side No 51 Quarry, 7-1-D, 1980.png
+File:FSPS James Street 008, 7-1-D, 1980.png
+File:FSPS James Street 009, Nos 12-14, 7-1-D, 1980.png
+</gallery>

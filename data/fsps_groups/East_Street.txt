@@ -1,0 +1,23 @@
+{{FSPS street|East Street|19|folder=5|ident=FSPSES|folder_order=13|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS East Street 001, Church on cnr Canning Hwy, 6-2-B, 1980.png | Church
+File:FSPS East Street 002, No 1, 6-2-B, 1980.png | No. 1
+File:FSPS East Street 003, No 3, 6-2-B, 1980.png | No. 3
+File:FSPS East Street 004, No 5, 6-2-B, 1980.png | No. 5
+File:FSPS East Street 005, No 7, 6-2-B, 1980.png | No. 7
+File:FSPS East Street 006, No 11, 6-2-B, 1980.png | No. 11
+File:FSPS East Street 007, No 8 cnr Dorothy, 6-2-B, 1980.png | No. 8
+File:FSPS East Street 008, Side of 39 Malcolm St, 6-5-D, 1979.png | Side of No. 39 Malcolm St
+File:FSPS East Street 009, No 23, 6-3-C, 1980.png | No. 23
+File:FSPS East Street 010, No 9, 6-2-B, 1980.png | No. 9
+File:FSPS East Street 011, No 25, 6-3-C, 1980.png | No. 25
+File:FSPS East Street 012, No 27, 6-3-C, 1980.png | No. 27
+File:FSPS East Street 013, No 37-29 Parmelia Ct, 6-3-C, 1980.png | Nos. 29–37
+File:FSPS East Street 014, No 39, 6-3-C, 1980.png | No. 39
+File:FSPS East Street 015, Nos 43-41, 6-3-C, 1980.png | Nos. 41 & 43
+File:FSPS East Street 016, No 45, 6-3-C, 1980.png | No. 45
+File:FSPS East Street 017, No 47A 'Evrah' SHC flats, 6-5-E, 1979.png | No. 47A
+File:FSPS East Street 018, No 47, 6-3-C, 1980.png | No. 47
+File:FSPS East Street 019, No 49, 8-7-D.png | No. 49
+</gallery>

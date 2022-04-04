@@ -1,0 +1,7 @@
+{{Fremantle Society Photographic Survey — street|Canning Highway|3|folder=2|ident=FSPSBCH|folder_order=11|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+FSPS_Canning_Highway_01,_6-1-A,_1980.png | 
+FSPS_Canning_Highway_02,_Christian_Science_Church,_6-2-B,_1980.png | Christian Science church
+FSPS_Canning_Highway_03,_opposite_Traffic_Bridge,_6-2-A,_1980.png | Opposite the Traffic Bridge
+</gallery>

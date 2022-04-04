@@ -1,0 +1,17 @@
+{{FSPS street|Dorothy Street|13|folder=5|ident=FSPSDS3|folder_order=10|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Dorothy Street 001, Cnr of East Street, 6-2-B, 1980.png | Corner of East St
+File:FSPS Dorothy Street 002, Cnr 23 East St, 6-3-C.png | Corner of 23 East St
+File:FSPS Dorothy Street 003, Side of 67 Tuckfield St, 6-4-C, 1979.png | Side of 67 Tuckfield St
+File:FSPS Dorothy Street 004, No 2, 6-2-B, 1980.png | No. 2
+File:FSPS Dorothy Street 005, No 3, 6-4-C, 1979.png | No. 3
+File:FSPS Dorothy Street 006, Nos 4 and 6, 6-2-B, 1980.png | Nos. 4 & 6
+File:FSPS Dorothy Street 007, No 7, 6-4-C, 1979.png | No. 7
+File:FSPS Dorothy Street 008, No 5, 6-4-C, 1979.png | No. 5
+File:FSPS Dorothy Street 009, No 9, 6-4-C, 1979.png | No. 9
+File:FSPS Dorothy Street 010, Nos 8-10, 6-2-B, 1980.png | Nos. 8 & 10
+File:FSPS Dorothy Street 011, No 12, 6-2-B, 1980.png | No. 12
+File:FSPS Dorothy Street 012, Nos 13-11, 6-4-C, 1979.png | Nos. 11 & 13
+File:FSPS Dorothy Street 013, No 14, 6-2-B, 1980.png | No. 14
+</gallery>

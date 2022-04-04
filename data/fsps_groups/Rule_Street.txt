@@ -1,0 +1,19 @@
+{{FSPS street|Rule Street|14|ident=|folder=9|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Rule Street 001, No 2, 3-1-E, 1978.png
+File:FSPS Rule Street 002, No 2 cnr Ainslie, 3-1-E, 1978.png
+File:FSPS Rule Street 003, No 14, 3-3-C, 1978.png
+File:FSPS Rule Street 004, Looking south at whole section, 2-4-D, 1980.png
+File:FSPS Rule Street 005, No 4, 3-2-D, 1978.png
+File:FSPS Rule Street 006, No 4 cnr Ainslie, 3-2-D.png
+File:FSPS Rule Street 007, No 18, side from Alfred, 3-3-C, 1978.png
+File:FSPS Rule Street 008, No 18, 3-3-C, 1978.png
+File:FSPS Rule Street 009, No 12, 3-3-C, 1978.png
+File:FSPS Rule Street 010, No 12, side from Higham St, 3-3-C, 1978.png
+File:FSPS Rule Street 011, No 10 cnr Higham, 3-2-D, 1978.png
+File:FSPS Rule Street 012, No 10, 3-2-D, 1978.png
+File:FSPS Rule Street 013, No 16, demolished, 3-3-C, 1978.png
+File:FSPS Rule Street 014, No 8, Robert Edward and Kay Humphries, 3-2-D, 1978.png
+</gallery>

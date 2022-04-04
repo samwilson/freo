@@ -1,0 +1,29 @@
+{{FSPS street|Wesley Street|25|ident=|folder=11|folder_order=9|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Wesley Street 001, No 1, 17-10-M, 1978.png
+File:FSPS Wesley Street 002, Side of No 1 from Martha, 17-10-M, 1978.png
+File:FSPS Wesley Street 003, No 7, 17-10-M, 1978.png
+File:FSPS Wesley Street 004, No 9, 17-10-M, 1978.png
+File:FSPS Wesley Street 005, Rear of Lilly St house, 17-10-M, 1978.png
+File:FSPS Wesley Street 006, No 13, 17-10-M, 1978.png
+File:FSPS Wesley Street 007, Side of Martha house, 17-4-L.png
+File:FSPS Wesley Street 008, No 6, 17-4-L, 1978.png
+File:FSPS Wesley Street 009, No 26 side from Lefroy, 17-4-L, 1978.png
+File:FSPS Wesley Street 010, No 71A Wood Street, 11-2-D, 1978.png
+File:FSPS Wesley Street 011, No 71B Wood Street, 11-2-D, 1978.png
+File:FSPS Wesley Street 012, No 11, 17-10-M, 1978.png
+File:FSPS Wesley Street 013, More of factory, 17-10-M, 1978.png
+File:FSPS Wesley Street 014, Side of factory in Lefroy, 17-10-M, 1978.png
+File:FSPS Wesley Street 015, Rear of Lilly St house, 17-10-M, 1978.png
+File:FSPS Wesley Street 016, No 10, 17-4-L, 1978.png
+File:FSPS Wesley Street 017, No 12, 17-4-L, 1978.png
+File:FSPS Wesley Street 018, No 22, 17-4-L, 1978.png
+File:FSPS Wesley Street 019, No 20, 17-4-L, 1978.png
+File:FSPS Wesley Street 020, No 18, 17-4-L, 1978.png
+File:FSPS Wesley Street 021, No 16, 17-4-L, 1978.png
+File:FSPS Wesley Street 022, No 14, 17-4-L, 1978.png
+File:FSPS Wesley Street 023, No 24, 17-4-L, 1978.png
+File:FSPS Wesley Street 024, No 26, 17-4-L, 1978.png
+File:FSPS Wesley Street 025, No 8, 17-4-L, 1978.png
+</gallery>

@@ -1,0 +1,10 @@
+{{FSPS street|Park Hotel|2|ident=FSPSPH|folder=7|folder_order=6|folder_check=1}}
+
+See also [[commons:File:Plans_for_the_Park_Hotel,_corner_of_Parry_and_Ellen_Streets,_Fremantle_(1).png]].
+
+<gallery mode=nolines perrow=4>
+File:FSPS Park Hotel envelope.png | Envelope
+File:FSPS Park Hotel negatives.png | Both negatives
+File:FSPS Park Hotel negative 1.png | Negative 1
+File:FSPS Park Hotel negative 2.png | Negative 2
+</gallery>

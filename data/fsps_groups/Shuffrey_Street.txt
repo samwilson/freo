@@ -1,0 +1,13 @@
+{{FSPS street|Shuffrey Street|6|ident=|folder=9|folder_order=11|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Shuffrey Street 001, rear 35 Quarry, 7-4-G, 1980.png
+File:FSPS Shuffrey Street 002, No 7, 7-4-G, 1980.png
+File:FSPS Shuffrey Street 003, Side of 20 Barnet St, 7-4-G, 1980.png
+File:FSPS Shuffrey Street 004, No 5, 7-4-G, 1980.png
+File:FSPS Shuffrey Street 005, No 3, 7-4-G, 1980.png
+File:FSPS Shuffrey Street 006, No 1, 7-4-G, 1980.png
+</gallery>

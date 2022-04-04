@@ -1,0 +1,8 @@
+{{FSPS street|Craig Street|1|folder=5|ident=FSPSCS7|folder_order=5|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Craig Street, between Stirling Hwy and Thompson Rd, 1-3-FGH, 1980.png
+File:Empty.png
+</gallery>

@@ -1,0 +1,17 @@
+{{FSPS street|Inverleith Street|11|ident=FSPSIS|folder=6|folder_order=10|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+FSPS Inverleith Street 001, No 1, 17-16-G, 1979.png
+FSPS Inverleith Street 002, No 3, 17-16-G, 1979.png
+FSPS Inverleith Street 003, No 5, 17-16-G, 1979.png
+FSPS Inverleith Street 004, No 1 (side), 17-16-G, 1979.png
+FSPS Inverleith Street 005, No 2, 17-14-H, 1978.png
+FSPS Inverleith Street 006, No 4, 17-14-H, 1978.png
+FSPS Inverleith Street 007, No 6, 17-14-H, 1978.png
+FSPS Inverleith Street 008, No 8, 17-14-H, 1978.png
+FSPS Inverleith Street 009, No 10, 17-14-H, 1978.png
+FSPS Inverleith Street 010, Side view of vacant block from Jenkin St, 17-14-H, 1978.png
+FSPS Inverleith Street 011, Corner block vacant, 17-14-H, 1978.png
+</gallery>

@@ -1,0 +1,22 @@
+{{FSPS street|Ada Street|13| ident = FSPSAS2 | folder       = 1
+ | folder_order = 1
+ | folder_check = 1}}
+
+<gallery>
+FSPS Ada Street, No. 2, 16-4-E 1978.png|[[2 Ada Street, Fremantle|No. 2]]
+FSPS Ada Street, No. 8, 16-4-E 1978.png|No. 8
+FSPS Ada Street, No. 4, Lot P79 (Seaways Charter P-L Maida Vale Lot 18 Edney Road) 16-4-E 1978.png|No. 4
+FSPS Ada Street, No. 6, 16-4-E 1978.png|No. 6
+
+FSPS Ada Street, No. 12 lot 71 (HONEY John & Maxine), 16-4-E 1978.png|No. 12
+FSPS Ada Street, Side of no. 130 Marine Terrace.png|Side of no. 130 Marine Terrace
+FSPS Ada Street, No. 10, 16-4-E 1978.png|No. 10
+FSPS Ada Street, No. 14, 16-4-E 1978.png|No. 14
+
+FSPS Ada Street, No. 3, 16-4-F 1978.png|No. 3
+FSPS Ada Street, No. 7, 16-4-F 1978.png|No. 7
+FSPS Ada Street, No. 1, 16-4-F 1978.png|No. 1
+FSPS Ada Street, No. 5, 16-4-F 1978.png|No. 5
+
+FSPS Ada Street, No. 9-11, 16-4-F 1978.png|Nos. 9–11
+</gallery>

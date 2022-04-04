@@ -1,0 +1,18 @@
+{{FSPS street|Louisa Street|13|ident=|folder=12|folder_order=7|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Louisa Street 001, No 1, 16-3-D.png
+File:FSPS Louisa Street 002, No 3, 16-3-D.png
+File:FSPS Louisa Street 003, No 9, 16-3-D.png
+File:FSPS Louisa Street 004, No 11, 16-3-D.png
+File:FSPS Louisa Street 005, No 13, 16-3-D.png
+File:FSPS Louisa Street 006, No 15, 16-3-D.png
+File:FSPS Louisa Street 007, No 4, 16-1-A, 1979.png
+File:FSPS Louisa Street 008, cnr Marine Tce, 16-1-A, 1979.png
+File:FSPS Louisa Street 009, No 6, Victor and Valerie Fisher, 16-1-A, 1979.png
+File:FSPS Louisa Street 010, No 8, 16-1-A, 1979.png
+File:FSPS Louisa Street 011, No 10, 16-1-A, 1979.png
+File:FSPS Louisa Street 012, No 7, 16-3-D.png
+File:FSPS Louisa Street 013, No 5, 16-3-D.png
+</gallery>

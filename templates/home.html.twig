@@ -1,0 +1,15 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+    <article class="container">
+        <p>
+            This is a website about the places and people of <a href="https://en.wikipedia.org/wiki/Fremantle">Fremantle, Western Australia</a>.
+            It is (as of 2022) a work-in-progress, and so far contains
+            {{ database.query('SELECT ROUND(SUM(photo_count)) AS tot FROM pages WHERE template="fsps_group"').fetchColumn()|format_number({}) }}
+            photos from the 1978–80 <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a>.
+            More material will be added.
+        </p>
+    </article>
+
+{% endblock %}

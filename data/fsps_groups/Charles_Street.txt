@@ -1,0 +1,25 @@
+{{FSPS street|Charles Street|18|folder=2|ident=FSPSCS5|folder_order=14|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+X
+File:FSPS Charles Street 01, no 3, 17-11-E, 1978.png | No. 3
+File:FSPS Charles Street 02, no 5, 17-11-E, 1978.png | No. 5
+File:FSPS Charles Street 04, no 7, 17-11-E, 1978.png | No. 7
+
+File:FSPS Charles Street 03, no 9, 17-11-E, 1978.png | No. 9 ([[:File:FSPS Charles Street 03, no 9, 17-11-E, 1978 (verso).png|verso]])
+File:FSPS Charles Street 05, no 11, 17-11-E, 1978.png | No. 11
+File:FSPS Charles Street 06, no 13, 17-11-E, 1978.png | No. 13
+File:FSPS Charles Street 07, no 15, 17-11-E.png | No. 15
+File:FSPS Charles Street 08, no 16, 17-9-D, 1978.png | No. 16
+File:FSPS Charles Street 09, no 17, 17-11-E, 1978.png | No. 17
+File:FSPS Charles Street 10, no 19, 17-11-E, 1978.png | No. 19
+File:FSPS Charles Street 11, nos. 20-22, 17-9-D, 1978.png | Nos. 20 & 22
+File:FSPS Charles Street 12, no 24, 17-9-D, 1978.png | No. 24
+File:FSPS Charles Street 13, no 26, 17-9-D, 1978.png | No. 26
+File:FSPS Charles Street 14, no 28, 17-9-D, 1978.png | No. 28
+File:FSPS Charles Street 15, no 28 from Attfield St, 17-9-D, 1978.png | No. 28 (from Attfield Street)
+File:FSPS Charles Street 16, Side of house on Attfield St, 17-11-E, 1978.png | Side of house on Attfield Street
+File:FSPS Charles Street 17, no 1, 17-11-E, 1978.png | No. 1
+File:FSPS Charles Street 18, Side of Repco Parts, 17-11-E, 1978.png | Side of ''Repco Parts'' shop
+X
+</gallery>

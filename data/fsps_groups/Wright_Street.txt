@@ -1,0 +1,17 @@
+{{FSPS street|Wright Street|11|folder=4|ident=FSPSWS|folder_order=5|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+FSPS Wright Street, 5, 11-3-E 1978.png|No. 5
+FSPS Wright Street, 6, 11-2-D 1978.png|No. 6
+FSPS Wright Street, 7, 11-3-E 1978.png|No. 7
+FSPS Wright Street, 8, 11-2-D 1978.png|No. 8
+
+FSPS Wright Street, 15, 11-3-E 1978.png|No. 15
+FSPS Wright Street, 14, 11-2-D 1978.png|No. 14
+FSPS Wright Street, 11, 11-3-E 1978.png|No. 11 (on two blocks?)
+FSPS Wright Street, 10, 11-2-D 1978.png|No. 10
+
+FSPS Wright Street, 2, 11-2-D 1978.png|No. 2
+FSPS Wright Street, 4, 11-2-D 1978.png|No. 4
+FSPS Wright Street, 12, 11-2-D 1978.png|No. 12
+</gallery>

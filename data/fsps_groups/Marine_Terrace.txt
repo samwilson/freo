@@ -1,0 +1,40 @@
+{{FSPS street|Marine Terrace|33|ident=|folder=13|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Marine Terrace 001, No 72, 14-3-C, 1978.png
+File:FSPS Marine Terrace 002, No 72, cnr Arundel St, 14-3-C, 1978.png
+File:FSPS Marine Terrace 003, No 70, 14-3-C, 1978.png
+File:FSPS Marine Terrace 004, No 68, 14-3-C, 1978.png
+File:FSPS Marine Terrace 005, cnr Suffolk, 14-2-C, 1978.png
+File:FSPS Marine Terrace 006, no enscription.png
+File:FSPS Marine Terrace 007, Maybe no 66, 14-3-C, 1978.png
+File:FSPS Marine Terrace 008, No 70 cnr Arundel St, 14-2-D, 1978.png
+File:FSPS Marine Terrace 009, No 88, 15-1-A, 1978.png
+File:FSPS Marine Terrace 010, No 106, 15-3-C, 1978.png
+File:FSPS Marine Terrace 011, No 108, 15-3-C, 1978.png
+File:FSPS Marine Terrace 012, Between Price and South, 15-4-E, 1978.png
+File:FSPS Marine Terrace 013, Between South and Louisa, 16-1-A, 1979.png
+File:FSPS Marine Terrace 014, cnr Louisa St, 16-3-D.png
+File:FSPS Marine Terrace 015, Side of No 1 Rose St, 16-4-E, 1978.png
+File:FSPS Marine Terrace 016, Side of 2 King William St, 16-4-F, 1978.png
+File:FSPS Marine Terrace 017, cnr King William St, 16-5-G, 1978.png
+File:FSPS Marine Terrace 018, No 136, 16-6-H, 1978.png
+File:FSPS Marine Terrace 019, No 138, 16-6-H, 1978.png
+File:FSPS Marine Terrace 020, Nos 142-144, 16-6-H, 1978.png
+File:FSPS Marine Terrace 021, No 150, 16-7-I.png
+File:FSPS Marine Terrace 022, No 156, 16-7-I.png
+File:FSPS Marine Terrace 023, No 160, inc. 158, 16-7-I.png
+File:FSPS Marine Terrace 024, No 170, 16-7-J.png
+File:FSPS Marine Terrace 025, No 172, 16-7-J.png
+File:FSPS Marine Terrace 026, Woolsheds, 19-7-K, 1978.png
+File:FSPS Marine Terrace 027, Wool Testing Authority, 19-7-K, 1978.png
+File:FSPS Marine Terrace 028, Woolsheds, 19-7-K, 1978.png
+File:FSPS Marine Terrace 029, Fremantle Fish Supply, Sealane Supplies, 19-7-K, 1978.png
+File:FSPS Marine Terrace 030, No 238, Sealane, 19-7-K, 1978.png
+File:FSPS Marine Terrace 031, No 240, 19-7-K, 1978.png
+File:FSPS Marine Terrace 032, No 242, 19-7-K, 1978.png
+File:FSPS Marine Terrace 033, cnr Douro Rd, Garage, 19-7-K, 1978.png
+</gallery>

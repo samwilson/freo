@@ -1,0 +1,32 @@
+{{todo}}
+__TOC__
+
+== Street/folder checking ==
+{{#cargo_query: tables=fsps_streets
+ | fields = CONCAT('[[Fremantle Society Photographic Survey folder ',folder,'|Folder ',folder,']]')=Link, ROUND(SUM(photo_count))=Photo count
+ | group by = folder
+ | order by = folder ASC
+}}
+
+{{#cargo_query: tables=fsps_streets, idents, fsps_photos
+ | join on = fsps_streets._pageID = idents._pageID, fsps_streets.street = fsps_photos.fsps_street
+ | fields  = fsps_streets._pageName, fsps_streets.street, fsps_streets.folder, fsps_streets.folder_order, CONCAT('[[:',idents.ident,'|"',idents.ident,'"]]')=ident, fsps_streets.photo_count, CONCAT(ROUND((COUNT(fsps_photos._pageID)/fsps_streets.photo_count)*100), '%')=photos linked, fsps_streets.folder_check
+ | group by = fsps_streets._pageID
+ | where   = fsps_streets._pageID IS NOT NULL
+ | order by = fsps_streets.folder ASC, fsps_streets.folder_order ASC
+ | limit = 1000
+}}
+
+== Not geocoded ==
+
+{{#cargo_query: tables = fsps_photos
+|where = coordinates__full is null
+|format = ol
+}}
+
+== No street ==
+
+{{#cargo_query: tables = fsps_photos
+|where = fsps_street is null or fsps_street = ''
+|format = ol
+}}

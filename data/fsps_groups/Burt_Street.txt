@@ -1,0 +1,32 @@
+{{FSPS street|Burt Street|28|folder=2|ident=FSPSBS9|folder_order=10|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Burt Street 001, no 5, 7-2-D, 1980 .png | No. 5
+File:FSPS Burt Street 002, no 1, 7-2-D, 1980.png | No. 1
+File:FSPS Burt Street 003, no 9-7, 7-2-D, 1980.png | Nos. 9 & 7
+File:FSPS Burt Street 004, no 3, 7-2-D, 1980.png | No. 3
+File:FSPS Burt Street 005, no 11, 7-2-D, 1980.png | No. 11
+File:FSPS Burt Street 006, no 15, 7-2-D, 1980.png | No. 15
+File:FSPS Burt Street 007, no 17, 7-2-D, 1980.png | No. 17
+File:FSPS Burt Street 008, no 32, 6-4-D, 1979.png | No. 32
+File:FSPS Burt Street 009, between Quarry and Queen Vic, 7-1-C, 1980.png | Between Quarry and Queen Victoria streets
+File:FSPS Burt Street 010, no 23 SHC flats 'Buni', 6-5-E, 1979.png | No. 23
+File:FSPS Burt Street 011, no 25, SHC flats 'Keli', 6-5-E, 1979.png | No. 25
+File:FSPS Burt Street 012, between nos 23-21, near 4 Vale, 6-5-E, 1979.png | Between nos. 21 & 23
+File:FSPS Burt Street 013, no 21 SHC flats 'Kerta', 6-5-E, 1979.png | No. 21
+File:FSPS Burt Street 014, rear Skinner St SHC flats, 6-5-E, 1979.png | Rear of Skinner Street flats
+File:FSPS Burt Street 015, between QV and Tuckfield, barracks, 6-1-A, 1980.png | Barracks
+File:FSPS Burt Street 016, between Tuckfield and East, 6-4-D, 1979.png | Between Tuckfield and East streets
+File:FSPS Burt Street 017, between Shacks and no 32, 6-4-D, 1979.png | Between Shacks and no. 32
+File:FSPS Burt Street 018, no 34, 6-4-D, 1979.png | No. 34
+File:FSPS Burt Street 019, no 36, 6-4-D, 1979.png | No. 36
+File:FSPS Burt Street 020, no 38, 6-5-D, 1979.png | No. 38
+File:FSPS Burt Street 021, no 40, 6-5-D, 1979.png | No. 40
+File:FSPS Burt Street 022, no 42, 6-5-D, 1979.png | No. 42
+File:FSPS Burt Street 023, between 42 and East St, 6-5-D, 1979.png | Between no. 42 and East Street
+File:FSPS Burt Street 024, between 42 and East St, 6-5-D, 1979.png | Between no. 42 and East Street
+File:FSPS Burt Street 025, side Queen Vic, 6-1-A, 1980.png | Side of Queen Victoria Street
+File:FSPS Burt Street 026, cnr East rear 39 Malcolm, 6-5-D, 1979.png | Corner with East, rear of 39 Malcolm Street
+File:FSPS Burt Street 027, barracks entrance, 6-1-A, 1980.png | Barracks
+File:FSPS Burt Street 028, cnr Tuckfield Street, 6-4-D, 1979.png | Corner of Tuckfield Street
+</gallery>

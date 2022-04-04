@@ -1,0 +1,17 @@
+{{FSPS street|Parmelia Street|12|ident=|folder=8|folder_order=11|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Parmelia Street 001, No 29, 19-4-E, 1978.png
+File:FSPS Parmelia Street 002, No 4, 19-3-D, 1978.png
+File:FSPS Parmelia Street 003, No 8, 19-3-D, 1978.png
+File:FSPS Parmelia Street 004, No 12, 19-3-D, 1978.png
+File:FSPS Parmelia Street 005, No 14, 19-3-D, 1978.png
+File:FSPS Parmelia Street 006, No 16, 19-3-D, 1978.png
+File:FSPS Parmelia Street 007, No 18, 19-3-D, 1978.png
+File:FSPS Parmelia Street 008, No 42 opposite Harbour Rd, 19-5-FI.png
+File:FSPS Parmelia Street 009, No 44, 19-5-FI, 1978.png
+File:FSPS Parmelia Street 010, No 3 demolished, 19-2-C, 1978.png
+File:FSPS Parmelia Street 011, No 6, 19-3-D, 1978.png
+File:FSPS Parmelia Street 012, No 2, 19-3-D, 1978.png
+</gallery>

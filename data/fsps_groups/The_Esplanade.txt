@@ -1,0 +1,8 @@
+{{FSPS street|The Esplanade|2|ident=|folder=10|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS The Esplanade 001, From John St, 5-2-D, 1978-80.png
+File:FSPS The Esplanade 002, Nos 1-2, 5-2-D, 1978-80.png
+</gallery>

@@ -1,0 +1,29 @@
+{{FSPS street|Little Howard Street|23|ident=|folder=12|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Little Howard Street 001, No 17-a, 12-3-B, 1979.png
+File:FSPS Little Howard Street 002, No 19, 12-3-B, 1979.png
+File:FSPS Little Howard Street 003, No 19, 12-3-B, 1979.png
+File:FSPS Little Howard Street 004, No 18, 12-2-A, 1979.png
+File:FSPS Little Howard Street 005, No 20, 12-2-A, 1979.png
+File:FSPS Little Howard Street 006, No 22, 12-2-A, 1979.png
+File:FSPS Little Howard Street 007, No 3, Maddalenal Mastropasqua, 12-3-B, 1979.png
+File:FSPS Little Howard Street 008, No 1A, 12-3-B, 1979.png
+File:FSPS Little Howard Street 009, No 2 Wray Ave, 12-3-B, 1979.png
+File:FSPS Little Howard Street 010, No 1, 12-3-B, 1979.png
+File:FSPS Little Howard Street 011, No 7, Guilio Mastropasqua, 12-3-B, 1979.png
+File:FSPS Little Howard Street 012, No 5, Maddelena Mastropasqua, 12-3-B, 1979.png
+File:FSPS Little Howard Street 013, Nos 13-15, Denis Michael OKeefe, 12-3-B, 1979.png
+File:FSPS Little Howard Street 014, No 10, 12-2-A, 1979.png
+File:FSPS Little Howard Street 015, No 12, 12-2-A, 1979.png
+File:FSPS Little Howard Street 016, Nos 14-16, 12-2-A, 1979.png
+File:FSPS Little Howard Street 017, No 4, 12-2-A, 1979.png
+File:FSPS Little Howard Street 018, No 2, 12-2-A, 1979.png
+File:FSPS Little Howard Street 019, No 6, 12-2-A, 1979.png
+File:FSPS Little Howard Street 020, Nos 28-30, cnr, 12-2-A, 1979.png
+File:FSPS Little Howard Street 021, No 8, 12-2-A, 1979.png
+File:FSPS Little Howard Street 022, Nos 28-30, 12-2-A, 1979.png
+File:FSPS Little Howard Street 023, Nos 24-26, 1979.png
+</gallery>

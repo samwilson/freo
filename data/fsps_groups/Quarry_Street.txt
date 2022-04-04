@@ -1,0 +1,39 @@
+{{FSPS street|Quarry Street|34|ident=FSPSQS|folder=8|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Quarry Street 001, No 77A, 7-2-D, 1980.png
+File:FSPS Quarry Street 002, Nos 69-67, 7-2-D, 1980.png
+File:FSPS Quarry Street 003, Nos 61-65, 7-2-D, 1980.png
+File:FSPS Quarry Street 004, No 59, 7-2-D, 1980.png
+File:FSPS Quarry Street 005, Council car park, 7-3-F, 1980.png
+File:FSPS Quarry Street 006, No 35, 7-3-F, 1980.png
+File:FSPS Quarry Street 007, No 21, 7-4-G, 1980.png
+File:FSPS Quarry Street 008, Nos 15-11, 7-4-G, 1980.png
+File:FSPS Quarry Street 009, Nos 9-5, 7-4-G, 1980.png
+File:FSPS Quarry Street 010, No 1, 7-4-G, 1980.png
+File:FSPS Quarry Street 011, Rear of 1-17 Queen Vic St, 7-5-1, 1980.png
+File:FSPS Quarry Street 012, North side rear Queen Vic, 7-5-1, 1980.png
+File:FSPS Quarry Street 013, North side rear Queen Vic, 7-5-1, 1980.png
+File:FSPS Quarry Street 014, North side rear Queen Vic, 7-5-1, 1980.png
+File:FSPS Quarry Street 015, Rear Queen Vic St, 7-1-C, 1980.png
+File:FSPS Quarry Street 016, Nos 47-49, actually Nos 1-3 James St, 7-3-F, 1980.png
+File:FSPS Quarry Street 017, No 45, 7-3-F, 1980.png
+File:FSPS Quarry Street 018, No 33, 7-3-G, 1980.png
+File:FSPS Quarry Street 019, No 31, 7-4-G, 1980.png
+File:FSPS Quarry Street 020, No 29, 7-4-G, 1980.png
+File:FSPS Quarry Street 021, No 25, 7-4-G, 1980.png
+File:FSPS Quarry Street 022, No 2 Barnet St, 7-4-G, 1980.png
+File:FSPS Quarry Street 023, No 23, 7-4-G, 1980.png
+File:FSPS Quarry Street 024, No 19, 7-4-G, 1980.png
+File:FSPS Quarry Street 025, No 17, 7-4-G, 1980.png
+File:FSPS Quarry Street 026, No 3, 7-4-G, 1980.png
+File:FSPS Quarry Street 027, Side of No 1 Burt, 7-2-D, 1980.png
+File:FSPS Quarry Street 028, No 77A, 7-2-D, 1980.png
+File:FSPS Quarry Street 029, Nos 77-75, 7-2-D, 1980.png
+File:FSPS Quarry Street 030, Nos 73-71, 7-2-D, 1980.png
+File:FSPS Quarry Street 031, No 57, 7-2-D, 1980.png
+File:FSPS Quarry Street 032, No 55, 7-2-D, 1980.png
+File:FSPS Quarry Street 033, No 53, 7-2-D, 1980.png
+File:FSPS Quarry Street 034, No 51, 7-2-D, 1980.png
+</gallery>

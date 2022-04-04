@@ -1,0 +1,8 @@
+{{FSPS street|Baker Street|4|folder=2|ident=FSPSBS|folder_order=1|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Baker Street 1, no 6, 10-1-E 1978.png  | No. 6
+File:FSPS Baker Street 3, no 10, 10-1-E 1978.png | No. 10
+File:FSPS Baker Street 2, no 8, 10-1-E 1978.png | No. 8
+File:FSPS Baker Street 4, no 12, 10-1-E 1978.png | No. 12
+</gallery>

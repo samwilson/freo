@@ -1,0 +1,26 @@
+{{FSPS street|Grey Street|20|ident=FSPSFGS2|folder=6|folder_order=9|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Grey Street 001, From No 3 to cnr Marine Tce, Lombardo Marine Group, 15-3-C, 1978.png
+File:FSPS Grey Street 002, South Tce between Grey and Russell, 15-3-B, 1978.png
+File:FSPS Grey Street 003, From No 14 to cnr South Tce, 15-3-B, 1978.png
+File:FSPS Grey Street 004, No 6, 15-2-B, 1978.png | No. 6 ([[:File:FSPS Grey Street 005, No 8, 15-2-B, 1978 (verso).png|verso]])
+File:FSPS Grey Street 005, No 8, 15-2-B, 1978.png
+File:FSPS Grey Street 006, No 10, 15-2-B, 1978.png
+File:FSPS Grey Street 007, No 12, 15-2-B, 1978.png
+File:FSPS Grey Street 008, No 14 (maybe), 15-2-B, 1978.png
+File:FSPS Grey Street 009, No 7, 15-3-C, 1978.png
+File:FSPS Grey Street 010, No 21, 15-3-C, 1978.png
+File:FSPS Grey Street 011, No 25, 15-3-C, 1978.png
+File:FSPS Grey Street 012, No 27, 15-3-C, 1978.png
+File:FSPS Grey Street 013, No 19, 15-3-C, 1978.png
+File:FSPS Grey Street 014, No 17, 15-3-C, 1978.png
+File:FSPS Grey Street 015, No 15, 15-3-C, 1978.png
+File:FSPS Grey Street 016, No 13, 15-3-C, 1978.png
+File:FSPS Grey Street 017, No 11, 15-3-C, 1978.png
+File:FSPS Grey Street 018, No 9, 15-3-C, 1978.png
+File:FSPS Grey Street 019, No 3, 15-3-C, 1978.png
+File:FSPS Grey Street 020, No 5, 15-3-C, 1978.png
+</gallery>

@@ -1,0 +1,11 @@
+{{FSPS street|Loukes Street|7|folder=1|folder_order=10|folder_check=1|ident=FSPSLS}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Loukes Street 001, side, 8-7-D.png | Side
+File:FSPS Loukes Street 002, No 2, 8-7-D.png | No. 2
+File:FSPS Loukes Street 003, No 4, 8-7-D.png | No. 4
+File:FSPS Loukes Street 004, No 3, C-8-6, 1978.png | No. 3
+File:FSPS Loukes Street 005, No 5, C-8-6, 1978.png | No. 5
+File:FSPS Loukes Street 006, No 9, 8-6-C, 1978.png | No 9, Helen and Salvatore del Popolo
+File:FSPS Loukes Street 007, No 7, C-8-6, 1978.png | No. 7
+</gallery>

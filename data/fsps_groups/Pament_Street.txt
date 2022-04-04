@@ -1,0 +1,13 @@
+{{FSPS street|Pament Street|8|ident=FSPSPS|folder=8|folder_order=9|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Pament Street 001, cnr Stirling Hwy, 1-3-E, 1980.png
+File:FSPS Pament Street 002, No 11, 1-2-D, 1980.png
+File:FSPS Pament Street 003, No 9, 1-2-D, 1980.png
+File:FSPS Pament Street 004, No 8, 1-3-E, 1980.png
+File:FSPS Pament Street 005, No 6 (no No 4), 1-3-E, 1980.png
+File:FSPS Pament Street 006, Nos 1-3 (No 5 is vacant block), 1-2-D, 1980.png
+File:FSPS Pament Street 007, No 2, 1-3-E, 1980.png
+File:FSPS Pament Street 008, No 7, 1-2-D, 1980.png
+</gallery>

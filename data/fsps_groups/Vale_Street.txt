@@ -1,0 +1,16 @@
+{{FSPS street|Vale Street|7|ident=|folder=11|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Vale Street 001, No 2, 6-5-E, 1979.png
+File:FSPS Vale Street 002, No 4, Part of Bampi SHC flats, 6-5-E, 1979.png
+File:FSPS Vale Street 003, No 4, Part of Bampi SHC flats, 6-5-E, 1979.png
+File:FSPS Vale Street 004, Side of 47A East St, 6-5-E, 1979.png
+File:FSPS Vale Street 005, No 6, Part of Bampi SHC flats, 6-5-E, 1979.png
+File:FSPS Vale Street 006, Cnr Skinner, 6-5-E, 1979.png
+File:FSPS Vale Street 007, Between Skinner and No 2, 6-5-E, 1979.png
+File:Empty.png
+File:Empty.png
+</gallery>

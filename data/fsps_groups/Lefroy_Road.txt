@@ -1,0 +1,81 @@
+{{FSPS street|Lefroy Road|75|ident=|folder=12|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Lefroy Road 001, cnr South Tce, 17-16-G, 1979.png
+File:FSPS Lefroy Road 002, Automotive shop, 17-16-G, 1979.png
+File:FSPS Lefroy Road 003, cnr Inverleith, 17-16-G, 1979.png
+File:FSPS Lefroy Road 004, View up Inverleith St, 17-16-G, 1979.png
+File:FSPS Lefroy Road 005, cnr Belmont, 17-15-J, 1979.png
+File:FSPS Lefroy Road 006, cnr Belmont, 17-14-J, 1978.png
+File:FSPS Lefroy Road 007, No 13, 17-15-J, 1979.png
+File:FSPS Lefroy Road 008, Nos 17-19, 17-15-J, 1979.png
+File:FSPS Lefroy Road 009, No 2 Chester St, side, 17-15-K, 1979.png
+File:FSPS Lefroy Road 010, No 2 Chester St, side, 17-15-K, 1979.png
+File:FSPS Lefroy Road 011, No 25, 17-15-K, 1979.png
+File:FSPS Lefroy Road 012, No 27, 17-15-K, 1979.png
+File:FSPS Lefroy Road 013, No 29, 17-15-K, 1979.png
+File:FSPS Lefroy Road 014, No 31, 17-15-K, 1979.png
+File:FSPS Lefroy Road 015, No 33, 17-15-K, 1979.png
+File:FSPS Lefroy Road 016, School grounds cnr Hampton Rd, 20-4-G, 1978.png
+File:FSPS Lefroy Road 017, No 39, 20-4-G, 1978.png
+File:FSPS Lefroy Road 018, No 41, 20-4-G, 1978.png
+File:FSPS Lefroy Road 019, No 43, 20-4-G, 1978.png
+File:FSPS Lefroy Road 020, No 45, 20-4-G, 1978.png
+File:FSPS Lefroy Road 021, No 47, 20-6-C, 1978.png
+File:FSPS Lefroy Road 022, No 49, 20-6-L, 1978.png
+File:FSPS Lefroy Road 023, No 57 cnr Livingstone St, 20-6-L, 1978.png
+File:FSPS Lefroy Road 024, No 35, 20-4-G, 1978.png
+File:FSPS Lefroy Road 025, No 37, 20-4-G, 1978.png
+File:FSPS Lefroy Road 026, No 51, Joseph Baker, deceased, 20-6-L, 1978.png
+File:FSPS Lefroy Road 027, No 55, 20-6-L, 1978.png
+File:FSPS Lefroy Road 028, No 53, 20-6-L, 1978.png
+File:FSPS Lefroy Road 029, Christ the King School, 20-7-M, 1978.png
+File:FSPS Lefroy Road 030, No 15, 17-15-J, 1979.png
+File:FSPS Lefroy Road 031, No 21, 17-15-J, 1979.png
+File:FSPS Lefroy Road 032, No 23, side from Chester, 17-14-J, 1978.png
+File:FSPS Lefroy Road 033, No 23, 17-14-J, 1978.png
+File:FSPS Lefroy Road 034, No 61, cnr Moran, Christ the King school, 20-7-M, 1978.png
+File:FSPS Lefroy Road 035, Rear of shops on South Tce, 17-13-F, 1978.png
+File:FSPS Lefroy Road 036, Rear of house on King William, 17-13-F, 1978.png
+File:FSPS Lefroy Road 037, Rear of house on King William, 17-13-F, 1978.png
+File:FSPS Lefroy Road 038, Rear of house on King William St, 17-13-F, 1978.png
+File:FSPS Lefroy Road 039, Rear of house on King William St, 17-13-F, 1978.png
+File:FSPS Lefroy Road 040, Rear of house on King William St, 17-13-F, 1978.png
+File:FSPS Lefroy Road 041, Rear of house on King William St, 17-13-F, 1978.png
+File:FSPS Lefroy Road 042, Rear of house on King William St, 17-13-F, 1978.png
+File:FSPS Lefroy Road 043, Rear of house on King William St, 17-13-F, 1978.png
+File:FSPS Lefroy Road 044, No 2, side from Lilly St, 17-10-M, 1978.png
+File:FSPS Lefroy Road 045, No 4, 17-10-M.png
+File:FSPS Lefroy Road 046, Factory, 17-10-M, 1978.png
+File:FSPS Lefroy Road 047, No 14, 17-4-L.png
+File:FSPS Lefroy Road 048, No 16, 17-4-L, 1978.png
+File:FSPS Lefroy Road 049, Hampton Rd shop side from Lefroy, 17-4-L, 1978.png
+File:FSPS Lefroy Road 050, Rear of house in King William St, 17-13-F, 1978.png
+File:FSPS Lefroy Road 051, No 53 Lilly St, side from Lefroy, 17-11-N, 1978.png
+File:FSPS Lefroy Road 052, No 10, 17-4-L, 1978.png
+File:FSPS Lefroy Road 053, No 12, 17-4-L, 1978.png
+File:FSPS Lefroy Road 054, No 20, 18-14-79.png
+File:FSPS Lefroy Road 055, No 22, 18-14-79.png
+File:FSPS Lefroy Road 056, No 24, 18-12-L, 1980.png
+File:FSPS Lefroy Road 057, No 26, 18-12-L, 1980.png
+File:FSPS Lefroy Road 058, No 28, 18-12-L, 1980.png
+File:FSPS Lefroy Road 059, No 30, 17-12-L, 1980.png
+File:FSPS Lefroy Road 060, No 32, 18-12-L, 1980.png
+File:FSPS Lefroy Road 061, No 36, 18-12-L, 1980.png
+File:FSPS Lefroy Road 062, No 38, 18-12-L, 1980.png
+File:FSPS Lefroy Road 063, No 40, 18-12-L, 1980.png
+File:FSPS Lefroy Road 064, No 34, 18-12-L, 1980.png
+File:FSPS Lefroy Road 065, No 46, 18-12-L, 1980.png
+File:FSPS Lefroy Road 066, No 50, 18-12-L, 1980.png
+File:FSPS Lefroy Road 067, No 52, 18-12-L, 1980.png
+File:FSPS Lefroy Road 068, No 62, front church, 18-10-M, 1980.png
+File:FSPS Lefroy Road 069, No 62, cnr view church, 18-10-M, 1980.png
+File:FSPS Lefroy Road 070, No 64, 18-10-M, 1980.png
+File:FSPS Lefroy Road 071, Side 33 Seaview, 18-10-M, 1980.png
+File:FSPS Lefroy Road 072, Side of 40 Edmund, 18-10-M, 1980.png
+File:FSPS Lefroy Road 073, No 66, 18-9-N, 1980.png
+File:FSPS Lefroy Road 074, Old Beaconsfield Primary, 18-H-13, 1979.png
+File:FSPS Lefroy Road 075, Old Beaconsfield Primary, 18-4-13, 1979.png
+</gallery>

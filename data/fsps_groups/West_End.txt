@@ -1,0 +1,102 @@
+{{FSPS street|West End|97|ident=|folder=12|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS West End 001, note card.png
+File:FSPS West End 002, No 5 Ellen St, WE-4, 1980.png
+File:FSPS West End 003, Nos 7-9 Ellen St, WE-4, 1980.png
+File:FSPS West End 004, Nos 1-3 Nairn St, WE-3, 1980.png
+File:FSPS West End 005, Adelaide St, St Pats building, WE-4, 1980.png
+File:FSPS West End 006, Adelaide St, Proclamation Tree, WE-4, 1980.png
+File:FSPS West End 007, Nairn St, Old flour mill, WE-3, 1980.png
+File:FSPS West End 008, Croke St betwen Mouat and Henry, midblock northside, WE-1, 1980.png
+File:FSPS West End 009, Croke St between Mouat and Henry, midblock northside, WE-1, 1980.png
+File:FSPS West End 010, No 17 Parry St, WE-4, 1980.png
+File:FSPS West End 011, No 19 Parry St, WE-4, 1980.png
+File:FSPS West End 012, No 21 Parry St, WE-4, 1980.png
+File:FSPS West End 013, No 23 Parry St, WE-4, 1980.png
+File:FSPS West End 014, Nos 26-31 Parry St, WE-4, 1980.png
+File:FSPS West End 015, Parry St, Old St Pats school, WE-4, 1980.png
+File:FSPS West End 016, No 56 Parry St, WE-4, 1980.png
+File:FSPS West End 017, Nairn St, north side old flour mill, WE-2, 1980.png
+File:FSPS West End 018, Nos 1-3 Nairn St, WE-2, 1980.png
+File:FSPS West End 019, Nos 11-13 Nairn St, WE-2, 1980.png
+File:FSPS West End 020, Nos 11-13 Nairn St, WE-2, 1980.png
+File:FSPS West End 021, Nos 10-12 Nairn St, WE-2, 1980.png
+File:FSPS West End 022, No 2 Nairn St, WE-3, 1980.png
+File:FSPS West End 023, Nos 11-13 Nairn St, WE-3, 1980.png
+File:FSPS West End 024, Nos 18-20 Nairn St, WE-2, 1980.png
+File:FSPS West End 025, Nos 97-99 Market St, WE-2, 1980.png
+File:FSPS West End 026, No 12 Bannister St, WE-2, 1980.png
+File:FSPS West End 027, No 22 Bannister St, WE-2, 1980.png
+File:FSPS West End 028, Nos 14-20 Bannister St, WE-2, 1980.png
+File:FSPS West End 029, East side Market St between High and South Tce, WE-2, 1980.png
+File:FSPS West End 030, Nos 85-87 Market St, WE-2, 1980.png
+File:FSPS West End 031, Nos 97-99 Market St, WE-2, 1980.png
+File:FSPS West End 032, No 10 Bannister St, WE-2, 1980.png
+File:FSPS West End 033, No 33 Pakenham St, WE-2, 1980.png
+File:FSPS West End 034, Nos 21-23 Pakenham St, WE-2, 1980.png
+File:FSPS West End 035, Pakenham St, rear 59 High St, WE-2, 1980.png
+File:FSPS West End 036, Pakenham St, Rear 59 High St, WE-2, 1980.png
+File:FSPS West End 037, No 19 Pakenham St, Rear 64 High St, WE-2, 1980.png
+File:FSPS West End 038, No 19 Pakenham St, Rear 64 High St, WE-2, 1980.png
+File:FSPS West End 039, No 15 Pakenham St, WE-2, 1980.png
+File:FSPS West End 040, 11-13 Pakenham St, WE-2, 1980.png
+File:FSPS West End 041, 18 Pakenham St, WE-2, 1980.png
+File:FSPS West End 042, 48-50 High St, WE-2, 1980.png
+File:FSPS West End 043, No 54 High St, WE-2, 1980.png
+File:FSPS West End 044, Nos 68-70 High St, WE-2, 1980.png
+File:FSPS West End 045, No 115 High St, WE-2, 1980.png
+File:FSPS West End 046, Nos 97-99 High St, WE-2, 1980.png
+File:FSPS West End 047, Nos 71-73 High St, WE-2, 1980.png
+File:FSPS West End 048, No 49 High St, WE-2, 1980.png
+File:FSPS West End 049, No 8 Collie St, WE-3, 1980.png
+File:FSPS West End 050, No 10 Collie St, WE-3, 1980.png
+File:FSPS West End 051, 16 Collie St, WE-3, 1980.png
+File:FSPS West End 052, Nos 20-24 Essex St, WE-3, 1980.png
+File:FSPS West End 053, No 22 Essex St, WE-3, 1980.png
+File:FSPS West End 054, No 24 Essex St, WE-3, 1980.png
+File:FSPS West End 055, No 18 Essex St, WE-3, 1980.png
+File:FSPS West End 056, No 16 Essex St, WE-3, 1980.png
+File:FSPS West End 057, Nos 9-11 Essex St, WE-3, 1980.png
+File:FSPS West End 058, No 5 Essex St, WE-3, 1980.png
+File:FSPS West End 059, Nos 21-23 Essex St, WE-3, 1980.png
+File:FSPS West End 060, Cnr Essex St and Marine Pde, WE-3, 1980.png
+File:FSPS West End 061, No 14 South Tce, WE-3, 1980.png
+File:FSPS West End 062, No 26 Mouat St, WE-1, 1980.png
+File:FSPS West End 063, No 32 Mouat St, WE-1, 1980.png
+File:FSPS West End 064, Nos 13-15 Phillimore St, WE-1, 1980.png
+File:FSPS West End 065, SE cnr Henry St.png
+File:FSPS West End 066, No 14 Phillimore St, WE-1, 1980.png
+File:FSPS West End 067, No 10 Henry St, WE-1, 1980.png
+File:FSPS West End 068, Nos 3-5 Henry St, WE-1, 1980.png
+File:FSPS West End 069, No 21 Henry St, WE-1, 1980.png
+File:FSPS West End 070, No 27 Henry St, WE-1, 1980.png
+File:FSPS West End 071, No 46 Henry St, WE-1, 1980.png
+File:FSPS West End 072, No 52 Henry St, WE-1, 1980.png
+File:FSPS West End 073, No 52 Henry St, WE-1, 1980.png
+File:FSPS West End 074, Marine Tce cnr Henry St, WE-1, 1980.png
+File:FSPS West End 075, Marine Tce cnr Henry St, WE-1, 1980.png
+File:FSPS West End 076, Marine Tce cnr Mouat St, WE-1, 1980.png
+File:FSPS West End 077, Marine Tce cnr Mouat St, WE-1, 1980.png
+File:FSPS West End 078, No 8 Cliff St, WE-1, 1980.png
+File:FSPS West End 079, NOs 22-32 Cliff St, rear, WE-1, 1980.png
+File:FSPS West End 080, Nos 22-32 Cliff St, rear, WE-1, 1980.png
+File:FSPS West End 081, Nos 22-32 Cliff St, WE-1, 1980.png
+File:FSPS West End 082, Croke Lane, up lane to north-side west-end, WE-1, 1980.png
+File:FSPS West End 083, Croke Lane, west-end north-side, WE-1, 1980.png
+File:FSPS West End 084, No 53 Amherst St, 11-1-B, 1978.png
+File:FSPS West End 085, No 30 Hulbert St, 21-5-D, 1979.png
+File:FSPS West End 086, Nos 2-34 Adelaide St, High St to Queen St, WE-4, 1980.png
+File:FSPS West End 087, Nos 32-34 Adelaide St, WE-4, 1980.png
+File:FSPS West End 088, No 30 Adelaide St, WE-4, 1980.png
+File:FSPS West End 089, Nos 26-28 Adelaide St, WE-4, 1980.png
+File:FSPS West End 090, Nos 22-24 Adelaide St, WE-4, 1980.png
+File:FSPS West End 091, No 12 Adelaide St, WE-4, 1980.png
+File:FSPS West End 092, No 23 William St, Federal Hotel courtyard, WE-4, 1980.png
+File:FSPS West End 093, NO 23 William St, Federal Hotel courtyard, WE-4, 1980.png
+File:FSPS West End 094, No 23 William St, Federal Hotel, upstairs games room, WE-4, 1980.png
+File:FSPS West End 095, No 23 William St, Federal Hotel upstairs games room, WE-4, 1980.png
+File:FSPS West End 096, No 23 William St, Federal Hotel, WE-4, 1980.png
+File:FSPS West End 097, no label.png
+</gallery>

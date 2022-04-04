@@ -1,0 +1,19 @@
+{{FSPS street|McCabe Street|14|ident=FSPSMS2|folder=7|folder_order=8|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS McCabe Street 001, Side of No 140 Stirling Hwy, 1-1-A, 1980.png
+File:FSPS McCabe Street 002, Side of 140 Stirling Hwy, 1-1-A, 1980.png
+File:FSPS McCabe Street 003, No 2 (1), 1-1-A, 1980.png
+File:FSPS McCabe Street 004, (2), 1-1-A, 1980.png
+File:FSPS McCabe Street 005, (3), 1-1-A, 1980.png
+File:FSPS McCabe Street 006, Lot 16 (4), 1-1-A, 1980.png
+File:FSPS McCabe Street 007, Lot 21 (5), 1-1-A, 1980.png
+File:FSPS McCabe Street 008, Lot 21 (6), 1-1-A, 1980.png
+File:FSPS McCabe Street 009, (7), 1-1-A, 1980.png
+File:FSPS McCabe Street 010, State Engineering, 1-1-A, 1980.png
+File:FSPS McCabe Street 011, State Engineering, 1-1-A, 1980.png
+File:FSPS McCabe Street 012, State Engineering, 1-1-B, 1980.png
+File:FSPS McCabe Street 013, cnr McCabe Place, 1-1-B, 1980.png
+File:FSPS McCabe Street 014, between McCabe Place and Stirling Hwy, 1-1-B, 1980.png
+</gallery>

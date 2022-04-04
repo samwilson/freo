@@ -1,0 +1,26 @@
+{{FSPS street|Agnes Street|18|folder=1|folder_order=2|ident=FSPSAS|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+FSPS Agnes Street, No. 1, 18-11-L 1980.png|No. 1
+FSPS Agnes Street, Nos. 2 & 4, 18-13-79.png|Nos. 2 & 4
+FSPS Agnes Street, No. 2A, 18-13-79.png|No. 2A
+FSPS Agnes Street, Side of no. 154 Solomon Street, 18-13-79.png|Side of no. 154 Solomon Street
+
+FSPS Agnes Street, No. 3, 18-11-L 1980.png|No. 3
+FSPS Agnes Street, Side of 157 Edmund Street, 18-11-L 1980.png|Side of no. 157 Edmund Street
+FSPS Agnes Street, No. 5, 18-11-L 1980.png|No. 5
+FSPS Agnes Street, Nos. 6 & 8, 18-13-79.png|Nos. 6 & 8
+
+FSPS Agnes Street, No. 7, 18-11-L 1980.png|No. 7
+FSPS Agnes Street, No. 13, 18-11-L 1980.png|No. 13
+FSPS Agnes Street, No. 9, 18-11-L 1980.png|No. 9
+FSPS Agnes Street, No. 11, 18-11-L 1980.png|No. 11
+
+FSPS Agnes Street, No. 15, 18-11-L 1980.png|No. 15
+FSPS Agnes Street, Rear of 15 Martha Street, 18-13-79.png|Rear of 15 Martha Street
+FSPS Agnes Street, No. 17, 18-11-L 1980.png|No. 17
+FSPS Agnes Street, Side of 156 Solomon, 18-11-L 1980.png|Side of no. 156 Solomon Street
+
+FSPS Agnes Street, Rear of buildings in Martha Street (nos. 17, 21, etc.), 18-13-79.png|Rear of nos. 17, 21, etc. Martha Street
+FSPS Agnes Street, Back and side of 155 Edmund Street, 18-13-79.png|Rear and side of no. 155 Edmund Street
+</gallery>

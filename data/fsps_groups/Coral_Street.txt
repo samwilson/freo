@@ -1,0 +1,13 @@
+{{FSPS street|Coral Street|7|folder=5|ident=FSPSCS6|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Coral Street 001, between Silver St and South St.png
+File:FSPS Coral Street 002, no 2-4, 16-2-C.png
+File:FSPS Coral Street 003, side of 2 Gold St, 16-2-B.png
+
+File:FSPS Coral Street 004, side of no 1 Gold St, 16-2-C.png
+File:FSPS Coral Street 005, no 6, 16-2-C.png
+File:FSPS Coral Street 006, no 10, 16-2-C.png
+File:FSPS Coral Street 007, no 8, 16-2-C.png
+</gallery>

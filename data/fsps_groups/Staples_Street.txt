@@ -1,0 +1,10 @@
+{{FSPS street|Staples Street|5|folder=4|ident=FSPSSS3|folder_order=2|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+FSPS Staples Street, No. 18, 2-3-B 1980.png|No. 18
+FSPS Staples Street, No. 17, 2-3-B 1980.png|No. 17
+FSPS Staples Street, No. 16, 2-3-B 1980.png|No. 16
+FSPS Staples Street, View north side, 2-3-B 1980.png|View of the north side
+
+FSPS Staples Street, No. 15, 2-3-B.png|No. 15
+</gallery>

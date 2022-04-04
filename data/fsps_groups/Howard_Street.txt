@@ -1,0 +1,32 @@
+{{FSPS street|Howard Street|28|ident=|folder=15|folder_order=7|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Howard Street 001, cnr Marine Tce, 15-1-A, 1978.png
+File:FSPS Howard Street 002, No 1, 15-1-A, 1978.png
+File:FSPS Howard Street 003, No 3, 15-1-A, 1978.png
+File:FSPS Howard Street 004, No 7, 15-1-A, 1978.png
+File:FSPS Howard Street 005, No 11, 15-1-A, 1978.png
+File:FSPS Howard Street 006, No 13, 15-1-A, 1978.png
+File:FSPS Howard Street 007, No 15, 15-1-A, 1978.png
+File:FSPS Howard Street 008, No 17, 15-1-A, 1978.png
+File:FSPS Howard Street 009, No 19, 15-1-A, 1978.png
+File:FSPS Howard Street 010, No 21, 15-1-A, 1978.png
+File:FSPS Howard Street 011, No 23, 15-1-A, 1978.png
+File:FSPS Howard Street 012, No 25, 15-1-A, 1978.png
+File:FSPS Howard Street 013, No 27, 15-1-A, 1978.png
+File:FSPS Howard Street 014, No 29, 15-1-A, 1978.png
+File:FSPS Howard Street 015, No 31, 15-1-A, 1978.png
+File:FSPS Howard Street 016, No 33, 15-1-A, 1978.png
+File:FSPS Howard Street 017, No 4, 14-2-D, 1978.png
+File:FSPS Howard Street 018, No 6, 14-2-D, 1978.png
+File:FSPS Howard Street 019, No 8, 14-2-D, 1978.png
+File:FSPS Howard Street 020, No 10, 14-2-D, 1978.png
+File:FSPS Howard Street 021, No 12, now brown, 14-2-D, 1978.png
+File:FSPS Howard Street 022, No 14, 14-2-D, 1978.png
+File:FSPS Howard Street 023, No 16, 14-2-D, 1978.png
+File:FSPS Howard Street 024, No 18, 14-2-D, 1978.png
+File:FSPS Howard Street 025, No 20, 14-2-D, 1978.png
+File:FSPS Howard Street 026, No 22, 14-2-D, 1978.png
+File:FSPS Howard Street 027, No 24, 14-2-D, 1978.png
+File:FSPS Howard Street 028, No 26, 14-2-D, 1978.png
+</gallery>

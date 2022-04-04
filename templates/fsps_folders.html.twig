@@ -1,0 +1,22 @@
+{% extends '_base.html.twig' %}
+
+{% block title %}
+    Folder {{page.id|basename}}
+{% endblock %}
+
+{% block main %}
+
+    {% if page.metadata.description %}
+        {{ page.metadata.description|md2html|raw }}
+    {% endif %}
+
+    <ol>
+        {% for p in database.query('SELECT *, SUBSTR(id,15) AS folder_num FROM pages WHERE template="fsps_folder" ORDER BY CAST(SUBSTR(id,15) AS integer) ASC') %}
+            <li>
+                <a href="{{page.link(p.id)}}.html">Folder {{p.folder_num}}</a>
+                ({{database.query('SELECT SUM(photo_count) FROM pages WHERE template="fsps_group" AND folder = '~(p.folder_num)).fetchColumn()}})
+            </li>
+        {% endfor %}
+    </ol>
+
+{% endblock %}

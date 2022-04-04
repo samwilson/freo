@@ -1,0 +1,9 @@
+{{FSPS street|Henville Street|5|ident=|folder=15|folder_order=2|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Henville Street 001, End of street, 12-5-F, 1979.png
+File:FSPS Henville Street 002, No 2, 12-5-F, 1979.png
+File:FSPS Henville Street 003, Vacant block, 12-5-F, 1979.png
+File:FSPS Henville Street 004, No 3, 12-5-F, 1979.png
+File:FSPS Henville Street 005, No 1, Michael Beech, 12-5-F, 1979.png
+</gallery>

@@ -1,0 +1,18 @@
+{
+    "require": {
+        "samwilson/basildon": "^2.1",
+        "addwiki/mediawiki-api": "^2.0",
+        "symfony/var-dumper": "^5.4",
+        "symfony/console": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src/"
+        }
+    },
+    "scripts": {
+        "build": [
+            "basildon ."
+        ]
+    }
+}

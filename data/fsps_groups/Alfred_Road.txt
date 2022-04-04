@@ -1,0 +1,15 @@
+{{FSPS street|Alfred Road|9|ident=FSPSAR2|folder=1|folder_order=4|folder_check=1}}
+
+<gallery>
+FSPS Alfred Road, Croatian Centre, 2-4-B 1980.png|Croatian Centre
+FSPS Alfred Road, Rear of 3, 5, 7, 9 Phyllis Street, 2-4-E.png|Rear of nos. 3, 5, 7, & 9 of Phillis Street
+FSPS Alfred Road, No 22, 3-3-C 1978.png|No. 22
+FSPS Alfred Road, Side of Catholic Church, 2-4-B 1980.png|Side of Catholic Church
+
+FSPS Alfred Road, 24, 3-3-C 1978.png|No. 24
+FSPS Alfred Road, No 26, 3-3-C 1978.png|No. 26
+FSPS Alfred Road, No 28 side view from Corkhill Street, 3-3-C 1978.png|Side of no. 28 from Corkhill Street
+FSPS Alfred Road, No 28, 3-3-C 1978.png|No. 28
+
+FSPS Alfred Road, View of Section E from corner of Rule Street and Alfred Road, 2-4-E 1980.png|View of Section E from corner of Rule Street and Alfred Road
+</gallery>

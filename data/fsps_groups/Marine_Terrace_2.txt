@@ -1,0 +1,23 @@
+{{FSPS street|Marine Terrace 2|19|ident=|folder=13|folder_order=9|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Marine Terrace 001, No 94, cnr Russel St, 15-1-A, 1978.png
+File:FSPS Marine Terrace 002, No 92, 15-1-A, 1978.png
+File:FSPS Marine Terrace 003, No 86, 15-1-A, 1978.png
+File:FSPS Marine Terrace 004, No 84, 15-1-A, 1978.png
+File:FSPS Marine Terrace 005, Norfolk St office, 14-3-B, 1979.png
+File:FSPS Marine Terrace 006, Store, 14-3-B, 1978.png
+File:FSPS Marine Terrace 007, cnr Howard St, 14-2-D, 1978.png
+File:FSPS Marine Terrace 008, cnr Howard St, from Howard, 14-2-D, 1978.png
+File:FSPS Marine Terrace 009, cnr Louisa, 16-1-A, 1979.png
+File:FSPS Marine Terrace 010, No 130, 16-4-F, 1978.png
+File:FSPS Marine Terrace 011, No 132, 16-4-F, 1978.png
+File:FSPS Marine Terrace 012, No 134, 16-4-F, 1978.png
+File:FSPS Marine Terrace 013, No 128, 16-4-E, 1978.png
+File:FSPS Marine Terrace 014, Side of 2 Ada St, 16-4-E, 1978.png
+File:FSPS Marine Terrace 015, No 152-154, 16-7-I.png
+File:FSPS Marine Terrace 016, Nos 164-168, 16-7-J.png
+File:FSPS Marine Terrace 017, cnr Wardie St, 162, 16-7-J.png
+File:FSPS Marine Terrace 018, No 148, 16-7-I.png
+File:FSPS Marine Terrace 019, No 96, Lot 589, next to this is vacant, cnr Grey St, 15-2-B, 1978.png
+</gallery>

@@ -1,0 +1,18 @@
+{{FSPS street|Douglas Street|13|folder=5|ident=FSPSDS4|folder_order=11|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Douglas Street 001, No 1, 13-4-D.png | No. 1
+File:FSPS Douglas Street 002, Side of 218 South Tce, 13-5-B.png | Side of 218 South Tce
+File:FSPS Douglas Street 003, No 3, 13-4-D.png | No. 3
+File:FSPS Douglas Street 004, Between nos 7 and 3, 13-4-D.png | Between Nos. 3 & 7
+File:FSPS Douglas Street 005, No 2, 13-5-B, 1979.png | No. 2
+File:FSPS Douglas Street 006, No 4, 13-5-B, 1979.png | No. 4
+File:FSPS Douglas Street 007, No 6, 13-6-B, 1979.png | No. 6
+File:FSPS Douglas Street 008, Side of 220 South Tce, 13-4-D.png | Side of No. 220 South Tce
+File:FSPS Douglas Street 009, No 7, 13-4-D.png | No. 7
+File:FSPS Douglas Street 010, No 8, 13-6-B, 1979.png | No. 8
+File:FSPS Douglas Street 011, No 9, 13-4-D.png | No. 9
+File:FSPS Douglas Street 012, No 10, 13-6-B, 1979.png | No. 10
+File:FSPS Douglas Street 013, Nos 13 and 11, 13-4-D.png | Nos. 11 & 13
+</gallery>

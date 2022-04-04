@@ -1,0 +1,15 @@
+{{FSPS street|Crandon Street|6|folder=5|ident=FSPSCS8|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+Empty.png
+Empty.png
+Empty.png
+File:FSPS Crandon Street 001, no 8, 12-6-E, 1978.png | No. 8
+
+File:FSPS Crandon Street 002, no 14, 12-6-E, 1978.png | No. 14
+File:FSPS Crandon Street 003, south side (opposite nos 10, 12), 12-6-E, 1978.png | Opposite nos. 10 & 12
+File:FSPS Crandon Street 004, south side (opposite nos 12, 14), 12-6-E.png | Opposite nos. 12 & 14
+File:FSPS Crandon Street 005, no 12, 12-6-E, 1978.png | No. 12
+
+File:FSPS Crandon Street 006, no 10, 12-6-E, 1978.png | No. 10
+</gallery>

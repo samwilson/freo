@@ -1,0 +1,27 @@
+{{FSPS street|Alma Street|19|ident=FSPSAS3|folder=1|folder_order=5|folder_check=1}}
+
+<gallery>
+FSPS Alma Street, Nos 11 & 13, 12-2-A, 1979.png|Nos. 11 & 13
+FSPS Alma Street, Aspect of no 132 South Terrace, 12-2-A, 1979.png|Aspect of no. 132 [[Fremantle Society Photographic Survey — South Terrace|South Terrace]]
+FSPS Alma Street, No 17, 12-2-A, 1979.png|No. 17
+FSPS Alma Street, No 7A, 12-2-A, 1979.png|No. 7A
+
+FSPS Alma Street, South Terrace Primary School area, 12-2-C, 1979.png|South Terrace Primary School
+FSPS Alma Street, No 7A (2), 12-2-A, 1979.png|No. 7A
+FSPS Alma Street, Side of no 23, 12-6-E, 1978.png|Side of no. 23
+FSPS Alma Street, Parking lot next to no 7A, 12-2-A, 1979.png|Parking lot next to no. 7A
+
+FSPS Alma Street, No 33, 12-6-E, 1978.png|No. 33
+FSPS Alma Street, Nos 21 & 19, 12-2-A, 1979.png|Nos. 21 & 19
+FSPS Alma Street, No 25, 12-6-E, 1978.png|No. 25
+FSPS Alma Street, No 15, 12-2-A, 1979.png|No. 15
+
+FSPS Alma Street, No 21, 12-6-E, 1978.png|No. 21
+FSPS Alma Street, No 35, 12-6-E, 1978.png|No. 35
+FSPS Alma Street, No 27, 12-6-E, 1978.png|No. 27
+FSPS Alma Street, No 29, 12-6-E, 1978.png|No. 29
+
+FSPS Alma Street, No 21, 12-2-A, 1979.png|No. 21
+FSPS Alma Street, No 37, 12-6-E, 1978.png|No. 37
+FSPS Alma Street, No 23, 12-6-E, 1978.png|No. 23
+</gallery>

@@ -1,0 +1,19 @@
+{{FSPS street|Tydeman Road|15|ident=|folder=11|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Tydeman Road 001, Cnr Queen Vic St, 4-2-E, 1978.png
+File:FSPS Tydeman Road 002, Nos 40-42, 4-2-D, 1978.png
+File:FSPS Tydeman Road 003, No 42, side from Pearse st, 4-2-D, 1978.png
+File:FSPS Tydeman Road 004, No 56, 4-3-I, 1979.png
+File:FSPS Tydeman Road 005, Side of No 56, 4-3-I.png
+File:FSPS Tydeman Road 006, Nos 20-18, 4-5-H, 1979.png
+File:FSPS Tydeman Road 007, No 10, 4-5-H, 1979.png
+File:FSPS Tydeman Road 008, Burns St side, 4-5-H, 1979.png
+File:FSPS Tydeman Road 009, Nos 22-24, 4-5-H, 1979.png
+File:FSPS Tydeman Road 010, Nos 38-36, 4-2-E, 1978.png
+File:FSPS Tydeman Road 011, Nos 16-14, 4-5-H, 1979.png
+File:FSPS Tydeman Road 012, No 34, 4-2-E, 1978.png
+File:FSPS Tydeman Road 013, Nos 32-30, 4-2-31-E, 1978.png
+File:FSPS Tydeman Road 014, Side of post office, 4-2-F, 1978.png
+File:FSPS Tydeman Road 015, No 38 side from Pearse, 4-2-E, 1978.png
+</gallery>

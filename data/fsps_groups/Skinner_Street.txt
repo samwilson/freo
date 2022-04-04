@@ -1,0 +1,13 @@
+{{FSPS street|Skinner Street|8|folder=4|ident=FSPSSS5|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+FSPS Skinner Street, side of corner with no. 28 Finnerty Street, 7-3-E, 1980.png|Side of corner with no. 28 Finnerty Street
+FSPS Skinner Street, no. 7, 7-3-E, 1980.png|No. 7
+FSPS Skinner Street, no. 5, 7-3-E 1980.png|No. 5
+FSPS Skinner Street, no. 3, 7-3-E 1980.png|No. 3
+
+FSPS Skinner Street, no. 1, 7-3-E 1980.png|No. 1
+FSPS Skinner Street, between Burt and Vale Streets (whole block), 6-8-E 1979.png|Between [[Fremantle Society Photographic Survey — Burt Street|Burt]] and [[Fremantle Society Photographic Survey — Vale Street|Vale]] streets (whole block)
+FSPS Skinner Street, near Tuckfield Street, 7-3-E 1980.png|Near Tuckfield Street
+FSPS Skinner Street, part of no. 3, 7-3-E 1980.png|Part of no. 3
+</gallery>

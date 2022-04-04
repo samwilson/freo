@@ -1,0 +1,23 @@
+{{FSPS street|Curedale Street|18|folder=5|ident=FSPSCS9|folder_order=7|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Curedale Street 001, no 21, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 002, no 19, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 003, 17-15, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 004, no 13, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 005, no 1, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 006, no 11, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 007, no 9, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 008, no 7, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 009, no 5, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 010, no 3, 18-8-9, 1978-80.png
+File:FSPS Curedale Street 011, no 23, 18-9-N, 1980.png
+File:FSPS Curedale Street 012, no 23A, 18-9-N, 1980.png
+File:FSPS Curedale Street 013, no 25, 18-9-N, 1980.png
+File:FSPS Curedale Street 014, no 27, 18-9-N, 1980.png
+File:FSPS Curedale Street 015, no 29, 18-9-N, 1980.png
+File:FSPS Curedale Street 016, no 31, MT Block, 18-9-N, 1980.png
+File:FSPS Curedale Street 017, no 33, 18-9-N, 1980.png
+File:FSPS Curedale Street 018, no 35, (cnr of Lefroy), 18-9-N, 1980.png
+</gallery>

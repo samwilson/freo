@@ -1,0 +1,8 @@
+{{FSPS street|Edward Street|3|folder=6|ident=FSPSES3|folder_order=1|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+FSPS Edward Street 001, Elder Pl to Queen Victoria St, 7-6-J, 1980.png
+FSPS Edward Street 002, No 2, 7-6-J, 1980.png
+FSPS Edward Street 003, Cnr Elder Pl, 7-6-J, 1980.png
+empty.png
+</gallery>

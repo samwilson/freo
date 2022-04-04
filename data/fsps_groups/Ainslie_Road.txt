@@ -1,0 +1,35 @@
+{{FSPS street|Ainslie Road|27|folder=1|ident=FSPSAR|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+FSPS Ainslie Road, No. 7, 9-1-E 1978.png|No. 7
+FSPS Ainslie Road, No. 11, 3-1-E 1978.png|No. 11
+FSPS Ainslie Road, No. 3, 3-1-E.png|No. 3
+FSPS Ainslie Road, No. 9, 3-1-E 1978.png|No. 9
+
+FSPS Ainslie Road, No. 13, 3-1-E 1978.png|No. 13
+FSPS Ainslie Road, No. 15, Lot 16 Dawson Martin & Andrea 2 Ozone Parade Cottesloe, 3-1-E 1978.png|No. 15
+FSPS Ainslie Road, No. 17 Lot 15 Mundro Arthur & Gladys, 3-1-E 1978.png|No. 17
+FSPS Ainslie Road, No. 19, 3-1-E 1978.png|No. 19
+
+FSPS Ainslie Road, No. 21, 3-1-E 1978.png|No. 21
+FSPS Ainslie Road, No. 21 (side view), 3-1-E 1978.png|No. 21
+FSPS Ainslie Road, No. 4, 3-2-D 1978.png|No. 4
+FSPS Ainslie Road, No. 6 Lot 29 Heaney Yalma Jean, 3-2-D 1978.png|No. 6
+
+FSPS Ainslie Road, No. 8, 3-3-D 1978.png|No. 8
+FSPS Ainslie Road, No. 10, 3-3-D 1978.png|No. 10
+FSPS Ainslie Road, No. 12, 3-3-D 1978.png|No. 12
+FSPS Ainslie Road, No. 14, 3-3-D 1978.png|No. 14
+
+FSPS Ainslie Road, No. 16, 3-3-D 1978.png|No. 16
+FSPS Ainslie Road, No. 16A, 3-3-D 1978.png|No. 16A
+FSPS Ainslie Road, No. 18, 3-3-D 1978.png|No. 18
+FSPS Ainslie Road, No. 20, 3-3-D 1978.png|No. 20
+FSPS Ainslie Road, No. 22, 3-2-D 1978.png|No. 22
+FSPS Ainslie Road, No. 22 corner of Corkhill, 3-2-D 1978.png|No. 22 (corner of Corkhill)
+FSPS Ainslie Road, No. 24 corner Corkhill, 3-2-A 1978.png|No. 24 (corner of Corkhill)
+FSPS Ainslie Road, No. 24, 3-2-A 1978.png|No. 24
+FSPS Ainslie Road, No. 26, 3-2-A 1978.png|No. 26
+FSPS Ainslie Road, No. 28, 3-2-A 1978.png|No. 28
+FSPS Ainslie Road, No. 30, 3-2-A 1978.png|No. 30
+</gallery>

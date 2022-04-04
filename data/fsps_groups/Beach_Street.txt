@@ -1,0 +1,7 @@
+{{FSPS street|Beach Street|3|folder=2|ident=FSPSBS4|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS_Beach_Street_3,_Corner_of_James_Street,_7-1-B_1980.png | Robit. Jowitt & Sons Ltd. warehouse, corner of James Street
+File:FSPS_Beach_Street_1,_Looking_west,_7-1-B_1980.png | Looking west from the traffic bridge
+File:FSPS_Beach_Street_2,_7-1-B_1980.png | Beach Street
+</gallery>

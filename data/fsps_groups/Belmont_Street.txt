@@ -1,0 +1,11 @@
+{{FSPS street|Belmont Street|6|folder=2|ident=FSPSBS6|folder_order=7|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Belmont Street, 17-14-H, 1978.png | 
+File:FSPS Belmont Street, rear of 40 Jenkin St, 17-14-J, 1978.png|Rear of 40 Jenkin Street
+File:FSPS Belmont Street, warehouse, 17-14-J.png | Warehouse
+File:FSPS Belmont Street, no 5, 17-14-H, 1978.png | No. 5
+
+File:FSPS Belmont Street, no 1, 17-14-H, 1978.png|No. 1
+File:FSPS Belmont Street, no 3, 17-14-H, 1978.png|No. 3
+</gallery>

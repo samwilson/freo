@@ -1,0 +1,11 @@
+{{FSPS street|Ocean Road|7|ident=FSPSOR|folder=8|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Ocean Road 001, Side of 32 Hickory St, 21-2-B, 1979.png
+File:FSPS Ocean Road 002, Side of 31 Walker Rd, 21-2-B, 1979.png
+File:FSPS Ocean Road 003, Side 37 Hulbert, 21-4-C, 1979.png
+File:FSPS Ocean Road 004, Side 32 Hulbert St, 21-5-D, 1979.png
+File:FSPS Ocean Road 005, Side 36 Walker Rd, 21-4-C, 1979.png
+File:FSPS Ocean Road 006, Side 31 Thomas St, 21-5-D, 1979.png
+File:FSPS Ocean Road 007, Side 30 Thomas St, 21-7-E, 1980.png
+</gallery>

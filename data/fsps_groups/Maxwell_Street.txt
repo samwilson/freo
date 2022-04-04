@@ -1,0 +1,24 @@
+{{FSPS street|Maxwell Street|17|ident=|folder=13|folder_order=10|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Maxwell Street 001, cnr Jenkins, school, 20-5-I, 1978.png
+File:FSPS Maxwell Street 002, between Scott and Hale streets, 20-5-K, 1978.png
+File:FSPS Maxwell Street 003, No 3, 20-5-H, 1978.png
+File:FSPS Maxwell Street 004, No 5, 20-5-H, 1978.png
+File:FSPS Maxwell Street 005, No 7, 20-4-H, 1978.png
+File:FSPS Maxwell Street 006, No 9, 20-4-H, 1978.png
+File:FSPS Maxwell Street 007, No 11, 20-4-H, 1978.png
+File:FSPS Maxwell Street 008, No 13, 20-4-H, 1978.png
+File:FSPS Maxwell Street 009, No 15, 20-4-H, 1978.png
+File:FSPS Maxwell Street 010, No 17, cnr Scott St, 20-4-H, 1978.png
+File:FSPS Maxwell Street 011, No 19, cnr Scott, 20-5-J, 1978.png
+File:FSPS Maxwell Street 012, No 21, 20-5-J, 1978.png
+File:FSPS Maxwell Street 013, No 23, 20-5-J, 1978.png
+File:FSPS Maxwell Street 014, No 25, 20-5-J, 1978.png
+File:FSPS Maxwell Street 015, No 27, 20-5-J, 1978.png
+File:FSPS Maxwell Street 016, No 29, 20-5-J, 1978.png
+File:FSPS Maxwell Street 017, No 31, 20-5-J, 1978.png
+</gallery>

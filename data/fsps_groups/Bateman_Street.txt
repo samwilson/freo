@@ -1,0 +1,9 @@
+{{FSPS street|Bateman Street|5|folder=2|ident=FSPSBS2|folder_order=2|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Bateman Street 1, no 1, 8-5-E, 1978.png | No. 1
+File:FSPS Bateman Street 2, no 3, 8-5-E 1978.png | No. 3
+File:FSPS Bateman Street 3, no 5, 8-5-E 1978.png | No. 5
+File:FSPS Bateman Street 4, no 7, 8-5-E 1978.png | No. 7
+File:FSPS Bateman Street 5, no 9, 8-5-E 1978.png | No. 9
+</gallery>

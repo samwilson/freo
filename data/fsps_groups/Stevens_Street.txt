@@ -1,0 +1,42 @@
+{{FSPS street|Stevens Street|31|folder=4|ident=FSPSSS4|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+FSPS Stevens Street, 13A, 12-5-F 1979.png|No. 13A
+FSPS Stevens Street, Side of no. 1, 12-4-D 1979.png|Side of no. 1
+FSPS Stevens Street, No. 1, 12-4-D 1979.png|No. 1
+FSPS Stevens Street, No 3, 12-4-D 1979.png|No. 3
+
+FSPS Stevens Street, Nos 7 & 5, 12-4-D 1979.png|Nos. 7 & 5
+FSPS Stevens Street, No 9, 12-4-D 1979.png|No. 9
+FSPS Stevens Street, No 11, 12-4-D 1979.png|No. 11
+FSPS Stevens Street, No 11A, 12-4-D 1979.png|No. 11A
+
+FSPS Stevens Street, No 11B, 12-4-D 1979.png|No. 11B
+FSPS Stevens Street, No 15, 12-5-F 1979.png|No. 15
+FSPS Stevens Street, Remainder of street from no 17 to corner of Hampton Road, 10-4-A 1978.png|Remainder of street, from no. 17 to corner with Hampton Road
+FSPS Stevens Street, No 17, 10-4-A 1978.png|No. 17
+
+FSPS Stevens Street, Rear of shop on corner with Solomon Street, 10-4-A 1978.png|Rear of shop on corner with Solomon Street
+FSPS Stevens Street, Nos 2-4, 12-6-E 1978.png|Nos. 2–4
+FSPS Stevens Street, No 6, 12-6-E 1978.png|No. 6
+FSPS Stevens Street, No 16, 9-4-D 1978.png|No. 16
+
+FSPS Stevens Street, Corner flats, 9-6-E 1978.png|Corner flats
+FSPS Stevens Street, No 26, 9-6-E 1978.png|No. 26
+FSPS Stevens Street, No 26 Solomon Street side, 9-6-E 1978.png|Solomon Street side of No. 26
+FSPS Stevens Street, No 14, 9-4-D 1978.png|No. 14
+
+FSPS Stevens Street, No 18, 9-4-D 1978.png|No. 18
+FSPS Stevens Street, No 18 corner Bellevue Tce, 9-4-D 1978.png|No. 18, corner of Bellevue Terrace
+FSPS Stevens Street, No 29, 10-3-B 1978.png|No. 29
+FSPS Stevens Street, No 27, 10-3-B 1978.png|No. 27
+
+FSPS Stevens Street, No 25, 10-3-B 1978.png|No. 25
+FSPS Stevens Street, No 23, 10-4-A 1978.png|No. 23
+FSPS Stevens Street, No 21, 10-4-A 1978.png|No. 21
+FSPS Stevens Street, No 19, 10-4-A 1978.png|No. 19
+
+FSPS Stevens Street, No 13, 12-5-F 1979.png|No. 13
+FSPS Stevens Street, No 13, 12-5-F 1979 (2).png|No. 13
+FSPS Stevens Street, No 8, 12-6-E 1978.png|No. 8
+</gallery>

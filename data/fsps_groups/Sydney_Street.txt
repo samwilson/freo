@@ -1,0 +1,22 @@
+{{FSPS street|Sydney Street|15|ident=|folder=10|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Sydney Street 001, Side of No 136 Marine Tce, 16-6-H, 1978.png
+File:FSPS Sydney Street 002, No 1, 16-6-H, 1978.png
+File:FSPS Sydney Street 003, No 5, 16-6-H, 1978.png
+File:FSPS Sydney Street 004, Nos 7-9, 16-6-H, 1978.png
+File:FSPS Sydney Street 005, No 11, 16-6-H, 1978.png
+File:FSPS Sydney Street 006, No 2, 16-5-G, 1978.png
+File:FSPS Sydney Street 007, No 2 side view from Marine Tce, 16-5-G, 1978.png
+File:FSPS Sydney Street 008, No 4, 16-5-G, 1978.png
+File:FSPS Sydney Street 009, No 6, 16-5-G, 1978.png
+File:FSPS Sydney Street 010, No 12, 16-5-G, 1978.png
+File:FSPS Sydney Street 011, No 16, 16-5-G, 1978.png
+File:FSPS Sydney Street 012, No 10, 16-5-G, 1978.png
+File:FSPS Sydney Street 013, No 14, 16-5-G, 1978.png
+File:FSPS Sydney Street 014, No 8, 16-5-G, 1978.png
+File:FSPS Sydney Street 015, No 13, 16-6-H, 1978.png
+</gallery>

@@ -1,0 +1,20 @@
+{{FSPS street|Moran Street|16|ident=|folder=14|folder_order=1|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Moran Street 001, No 26, 20-8-O, 1978.png
+File:FSPS Moran Street 002, No 28, vacant, 20-8-O, 1978.png
+File:FSPS Moran Street 003, No 30, 20-8-O, 1978.png
+File:FSPS Moran Street 004, No 32, 20-8-O, 1978.png
+File:FSPS Moran Street 005, No 34, 20-8-O, 1978.png
+File:FSPS Moran Street 006, No 38, 20-8-O, 1978.png
+File:FSPS Moran Street 007, No 40, 20-7-O, 1978.png
+File:FSPS Moran Street 008, No 42, 20-7-O, 1978.png
+File:FSPS Moran Street 009, Nos 46-44, 20-7-O, 1978.png
+File:FSPS Moran Street 010, Vacant lot maybe No 24, 20-8-O, 1978.png
+File:FSPS Moran Street 011, cnr Livinstone St, 20-8-P, 1978.png
+File:FSPS Moran Street 012, No 20, cnr Beard St, 20-7-M, 1978.png
+File:FSPS Moran Street 013, No 18, 20-7-M, 1978.png
+File:FSPS Moran Street 014, No 16, 20-7-M, 1978.png
+File:FSPS Moran Street 015, No 12, demolished, owned by Catholic Church, 20-7-M, 1978.png
+File:FSPS Moran Street 016, Vacant lot maybe No 10, 20-7-M, 1978.png
+</gallery>

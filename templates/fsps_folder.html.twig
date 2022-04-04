@@ -1,0 +1,21 @@
+{% extends '_base.html.twig' %}
+
+{% block title %}
+    FSPS Folder {{page.id|basename}}
+{% endblock %}
+
+{% block main %}
+
+    <p>
+        This page represents a physical <a href="{{ page.link('/fsps/folders/index') }}.html">archive folder</a> that stores
+        {{ database.query('SELECT SUM(photo_count) AS tot FROM pages WHERE template="fsps_group" AND folder = '~(page.id|basename)).fetch.tot|format_number }}
+        photos from the <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a>.
+    </p>
+
+    <ol>
+        {% for group in database.query('select * from pages where "/fsps/folders/"||folder = :folder', {folder: page.id}) %}
+            <li><a href="{{ page.link(group.id) }}.html">{{ group.title }}</a> ({{ group.photo_count }})</li>
+        {% endfor %}
+    </ol>
+
+{% endblock %}

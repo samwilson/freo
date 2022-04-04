@@ -1,0 +1,42 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+    <p>
+        This page represents a group of photos in physical storage of the
+        <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a> photos.
+    </p>
+
+    <p>
+        These {{page.metadata.photo_count}} photographs are listed here
+        in the order in which they are stored in <a href="{{page.link('/fsps/folders/'~page.metadata.folder)}}.html">folder {{page.metadata.folder}}</a> of the physical archives
+        (where there are four per landscape-oriented page in left-to-right, top-to-bottom order).
+    </p>
+
+    {% if page.metadata.description %}
+        {{ page.metadata.description|md2html|raw }}
+    {% endif %}
+
+    <div class="row">
+        {% for fileNum, file in page.metadata.files %}
+            {% if page.metadata.folder < 10 %}
+                {% set folder_name = 'Folder_0' ~ page.metadata.folder %}
+            {% else %}
+                {% set folder_name = 'Folder_' ~ page.metadata.folder %}
+            {% endif %}
+            {#<a href="{{page.link('/fsps/photos/'~page.metadata.title|replace({' ':'_'}))~'/'~(fileNum+1)}}.html" class="col-md">#}
+            <a href="https://archive.org/download/FSPS1978/full/{{folder_name}}/{{page.metadata.title|replace({' ': '_'})}}/{{file.filename}}" class="col-md">
+                <figure class="figure">
+                    <img src="https://archive.org/download/FSPS1978/thumb/{{folder_name}}/{{page.metadata.title|replace({' ': '_'})}}/{{file.filename|replace({'.png': '_thumb.jpg'})}}"
+                        alt="" class="figure-img img-fluid rounded"
+                        />
+                    <figcaption class="figure-caption">{{file.caption}}</figcaption>
+                </figure>
+            </a>
+            {% if loop.index % 4 == 0 %}
+            </div><div class="row">
+            {% endif %}
+        {% endfor %}
+    </div>
+
+{% endblock %}

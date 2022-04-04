@@ -1,0 +1,22 @@
+{{FSPS street|Higham Road|16|ident=|folder=15|folder_order=5|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Higham Road 001, No 1, Francis L Day, 3-2-D, 1978.png
+File:FSPS Higham Road 002, No 1A, 3-2-D, 1978.png
+File:FSPS Higham Road 003, No 3, 3-2-D, 1978.png
+File:FSPS Higham Road 004, No 5, 3-2-D, 1978.png
+File:FSPS Higham Road 005, No 7, 3-2-D, 1978.png
+File:FSPS Higham Road 006, No 9, 3-2-D, 1978.png
+File:FSPS Higham Road 007, No 11, 3-2-D, 1978.png
+File:FSPS Higham Road 008, No 13, 3-2-D, 1978.png
+File:FSPS Higham Road 009, No 15, cnr Corkhill, 3-2-D, 1978.png
+File:FSPS Higham Road 010, No 15, 3-2-D, 1978.png
+File:FSPS Higham Road 011, No 2, 3-3-C, 1978.png
+File:FSPS Higham Road 012, No 4, 3-3-C, 1978.png
+File:FSPS Higham Road 013, No 6, 3-3-C, 1978.png
+File:FSPS Higham Road 014, No 8, 3-3-C, 1978.png
+File:FSPS Higham Road 015, No 10, 3-3-C, 1978.png
+File:FSPS Higham Road 016, Side of No 10 from Alfred St, 3-3-C, 1978.png
+</gallery>

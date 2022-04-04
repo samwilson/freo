@@ -1,0 +1,14 @@
+{{FSPS street|Finnerty Street|8|ident=FSPSFS|folder=6|folder_order=5|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Finnerty Street 001, Rear Tuckfield St, 7-2-D, 1980.png
+File:FSPS Finnerty Street 002, Side No 1 Tuckfield, 7-2-D, 1980.png
+File:FSPS Finnerty Street 003, No 18, 7-2-D, 1980.png
+File:FSPS Finnerty Street 004, No 20, 7-2-D, 1980.png
+File:FSPS Finnerty Street 005, No 22, 7-3-E, 1980.png
+File:FSPS Finnerty Street 006, No 24, 7-3-E, 1980.png
+File:FSPS Finnerty Street 007, No 26, 7-3-E, 1980.png
+File:FSPS Finnerty Street 008, No 28, 7-3-E, 1980.png
+</gallery>

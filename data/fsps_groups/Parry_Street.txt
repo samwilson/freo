@@ -1,0 +1,13 @@
+{{FSPS street|Parry Street|8|ident=FSPSPS2|folder=8|folder_order=10|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Parry Street 001, Ellen St cnr, 8-2-A, 1978.png
+File:FSPS Parry Street 002, cnr Ellen St, 8-2-A, 1978.png
+File:FSPS Parry Street 003, Between Ellen and High St, 8-1-A, 1978.png
+File:FSPS Parry Street 004, Cnr High Street, 8-1-A, 1978.png
+File:FSPS Parry Street 005, Side of 160 High St, 8-1-A, 1978.png
+File:FSPS Parry Street 006, Cnr High St, 8-1-A, 1978.png
+File:FSPS Parry Street 007, Cnr Holdsworth, 8-3-G, 1978.png
+File:FSPS Parry Street 008, Cnr Holdsworth, 8-3-G, 1978.png
+</gallery>

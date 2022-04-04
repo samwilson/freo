@@ -1,0 +1,10 @@
+{{FSPS street|Cantonment Street|2|folder=2|ident=FSPSCS3|folder_order=12|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Cantonment Street 01, no 11, WE-3, 1980.png | No. 11
+
+File:FSPS Cantonment Street 02, no 11, WE-3, 1980.png | No. 11
+</gallery>

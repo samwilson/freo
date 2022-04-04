@@ -1,0 +1,42 @@
+{{FSPS street|Hickory Street|37|ident=|folder=15|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Hickory Street 001, No 10, 21-2-B, 1979.png
+File:FSPS Hickory Street 002, Rear 4 South Tce, 21-1-A, 1979.png
+File:FSPS Hickory Street 003, Rear South Tce 5, 21-1-A, 1979.png
+File:FSPS Hickory Street 004, Rear South Tce 7, 21-1-A, 1979.png
+File:FSPS Hickory Street 005, Rear South Tce 9, 21-1-A, 1979.png
+File:FSPS Hickory Street 006, Rear South Tce 10, 21-1-A, 1979.png
+File:FSPS Hickory Street 007, Rear South Tce 11, 21-2-A, 1979.png
+File:FSPS Hickory Street 008, Rear South Tce 12, 21-2-A, 1979.png
+File:FSPS Hickory Street 009, Rear South Tce 13, 21-2-A, 1979.png
+File:FSPS Hickory Street 010, Rear South Tce 14, 21-2-A, 1979.png
+File:FSPS Hickory Street 011, Rear South Tce 15, 21-2-A, 1979.png
+File:FSPS Hickory Street 012, Rear South Tce 16, 21-2-A, 1979.png
+File:FSPS Hickory Street 013, Rear South Tce 17, 21-2-A, 1979.png
+File:FSPS Hickory Street 014, Rear South Tce 18, 21-2-A, 1979.png
+File:FSPS Hickory Street 015, Side flats Douro Rd, 21-2-A, 1979.png
+File:FSPS Hickory Street 016, Side 5 Douro Rd, 21-2-B, 1979.png
+File:FSPS Hickory Street 017, No 2, 21-2-B, 1979.png
+File:FSPS Hickory Street 018, No 4, 21-2-B, 1979.png
+File:FSPS Hickory Street 019, No 6, 21-2-B, 1979.png
+File:FSPS Hickory Street 020, No 8, 21-2-B, 1979.png
+File:FSPS Hickory Street 021.png | Note ([[:File:FSPS Hickory Street 021 (verso).png|verso]])
+File:FSPS Hickory Street 022, No 12, 21-2-B, 1979.png
+File:FSPS Hickory Street 023, NO 14, 21-2-B, 1979.png
+File:FSPS Hickory Street 024, No 16, 21-2-B, 1979.png
+File:FSPS Hickory Street 025, No 18, 21-2-B, 1979.png
+File:FSPS Hickory Street 026, No 20, 21-2-B, 1979.png
+File:FSPS Hickory Street 027, No 22, 21-2-B, 1979.png
+File:FSPS Hickory Street 028, No 24, 21-2-B, 1979.png
+File:FSPS Hickory Street 029, No 26, 21-2-B, 1979.png
+File:FSPS Hickory Street 030, No 28, 21-2-B, 1979.png
+File:FSPS Hickory Street 031, No 30, 21-2-B, 1979.png
+File:FSPS Hickory Street 032, No 32, 21-2-B, 1979.png
+File:FSPS Hickory Street 033, Rear South Tce 1, 21-1-A, 1979.png
+File:FSPS Hickory Street 034, Rear South Tce 2, 21-1-A, 1979.png
+File:FSPS Hickory Street 035, Rear South Tce 6, 21-1-A, 1979.png
+File:FSPS Hickory Street 036, Rear South Tce 8, 21-1-A, 1979.png
+File:FSPS Hickory Street 037, Rear South Tce 3, 21-1-A, 1979.png
+</gallery>

@@ -1,0 +1,23 @@
+{{FSPS street|Hale Street|19|ident=|folder=14|folder_order=2|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Hale Street 001, No 1, cnr Lefroy Rd, 20-4-G, 1978.png
+File:FSPS Hale Street 002, No 3, 20-4-G, 1978.png
+File:FSPS Hale Street 003, cnr Jenkin St, school, 20-4-G, 1978.png
+File:FSPS Hale Street 004, No 2, 20-6-L, 1978.png
+File:FSPS Hale Street 005, No 4, 20-6-L, 1978.png
+File:FSPS Hale Street 006, No 6, 20-6-L, 1978.png
+File:FSPS Hale Street 007, No 8, 20-6-L, 1978.png
+File:FSPS Hale Street 008, No 10, 20-6-L, 1978.png
+File:FSPS Hale Street 009, No 12, 20-6-L, 1978.png
+File:FSPS Hale Street 010, No 14, 20-6-L, 1978.png
+File:FSPS Hale Street 011, No 16, 20-6-L, 1978.png
+File:FSPS Hale Street 012, No 18, 20-6-L, 1978.png
+File:FSPS Hale Street 013, No 20, 20-6-L, 1978.png
+File:FSPS Hale Street 014, No 22, cnr Beard St, 20-6-L, 1978.png
+File:FSPS Hale Street 015, No 26, cnr Beard St, 20-8-N, 1978.png
+File:FSPS Hale Street 016, No 28, vacant lot, 20-8-N, 1978.png
+File:FSPS Hale Street 019, No 34, 20-8-N, 1978.png
+File:FSPS Hale Street 018, No 32, vacant lot, 20-8-N, 1978.png
+File:FSPS Hale Street 017, No 30, 20-8-N, 1978.png
+</gallery>

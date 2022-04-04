@@ -1,0 +1,56 @@
+{{FSPS street|Unlabelled Package|49|ident=FSPSUP|folder=7|folder_order=5|folder_check=1}}
+
+This was an envelope-full of unlabelled photos.
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Unlabelled package 001.png
+File:FSPS Unlabelled package 002.png
+File:FSPS Unlabelled package 003.png
+File:FSPS Unlabelled package 004.png
+File:FSPS Unlabelled package 005.png
+File:FSPS Unlabelled package 006.png
+File:FSPS Unlabelled package 007.png
+File:FSPS Unlabelled package 008.png
+File:FSPS Unlabelled package 009.png
+File:FSPS Unlabelled package 010.png
+File:FSPS Unlabelled package 013.png
+File:FSPS Unlabelled package 012.png
+File:FSPS Unlabelled package 011.png
+File:FSPS Unlabelled package 014.png
+File:FSPS Unlabelled package 015.png
+File:FSPS Unlabelled package 016.png
+File:FSPS Unlabelled package 017.png
+File:FSPS Unlabelled package 018.png
+File:FSPS Unlabelled package 019.png
+File:FSPS Unlabelled package 020.png
+File:FSPS Unlabelled package 021.png
+File:FSPS Unlabelled package 022.png
+File:FSPS Unlabelled package 023.png
+File:FSPS Unlabelled package 024.png
+File:FSPS Unlabelled package 025.png
+File:FSPS Unlabelled package 026.png
+File:FSPS Unlabelled package 027.png
+File:FSPS Unlabelled package 028.png
+File:FSPS Unlabelled package 029.png
+File:FSPS Unlabelled package 030.png
+File:FSPS Unlabelled package 031.png
+File:FSPS Unlabelled package 032.png
+File:FSPS Unlabelled package 033.png
+File:FSPS Unlabelled package 034.png
+File:FSPS Unlabelled package 035.png
+File:FSPS Unlabelled package 036.png
+File:FSPS Unlabelled package 037.png
+File:FSPS Unlabelled package 038.png
+File:FSPS Unlabelled package 039.png
+File:FSPS Unlabelled package 040.png
+File:FSPS Unlabelled package 041.png
+File:FSPS Unlabelled package 042.png
+File:FSPS Unlabelled package 043.png
+File:FSPS Unlabelled package 044.png
+File:FSPS Unlabelled package 045.png
+File:FSPS Unlabelled package 046.png
+File:FSPS Unlabelled package 047.png
+File:FSPS Unlabelled package 048.png
+File:FSPS Unlabelled package 049.png
+</gallery>

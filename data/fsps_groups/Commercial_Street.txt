@@ -1,0 +1,28 @@
+{{FSPS street|Commercial Street|20|folder=5|ident=FSPSCS|folder_order=1|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Commercial Street-001, No 1, 19-6-H, 1978.png | No. 1
+File:FSPS Commercial Street-002, No 3, 19-6-H, 1978.png | No. 3
+File:FSPS Commercial Street-003, No 5, 19-6-H, 1978.png | No. 5
+File:FSPS Commercial Street-004, No 7, 19-6-H, 1978.png | No. 7
+
+File:FSPS Commercial Street 005, No 9, 19-6-H, 1978.png | No. 9
+File:FSPS Commercial Street 006, No 11, 19-6-H, 1978.png | No. 11
+File:FSPS Commercial Street 007, No 13, 19-6-H, 1978.png | No. 13
+File:FSPS Commercial Street 008, No 15, 19-5-H, 1978.png | No. 15
+
+File:FSPS Commercial Street 010, No 17, 19-5-H, 1978.png | No. 17
+File:FSPS Commercial Street 009, No 19, 19-5-H, 1978.png | No. 19
+File:FSPS Commercial Street 011, No 21, 19-5-H, 1978.png | No. 21
+File:FSPS Commercial Street 012, No 2, 19-5-G, 1978.png | No. 2
+
+File:FSPS Commercial Street 013, No 4, 19-5-G, 1978.png | No. 4
+File:FSPS Commercial Street 014, No 6, 19-5-G, 1978.png | No. 6
+File:FSPS Commercial Street 015, No 8, 19-5-G, 1978.png | No. 8
+File:FSPS Commercial Street 016, No 10, 19-5-G, 1978.png | No. 10
+
+File:FSPS Commercial Street 017, No 12, 19-5-G, 1978.png | No. 12
+File:FSPS Commercial Street 018, No 14, 19-5-G, 1978.png | No. 14
+File:FSPS Commercial Street 019, No 16, 19-5-G, 1978.png | No. 16
+File:FSPS Commercial Street 020, No 20, 19-5-G, 1978.png | No. 20
+</gallery>

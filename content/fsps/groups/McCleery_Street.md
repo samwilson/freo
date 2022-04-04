@@ -1,0 +1,115 @@
+---
+template: fsps_group
+title: 'McCleery Street'
+photo_count: 35
+folder: 7
+folder_order: 9
+folder_check: 1
+description: ~
+files:
+    -
+        filename: 'FSPS_McCleery_Street_001,_No_25,_18-H-13.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_002,_No_17,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_003,_No_17,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_004,_No_5,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_005,_Side_of_No_20_Lefroy,_18-14-79.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_006,_Side_of_163A_and_165B_Solomon_St,_18-14-79.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_007,_No_42,_18-14-79.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_008,_No_32,_18-14,_79.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_009,_No_28,_18-14-79.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_010,_No_24,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_011,_No_22,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_012,_No_20,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_013,_No_18,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_014,_No_16,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_015,_No_14,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_016,_No_10,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_017,_Side_of_81_South_St,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_018,_No_15,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_019,_No_13,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_020,_No_11,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_021,_No_9,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_022,_No_7,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_023,_No_3,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_024,_No_1,_18-2-A,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_025,_No_2,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_026,_No_4,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_027,_No_6,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_028,_No_8,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_029,_No_12,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_030,_No_26,_18-3-B,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_031,_cnr_Lefroy,_18-13-H,_1979.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_032,_No_27,_18-13-H.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_033,_No_23,_18-13-H.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_034,_No_21,_18-13-H.png'
+        caption: ~
+    -
+        filename: 'FSPS_McCleery_Street_035,_No_19,_18-13-H.png'
+        caption: ~
+---

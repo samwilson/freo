@@ -1,0 +1,35 @@
+{{FSPS street|Arundel Street|25|folder=1|folder_order=7|folder_check=1|ident=FSPSAS5}}
+
+<gallery>
+FSPS Arundel Street, Nos 10-12, 14-3-C, 1978.png|Nos. 10 & 12
+FSPS Arundel Street, Nos 16-18, 14-3-C, 1978.png|Nos. 16 & 18
+FSPS Arundel Street, Nos 2-4, 14-3-C, 1978.png|Nos. 2 & 4
+FSPS Arundel Street, Nos 6-8, 14-3-C, 1978.png|Nos. 6 & 8
+
+FSPS Arundel Street, No 22, 14-3-C, 1978.png|No. 22
+FSPS Arundel Street, No 20, 14-3-C, 1978.png|No. 20
+FSPS Arundel Street, No 24, 14-3-C, 1978.png|No. 24
+FSPS Arundel Street, Nos 26-28, 14-3-C, 1978.png|Nos. 26-28
+
+FSPS Arundel Street, No 32, 14-3-C, 1978.png|No. 32
+FSPS Arundel Street, No 30, 14-3-C, 1978.png|No. 30
+FSPS Arundel Street, No unknown, 14-1-D.png|Number unknown
+FSPS Arundel Street, Flats, 14-3-C, 1978.png|Flats
+
+FSPS Arundel Street, No 5, 14-1-D.png|No. 5
+FSPS Arundel Street, No 3, 14-1-D.png|No. 3
+FSPS Arundel Street, No 15?, 14-1-D.png|No. 15 (maybe)
+FSPS Arundel Street, Nos 9-7, 14-1-D.png|Nos. 9 & 7
+
+FSPS Arundel Street, No 17, 14-1-D.png|No. 17
+FSPS Arundel Street, No 21, 14-1-D.png|No. 21
+FSPS Arundel Street, No 15A, 14-1-D.png|No. 15A
+FSPS Arundel Street, No 19, 14-1-D.png|No. 19
+
+FSPS Arundel Street, No 25, 14-1-D.png|No. 25
+FSPS Arundel Street, Unknown number, 14-1-D.png|Number unknown
+FSPS Arundel Street, No 23, 14-1-D.png|No. 23
+FSPS Arundel Street, Unknown number (2), 14-1-D.png|Number unknown
+
+FSPS Arundel Street, Oceania Trading Store, 14-1-D.png|Oceania Trading Store
+</gallery>

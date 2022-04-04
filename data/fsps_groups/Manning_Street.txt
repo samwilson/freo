@@ -1,0 +1,26 @@
+{{FSPS street|Manning Street|20|ident=|folder=13|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Manning Street 001, No 27, 13-5-B, 1979.png
+File:FSPS Manning Street 002, Rear of No 21 Wray Ave, 13-C-7, 1980.png
+File:FSPS Manning Street 003, No 4, side from Carnac St, 13-C-7, 1980.png
+File:FSPS Manning Street 004, No 3, 13-6-A, 1979.png
+File:FSPS Manning Street 005, No 11, 13-6-A, 1979.png
+File:FSPS Manning Street 006, No 13, 13-6-A, 1979.png
+File:FSPS Manning Street 007, No 19, 13-6-A, 1979.png
+File:FSPS Manning Street 008, No 21, 13-6-A, 1979.png
+File:FSPS Manning Street 009, No 23, 13-6-A, 1979.png
+File:FSPS Manning Street 010, No 25, 13-5-B, 1979.png
+File:FSPS Manning Street 011, No 25, side from lane, 13-5-B, 1979.png
+File:FSPS Manning Street 012, No 5, 13-6-A, 1979.png
+File:FSPS Manning Street 013, No 7, 13-6-A, 1979.png
+File:FSPS Manning Street 014, No 15, 13-6-A, 1979.png
+File:FSPS Manning Street 015, No 17, 13-6-A, 1979.png
+File:FSPS Manning Street 016, No 9, 13-6-A, 1979.png
+File:FSPS Manning Street 017, No 2, 13-7-C, 1980.png
+File:FSPS Manning Street 018, No 4, 13-C-7, 1980.png
+File:FSPS Manning Street 019, No 21 Wray Ave, side from Manning, 13-C-7, 1980.png
+File:FSPS Manning Street 020, No 23, side from unmarked lane, 13-7-A, 1980.png
+</gallery>

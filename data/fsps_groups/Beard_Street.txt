@@ -1,0 +1,5 @@
+{{FSPS street|Beard Street|1|folder=2|ident=FSPSBS5|folder_order=5|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS_Beard_Street, 20-8-N, 1978.png | House number unknown, possibly number 1 or 3, probably demolished (prior to 2021)
+</gallery>

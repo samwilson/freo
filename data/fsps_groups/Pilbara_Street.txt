@@ -1,0 +1,20 @@
+{{FSPS street|Pilbara Street|14|ident=|folder=9|folder_order=2|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Pilbara Street 001, No 14, 11-3-E, 1978.png
+File:FSPS Pilbara Street 002, No 6, 11-3-E, 1978.png
+File:FSPS Pilbara Street 003, No 2, 11-3-E, 1978.png
+File:FSPS Pilbara Street 004, No 8, 11-3-E, 1978.png
+File:FSPS Pilbara Street 005, No 10, Jose Manuel Gomes and Canceicao Peta Serrao, 11-3-E, 1978.png
+File:FSPS Pilbara Street 006, No 12, 11-3-E, 1978.png
+File:FSPS Pilbara Street 007, No 16, 11-3-E, 1978.png
+File:FSPS Pilbara Street 008, No 17, 11-4-F, 1978.png
+File:FSPS Pilbara Street 009, No 15 Roma Anderson, 11-4-F, 1978.png
+File:FSPS Pilbara Street 010, No 11, Wayne Hughes and Jan Margaret Ryan, 11-4-F, 1978.png
+File:FSPS Pilbara Street 011, No 7, 11-4-F, 1978.png
+File:FSPS Pilbara Street 012, No 5, 11-4-F, 1978.png
+File:FSPS Pilbara Street 013, No 3, 11-4-F, 1978.png
+File:FSPS Pilbara Street 014, No 1 cnr, Mabel Memory, 11-4-F, 1978.png
+</gallery>

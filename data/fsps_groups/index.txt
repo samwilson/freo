@@ -1,0 +1,120 @@
+{{FSPS banner}}
+
+In 1978 the [[wikipedia:Fremantle Society|Fremantle Society]] conducted a comprehensive photographic survey of the buildings of [[wikipedia:Fremantle, Western Australia|Fremantle, Western Australia]].  This page documents the survey and links to further details of the {{#cargo_query: tables=fsps_streets |fields=FORMAT(ROUND(SUM(photo_count)), 0) }} photos, all of which have been scanned and uploaded to ArchivesWiki.
+
+<small>Permalink: {{ident|FSPS}}</small>
+
+== Photo groups ==
+Most of the photos are grouped by street, but some are by area or storage method. Individual places (streets and buildings/houses) also will have their own pages (soon!) so that e.g. the front photo and side photo are not split up between different streets' pages.
+
+<div style="columns:30ex auto">{{#cargo_query: tables=fsps_streets
+ | fields = CONCAT('[[',_pageName,'|',street,']] (',photo_count,')')
+ | format = ul
+ | limit = 1000
+}}</div>
+
+== Map ==
+Not all photos are yet on the map.
+
+{{#cargo_query: tables = fsps_photos
+| fields = CONCAT(fsps_street)=Street, description=Description, coordinates, _pageName=Details
+| format = map
+| no html
+| where = coordinates__full IS NOT NULL
+| height = 450px
+}}
+
+== Original Survey ==
+[[Image:FSPS recording sheet.jpg|thumb|One of the recording sheets used for field data entry.]]
+The survey began in 1978 under the coordination of Ralph Hoare, with the aim to "create an ''indexed photographic record'' of all the residential and other buildings that currently exist in Fremantle, west of the proposed Easten Bypass and excluding the Central Business District, which is already substantially recorded." (from the [[:File:FSPS participant information.djvu|participant information sheet]]).
+
+=== Method ===
+The photographers were given sheets such as the one shown at right, and followed the following instructions:
+
+{{quotation|
+Stand directly in front of the house on the footpath opposite, that you are going to photograph.  If a tree or parked car is obscuring the photograph move to one side until an acceptable photo will result — use your discretion.
+
+The next house to photograph will be the house on the right of the house you just photographed as you face them.  Repeat this proceedure until you reach a corner.  Continue around the corner by taking another photograph of the corner house.  Then continue to photograph the next house on the right, etc.
+
+Repeat these proceedures until you have moved completely around the cell you are photographing.  Now move on to the next cell and repeat the whole proceedure until you have photographed hte whole section.
+
+NOTE: You are photographing the cell in an anti-clockwise direction.  Photograph all houses old or new, good or bad condition, pretty or ugly.
+}}
+
+=== Classifications ===
+
+{{Fremantle Society Photographic Survey/classification key}}
+
+=== Sections ===
+
+The survey area was divided into 21 ''Sections'', each of which was subdivided into about half a dozen ''Cells''.
+
+<gallery>
+FSPS Section map 1.JPG|[[:Category:Fremantle Society Photographic Survey section 1|Section 1]]
+FSPS Section map 2 (missing).JPG|[[:Category:Fremantle Society Photographic Survey section 2|Section 2]] (larger-scale map is not extant)
+FSPS Section map 3.JPG|[[:Category:Fremantle Society Photographic Survey section 3|Section 3]]
+FSPS Section map 4.JPG|[[:Category:Fremantle Society Photographic Survey section 4|Section 4]]
+FSPS Section map 5.JPG|[[:Category:Fremantle Society Photographic Survey section 5|Section 5]]
+FSPS Section map 6.JPG|[[:Category:Fremantle Society Photographic Survey section 6|Section 6]]
+FSPS Section map 7.JPG|[[:Category:Fremantle Society Photographic Survey section 7|Section 7]]
+FSPS Section map 8.JPG|[[:Category:Fremantle Society Photographic Survey section 8|Section 8]]
+FSPS Section map 9.JPG|[[:Category:Fremantle Society Photographic Survey section 9|Section 9]]
+FSPS Section map 10.JPG|[[:Category:Fremantle Society Photographic Survey section 10|Section 10]]
+FSPS Section map 11.JPG|[[:Category:Fremantle Society Photographic Survey section 11|Section 11]]
+FSPS Section map 12.JPG|[[:Category:Fremantle Society Photographic Survey section 12|Section 12]]
+FSPS Section map 13.JPG|[[:Category:Fremantle Society Photographic Survey section 13|Section 13]]
+FSPS Section map 14.JPG|[[:Category:Fremantle Society Photographic Survey section 14|Section 14]]
+FSPS Section map 15.JPG|[[:Category:Fremantle Society Photographic Survey section 15|Section 15]]
+FSPS Section map 16.JPG|[[:Category:Fremantle Society Photographic Survey section 16|Section 16]]
+FSPS Section map 17.JPG|[[:Category:Fremantle Society Photographic Survey section 17|Section 17]]
+Blue Question.svg |[[:Category:Fremantle Society Photographic Survey section 18|Section 18]] (map is not extant)
+FSPS Section map 19.JPG|[[:Category:Fremantle Society Photographic Survey section 19|Section 19]]
+FSPS Section map 20.JPG|[[:Category:Fremantle Society Photographic Survey section 20|Section 20]]
+FSPS Section map 21.JPG|[[:Category:Fremantle Society Photographic Survey section 21|Section 21]]
+</gallery>
+
+== Digitisation ==
+
+In 2012 the Fremantle Society started digitising the collection of prints of photos from the survey, and uploading and cataloguing them on Wikimedia Commons. In 2017 the photos were removed from Commons (for legal reasons) and added to ArchivesWiki. These photos are available on the street-list pages listed at the top of this page; many have not yet got their metadata added fully (you can help with this!) and so do not yet appear on the section-lists nor on the maps.
+
+=== Metadata ===
+
+The {{tl|FSPS photo}} template is added to the description field of every photo.
+
+<gallery caption="Original archive boxes">
+FSPS box, A to Chester.JPG | A to Chester
+FSPS Box Christiana - G.JPG | Christiana to G
+FSPS Box, H.jpg | H
+FSPS Box, I - K (pkt unlabelled).jpg | I - K (pkt unlabelled)
+FSPS Box, L – Moran.jpg | L – Moran
+FSPS Box, McCabe – Shuffrey.jpg | McCabe – Shuffrey
+FSPS box, S to Stirling (but not South St).JPG | S to Stirling (but not South St)
+FSPS Box, South St then Suffolk – V.jpg | South St then Suffolk – V
+FSPS Box, W – Z and West End.jpg | W – Z and West End
+</gallery>
+
+The photos were originally stored in 9 small green cardboard photograph boxes, the prints edgeways and with nothing separating them. They were ordered by street name and then roughly by street number (i.e. generally zigzagging down roads), with card dividers separating the streets. The street name and number; classification triple of section, cell, and roll number; and year were written on the back of each photo. Not all photos have all these fields; some have none at at all.
+
+Some photos have extra information written on them. This is either added to the filenames, or if there's lots (or it's illegible) the verso is scanned separately. In most cases, the filename can be assumed to contain the entire available information and nothing extra.
+
+The current digitisation process is as follows:
+# The photos are removed from these boxes, from front to back.
+# Scanned to PNG at 1200 dpi.
+# The files are given MediaWiki-safe file names based on the metadata from the back of the photos. The filenames are of the form <code>FSPS [Street Name] [accession number], [Description, generally house number], [codes], [year].png</code> (note that accession order is not ''quite'' the same as street-number order, but is pretty close).
+# Then, the photos are inserted into clear [[Wikipedia:Polypropylene|polypropylene]] ([http://albox.com.au Albox] brand) sleeves, four to a page.
+# These sleeves are then stored in 3-ring polypropylene binders with slip cases (~60 sleeves per binder, or 240 photos), and stored at the Fremantle Local History Collection at the Fremantle Library.
+
+The following templates are used on this wiki to describe the various parts of the collection:
+
+* {{tl|FSPS photo}} — each photo of the archive (mostly used on File namespace pages, but some photos have multiple images and so get their own mainspace page)
+* {{tl|FSPS folder}} — each archive folder
+* {{tl|FSPS street}} — every street (as defined by the survey; doesn't necessarily match exactly to streets)
+* {{tl|FSPS section}} — the original survey sections
+* {{tl|FSPS banner}} — used on every other template to provide easier navigation
+* {{tl|FSPS classification key}} — explanation of the original coloured sticker classification system
+
+== See also ==
+
+* [{{fullurl:Special:Drilldown/fsps_photos|_single}} data drilldown]
+* [[Special:CargoTables/fsps_photos|raw data table]]
+* [[/todo/]]

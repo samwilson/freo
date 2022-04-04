@@ -1,0 +1,21 @@
+{{FSPS street|Barnett Street|14|folder=2|ident=FSPSBS3|folder_order=3|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Barnett Street 01, no 1, 7-5-H 1980.png | No. 1
+File:FSPS Barnett Street 02, no 2, 7-4-G 1980.png | No. 2
+File:FSPS Barnett Street 03, no 3, 7-5-H, 1980.png | No. 3
+File:FSPS Barnett Street 04, no 5-7, 7-4-G, 1980.png | Nos. 5-7
+
+File:FSPS Barnett Street 05, no 6, 7-4-G, 1980.png | No. 6
+File:FSPS Barnett Street 06, nos 8-10, 7-4-G, 1980.png | Nos. 8-10
+File:FSPS Barnett Street 07, no 9, 7-4-G, 1980.png | No. 9
+File:FSPS Barnett Street 08, no 12, 7-4-G, 1980.png | No. 12
+
+File:FSPS Barnett Street 09, no 14, 7-4-G, 1980.png | No. 14
+File:FSPS Barnett Street 10, no 16, 7-4-G, 1980.png | No. 16
+File:FSPS Barnett Street 11, no 18, 7-4-G, 1980.png | No. 18
+File:FSPS Barnett Street 12, no 20, 7-4-G, 1980.png | No. 20
+
+File:FSPS Barnett Street 13, side of no 23 Quarry Street, 7-5-H, 1980.png | Side of no. 23 Quarry Street
+File:FSPS Barnett Street 14, Council change rooms, 7-4-G, 1980.png | No. 13 (council change rooms)
+</gallery>

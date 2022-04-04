@@ -1,0 +1,13 @@
+{{FSPS street|Yilgarn Street|7|ident=|folder=12|folder_order=2|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Yilgarn Street 001, No 9, 11-3-E, 1978.png
+File:FSPS Yilgarn Street 002, No 7, 11-3-E, 1978.png
+File:FSPS Yilgarn Street 003, No 5, 11-3-E, 1978.png
+File:FSPS Yilgarn Street 004, No 3, 11-3-E, 1978.png
+File:FSPS Yilgarn Street 005, No 1, 11-3-E, 1978.png
+File:FSPS Yilgarn Street 006, Maybe No 13, 11-3-E, 1978.png
+File:FSPS Yilgarn Street 007, No 11, 11-3-E, 1978.png
+</gallery>

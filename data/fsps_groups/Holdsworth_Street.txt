@@ -1,0 +1,24 @@
+{{FSPS street|Holdsworth Street|18|ident=|folder=15|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Holdsworth Street 001, Nos 38-40, 8-4-G, 1978.png
+File:FSPS Holdsworth Street 002, Side of 7 Stirling St, 8-4-G, 1978.png
+File:FSPS Holdsworth Street 003, No 36, 8-4-G, 1978.png
+File:FSPS Holdsworth Street 004, NO 34, 8-4-G, 1978.png
+File:FSPS Holdsworth Street 005, No 32, 8-3-G, 1978.png
+File:FSPS Holdsworth Street 006, No 16, 8-3-G, 1978.png
+File:FSPS Holdsworth Street 007, No 15, 8-4-H, 1978.png
+File:FSPS Holdsworth Street 008, No 15, side yard, 8-4-H, 1978.png
+File:FSPS Holdsworth Street 009, No 13, Antonio D Macri, 8-4-H, 1978.png
+File:FSPS Holdsworth Street 010, cnr Knutsford St, 8-4-H, 1978.png
+File:FSPS Holdsworth Street 011, No 13, cnr Knutsford, 8-4-H, 1978.png
+File:FSPS Holdsworth Street 012, Side of No 9 Stirling St, 8-4-H, 1978.png
+File:FSPS Holdsworth Street 013, No 42, part of, 8-4-G, 1978.png
+File:FSPS Holdsworth Street 014, Nos 28-30, 8-3-G, 1978.png
+File:FSPS Holdsworth Street 015, Nos 26-28, 8-3-G, 1978.png
+File:FSPS Holdsworth Street 016, Nos 22-24, 8-3-G, 1978.png
+File:FSPS Holdsworth Street 017, Nos 18-20, 8-3-G, 1978.png
+File:FSPS Holdsworth Street 018, No 42, 8-4-G, 1978.png
+</gallery>

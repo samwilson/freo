@@ -1,0 +1,20 @@
+{{FSPS street|Fothergill Street|14|ident=FSPSFS2|folder=6|folder_order=6|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Fothergill Street 001, Cnr Solomon, 9-8-F, 1978.png
+File:FSPS Fothergill Street 002, No 27, 9-8-F, 1978.png
+File:FSPS Fothergill Street 003, No 29 lot pt 12, Richard William and Patience Hook, 9-8-F, 1978.png
+File:FSPS Fothergill Street 004, Nos 21-23, 9-7-E, 1978.png
+File:FSPS Fothergill Street 005, No 25 cnr Solomon, 9-7-E, 1978.png
+File:FSPS Fothergill Street 006, Cnr Bellevue, 9-5-E, 1978.png
+File:FSPS Fothergill Street 007, Shop No 19, 9-6-E, 1978.png
+File:FSPS Fothergill Street 008, No 6, 9-2-A, 1978.png
+File:FSPS Fothergill Street 009, No 27A, 9-8-F, 1978.png
+File:FSPS Fothergill Street 010, No 8, 9-2-A, 1978.png
+File:FSPS Fothergill Street 011, No 10, 9-2-A, 1978.png
+File:FSPS Fothergill Street 012, No 12, 9-2-A, 1978.png
+File:FSPS Fothergill Street 013, No 14, 9-2-A, 1978.png
+File:FSPS Fothergill Street 014, No 29, cnr Solomon, 9-2-A, 1978.png
+</gallery>

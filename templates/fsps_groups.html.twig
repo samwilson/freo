@@ -1,0 +1,17 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+    {% if page.metadata.description %}
+        {{ page.metadata.description|md2html|raw }}
+    {% endif %}
+
+    <ol style="columns:30ex auto">
+        {% for p in database.query('SELECT * FROM pages WHERE template="fsps_group" ORDER BY title ASC') %}
+            <li>
+                <a href="{{page.link(p.id)}}.html">{{p.title}}</a> ({{p.photo_count}})
+            </li>
+        {% endfor %}
+    </ol>
+
+{% endblock %}

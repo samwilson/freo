@@ -1,0 +1,27 @@
+{{FSPS street|Ord Street|20|ident=FSPSOS|folder=8|folder_order=7|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Ord Street 001, Rear of Stirling, 8-5-F, 1978.png
+File:FSPS Ord Street 002, Rear Stirling St, 8-5-F, 1978.png
+File:FSPS Ord Street 003, Cnr Stirling St, 8-5-F, 1978.png
+File:FSPS Ord Street 004, Cnr Stirling St, 8-5-F, 1978.png
+File:FSPS Ord Street 005, Cnr High St, 8-5-E, 1978.png
+File:FSPS Ord Street 006, Rear from Bateman St, 8-5-E, 1978.png
+File:FSPS Ord Street 007, No 186 High St from Ord, 8-6-C, 1978.png
+File:FSPS Ord Street 008, Between Ellen and High, 8-6-C, 1978.png
+File:FSPS Ord Street 009, Knutsford St side of No 24, 8-5-E, 1978.png
+File:FSPS Ord Street 010, No 10, Anthony mario Podesta, 8-5-E, 1978.png
+File:FSPS Ord Street 011, No 24, 8-5-E, 1978.png
+File:FSPS Ord Street 012, Side of 243 High St, 8-5-F, 1978.png
+File:FSPS Ord Street 013, No 5, 8-3-B, 1978.png
+File:FSPS Ord Street 014, No 3, 8-3-B, 1978.png
+File:FSPS Ord Street 015, No 1, 8-3-B, 1978.png
+File:FSPS Ord Street 016, Nos 20-22, 8-5-E, 1978.png
+File:FSPS Ord Street 017, No 18, 8-5-E, 1978.png
+File:FSPS Ord Street 018, No 16, 8-5-E, 1978.png
+File:FSPS Ord Street 019, No 14, 8-5-E, 1978.png
+File:FSPS Ord Street 020, No 12, 8-5-E, 1978.png
+</gallery>

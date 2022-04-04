@@ -1,0 +1,17 @@
+{{FSPS street|Burns Street|11|folder=2|ident=FSPSBS8|folder_order=9|folder_check=1}} 
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Burns Street, no23, 4-3-I, 1979.png | No. 23
+File:FSPS Burns Street, no 19, 4-3-I, 1979.png | No. 19
+File:FSPS Burns Street, no 21, 4-3-I, 1979.png | No. 21
+File:FSPS Burns Street, 4-3-I, 1979.png | 
+
+File:FSPS Burns Street, no 9, 4-3-I, 1979.png | No. 9
+File:FSPS Burns Street, Weeties building, 4-3-I, 1979.png | Weeties building
+File:FSPS Burns Street, nos 11-13, 4-3-I, 1979.png | Nos. 11 & 13
+File:FSPS Burns Street, nos 15-17, 4-3-I, 1979.png | Nos. 15 & 17
+
+File:FSPS Burns Street, noes 16-14-12, 4-5-H, 1979.png | Nos. 12, 14, & 16
+File:FSPS Burns Street, no 7, 4-3-I.png | No. 7
+File:FSPS Burns Street, no 10, 4-5-H, 1979.png | No. 10
+</gallery>

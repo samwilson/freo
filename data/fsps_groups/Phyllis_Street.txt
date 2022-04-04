@@ -1,0 +1,10 @@
+{{FSPS street|Phyllis Street|6|ident=|folder=9|folder_order=1|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Phyllis Street 001, No 4, 2-4-D, 1980.png
+File:FSPS Phyllis Street 002, No 2, 2-4-D, 1980.png
+File:FSPS Phyllis Street 003, No 9, 2-4-E, 1980.png
+File:FSPS Phyllis Street 004, No 7, 2-4-E, 1980.png
+File:FSPS Phyllis Street 005, No 5, 2-4-E, 1980.png
+File:FSPS Phyllis Street 006, No 3, 2-4-E, 1980.png
+</gallery>

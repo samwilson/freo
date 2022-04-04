@@ -1,0 +1,6 @@
+{{FSPS street|Leslie Street|1|ident=|folder=12|folder_order=5|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Leslie Street 001, View of whole block, 2-3-B.png
+</gallery>

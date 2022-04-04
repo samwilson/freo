@@ -1,0 +1,17 @@
+{{FSPS street|Norman Road|13|ident=FSPSNR|folder=8|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Norman Road 001, No 8, 13-1-F.png
+File:FSPS Norman Road 002, Block adjoining No 8, 13-1-F.png
+File:FSPS Norman Road 003, Cnr Hampton Rd, 13-1-F.png
+File:FSPS Norman Road 004, No 89A, 13-1-F.png
+File:FSPS Norman Road 005, No 1, 13-1-F.png
+File:FSPS Norman Road 006, No 3, 13-1-F.png
+File:FSPS Norman Road 007, No 5, 13-1-F.png
+File:FSPS Norman Road 008, Units 1-6, beside No 5, 13-1-F.png
+File:FSPS Norman Road 009, rear of Attfield St flats, 13-1-F.png
+File:FSPS Norman Road 010, No 6, 13-1-F.png
+File:FSPS Norman Road 011, Between No 6 and Stammers, 13-1-F.png
+File:FSPS Norman Road 012, Back of Stammers, 13-1-F.png
+File:FSPS Norman Road 013, cnr of Hampton Rd, 13-1-F.png
+</gallery>

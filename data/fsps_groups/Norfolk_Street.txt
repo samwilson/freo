@@ -1,0 +1,20 @@
+{{FSPS street|Forfolk Street|16|ident=FSPSNS2|folder=8|folder_order=2|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Norfolk Street 001, No 24, 14-5-A, 1978.png
+File:FSPS Norfolk Street 002, 14-3-B, 1978.png
+File:FSPS Norfolk Street 003, Wool Commission, 14-3-B.png
+File:FSPS Norfolk Street 004, Store, 14-3-B, 1978.png
+File:FSPS Norfolk Street 005, 14-3-B, 1978.png
+File:FSPS Norfolk Street 006, 14-3-B, 1978.png
+File:FSPS Norfolk Street 007, 14-3-B, 1978.png
+File:FSPS Norfolk Street 008, 14-3-B, 1978.png
+File:FSPS Norfolk Street 009, Nos 26-28 cnr Norfolk Lane, 14-4-A, 1978.png
+File:FSPS Norfolk Street 010, No 6, 14-5-A, 1978.png
+File:FSPS Norfolk Street 011, Nos 12-14, 14-5-A, 1978.png
+File:FSPS Norfolk Street 012, No 16, 14-5-A, 1978.png
+File:FSPS Norfolk Street 013, No 22, 14-5-A, 1978.png
+File:FSPS Norfolk Street 014, No 26, 14-5-A, 1978.png
+File:FSPS Norfolk Street 015, No 28, 14-5-A, 1978.png
+File:FSPS Norfolk Street 016, No 18 or 20, 14-5-A, 1978.png
+</gallery>

@@ -1,0 +1,21 @@
+{{FSPS street|Jewell Parade|14|ident=FSPSJP|folder=7|folder_order=2|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Jewell Parade 001, 4-1-E, 1978.png
+File:FSPS Jewell Parade 002, 4-1-E, 1978.png
+File:FSPS Jewell Parade 003, No 1, 4-1-E, 1978.png
+File:FSPS Jewell Parade 004, No 2, 4-1-E, 1978.png
+File:FSPS Jewell Parade 005, 4-1-E, 1978.png
+File:FSPS Jewell Parade 006, No 6B, 4-1-E, 1978.png
+File:FSPS Jewell Parade 007, No 7, 4-1-E, 1978.png
+File:FSPS Jewell Parade 008, Lot 34, 4-1-E, 1978.png
+File:FSPS Jewell Parade 009, No 9, 4-1-E, 1978.png
+File:FSPS Jewell Parade 010, No 11, 4-1-E, 1978.png
+File:FSPS Jewell Parade 011, 4-1-E, 1978.png
+File:FSPS Jewell Parade 012, Side of church on Jackson St, 4-2-F, 1978.png
+File:FSPS Jewell Parade 013, No 3, 4-1-E, 1978.png
+File:FSPS Jewell Parade 014, cnr Jackson St, 4-1-E, 1978.png
+</gallery>

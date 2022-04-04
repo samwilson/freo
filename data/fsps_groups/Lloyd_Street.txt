@@ -1,0 +1,10 @@
+{{FSPS street|Lloyd Street|6|ident=|folder=13|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Lloyd Street 001, No 13, 20-3-E, 1978.png | No. 13
+File:FSPS Lloyd Street 002, No 15, 20-4-F, 1978.png | No. 15
+File:FSPS Lloyd Street 003, No 9, cnr Lloyd and Chester, 19-4-F, 1978.png | No. 9, cnr Chester St
+File:FSPS Lloyd Street 004, No 5, 19-4-F, 1978.png | No. 5
+File:FSPS Lloyd Street 005, No 3, 19-4-F, 1978.png | No. 3 ([[:File:FSPS Lloyd Street 005, No 3, 19-4-F, 1978 (verso).png|verso]])
+File:FSPS Lloyd Street 006, No 2, 20-2-C, 1978.png | No. 2
+</gallery>

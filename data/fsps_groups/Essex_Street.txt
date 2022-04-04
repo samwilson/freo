@@ -1,0 +1,14 @@
+{{FSPS street|Essex Street|8|folder=6|ident=FSPSES5|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Essex Street 001, No 19, 14-4-A, 1978.png
+File:FSPS Essex Street 002, No 21 (maybe), 14-4-A, 1978.png
+File:FSPS Essex Street 002, No 23 (maybe), 14-4-A, 1978.png
+File:FSPS Essex Street 004, Cnr Norfolk Lane, 14-4-A, 1978.png
+File:FSPS Essex Street 005, Nos 1-3, 14-4-A, 1978.png
+File:FSPS Essex Street 006, Nos 15-13, 14-4-A, 1978.png
+File:FSPS Essex Street 007, No 17, 14-4-A, 1978.png
+File:FSPS Essex Street 008, No 5, 14-4-A, 1978.png
+</gallery>

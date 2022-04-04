@@ -1,0 +1,34 @@
+{{FSPS street|Gold Street|31|ident=FSPSFGS|folder=6|folder_order=8|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Gold Street 001, Large vacant block side of South St, 17-7-G, 1978.png
+File:FSPS Gold Street 002, No 17, 17-6-C, 1978.png | No. 17
+File:FSPS Gold Street 003, No 19 (illegible), 17-6-E, 1978.png | No. 19{{illegible}}
+File:FSPS Gold Street 004, No 12, 16-1-B, 1979.png | No. 12
+File:FSPS Gold Street 005, No 20, 17-6-A, 1978.png | No. 20
+File:FSPS Gold Street 006, No 22, 17-6-A, 1978.png | No. 22
+File:FSPS Gold Street 007, No 24, 17-6-A, 1978.png | No. 24
+File:FSPS Gold Street 008, Side of No 8 Francisco, 17-9-B.png | Side of No. Francisco St
+File:FSPS Gold Street 009, Nos 6-10, 16-1-B, 1979.png | Nos. 6–10
+File:FSPS Gold Street 010, Nos 2-4, Helena May Cuming Marine Pde Cottesloe, 16-1-B, 1979.png | Nos. 2 & 4
+File:FSPS Gold Street 011, Nos 6-8, 16-1-B, 1979.png | Nos. 6 & 8
+File:FSPS Gold Street 012, No 10, 16-1-B, 1979.png | No. 10
+File:FSPS Gold Street 013, No 9, 16-2-C.png | No. 9
+File:FSPS Gold Street 014, No 3, 16-2-C.png | No. 3
+File:FSPS Gold Street 015, No 1, 16-2-C.png | No. 1
+File:FSPS Gold Street 016, Nos 7-5, 16-2-C.png | Nos. 5 & 7
+File:FSPS Gold Street 017, No 28, Kerry Joan and Brian Davies, 17-5-B, 1978.png | No. 28
+File:FSPS Gold Street 018, No 26, Carmelo Carnabuci, 17-5-B, 1978.png | No. 26
+File:FSPS Gold Street 019, No 244 South Tce cnr Gold, 17-5-A, 1978.png | No. 244 South Tce
+File:FSPS Gold Street 020, No 14, 17-6-A.png | No. 14
+File:FSPS Gold Street 021, No 16, Ippolita Zaza, 17-6-A, 1978.png | No. 16
+File:FSPS Gold Street 022, No 18, 17-6-A, 1978.png | No. 18
+File:FSPS Gold Street 023, No 21, 17-6-C, 1978.png | No. 21
+File:FSPS Gold Street 024, Side of No 5 Francisco, 17-6-C, 1978.png | Side of No. 5 Francisco St
+File:FSPS Gold Street 025, No 15, 17-7-C, 1978.png | No. 15
+File:FSPS Gold Street 026, No 13, Audrey Jessica Allison, 17-7-C, 1978.png | No. 13
+File:FSPS Gold Street 027, No 11, 17-7-G, 1978.png | No. 11
+File:FSPS Gold Street 028, Nos 29-27-25, 17-7-C2, 1978.png | Nos. 25, 27, & 29 ([[:File:FSPS Gold Street 028, Nos 29-27-25, 17-7-C2, 1978 (verso).png|verso]])
+File:FSPS Gold Street 029, No 31, 17-7-C2, 1978.png | No. 31
+File:FSPS Gold Street 031, No 33, 17-7-C2, 1978.png | No. 33
+</gallery>

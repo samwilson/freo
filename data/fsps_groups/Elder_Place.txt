@@ -1,0 +1,17 @@
+{{FSPS street|Elder Place|10|folder=6|ident=FSPSEP|folder_order=2|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Elder Place 001, Cnr James St, 7-5-J, 1980.png
+File:FSPS Elder Place 002, James to Edward, 7-6-J, 1980.png
+File:FSPS Elder Place 003, Woolstores, 7-6-J, 1980.png
+File:FSPS Elder Place 004, Cold Stores between James and Edward, 7-6-J, 1980.png
+File:FSPS Elder Place 005, Between James and Edward, 7-6-J, 1980.png
+File:FSPS Elder Place 006, Between James and Edward, 7-6-J, 1980.png
+File:FSPS Elder Place 007, Between James and Edward, 7-6-J, 1980.png
+File:FSPS Elder Place 008, Between James and Edward, 7-6-J.png
+File:FSPS Elder Place 009, Between James and Edward, 7-6-J, 1980.png
+File:FSPS Elder Place 010, Cnr Edward, 7-6-J, 1980.png
+</gallery>

@@ -1,0 +1,44 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+
+    <h2>
+        {% if page.metadata.title is defined and page.metadata.title %}
+            {{ page.metadata.title }}
+        {% endif %}
+    </h2>
+
+    <div class="row">
+
+        <div class="col-md-5">
+            {% if page.metadata.thumb is defined %}
+                <img src="{{ page.metadata.thumb }}" class="img-fluid mr-2 float-left" />
+            {% endif %}
+        </div>
+
+        <div class="col-md-7">
+            {% if page.metadata.date is defined %}
+                <p>
+                    <strong>Date:</strong>
+                    {% if instanceof( page.metadata.date, '\DateTime' ) %}
+                        <time datetime="{{ page.metadata.date.format('c') }}">{{ page.metadata.date.format('Y-m-d') }}</time>
+                    {% else %}
+                        <time>{{ page.metadata.date }}</time>
+                    {% endif %}
+                </p>
+            {% endif %}
+        </div>
+
+    </div><!-- .row -->
+
+    {% if page.metadata.images is defined %}
+        <h3 id="images" class="mt-4">Images</h3>
+        <div class="row">
+            {% for image in page.metadata.images %}
+                <code>{{image}}</code>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+{% endblock %}

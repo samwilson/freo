@@ -1,0 +1,17 @@
+{{FSPS street|Rueben Street|11|ident=|folder=9|folder_order=4|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:FSPS Reuben Street 001, No 6, 18-1-A, 1979.png
+File:FSPS Reuben Street 002, No 4, 18-1-A, 1979.png
+File:FSPS Reuben Street 003, No 1, 18-1-A, 1979.png
+File:FSPS Reuben Street 004, Side of No 18 South St, 18-1-A, 1979.png
+File:FSPS Reuben Street 005, No 7, 18-1-A, 1979.png
+File:FSPS Reuben Street 006, No 9, 18-1-A, 1979.png
+File:FSPS Reuben Street 007, No 11, 18-1-A, 1979.png
+File:FSPS Reuben Street 008, No 5, 18-1-A, 1979.png
+File:FSPS Reuben Street 009, No 3, 18-1-A, 1979.png
+File:FSPS Reuben Street 010, No 2, demolished, 18-1-A, 1979.png
+File:FSPS Reuben Street 011, Side of St Pauls, 18-1-A, 1979.png
+</gallery>

@@ -1,0 +1,42 @@
+{{FSPS street|Martha Street|38|ident=|folder=13|folder_order=7|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS Martha Street 001, Side of No 35 Lilly St, 17-10-N, 1978.png
+File:FSPS Martha Street 002, No 5 or maybe 7, 17-4-L, 1978.png
+File:FSPS Martha Street 003, Maybe No 9, 17-4-L, 1978.png
+File:FSPS Martha Street 004, No 3, 17-4-L.png
+File:FSPS Martha Street 005, Side of house on Hampton Rd, 17-4-L, 1978.png
+File:FSPS Martha Street 006, Post office car park between No 7 and PO, sec. 18, 1979.png
+File:FSPS Martha Street 007, No 13A, 18-B, 1979.png
+File:FSPS Martha Street 008, Between 17 and 15, Rear 4 Agnes St, 18-13, 1979.png
+File:FSPS Martha Street 009, No 17, 18-13, 1979.png
+File:FSPS Martha Street 010, No 21, 18-13, 1979.png
+File:FSPS Martha Street 011, Vacant block between corner and No 23, 18-B, 1979.png
+File:FSPS Martha Street 012, Side of 149 Edmund St, 18-13, 1979.png
+File:FSPS Martha Street 013, No 29, 18-10-M, 1980.png
+File:FSPS Martha Street 014, Nos 31A and 31B, 18-10-M, 1980.png
+File:FSPS Martha Street 015, No 33, 8-9-N, 1980.png
+File:FSPS Martha Street 016, Side of 22 Seaview St, 18-9-N, 1980.png
+File:FSPS Martha Street 017, NO 35, 18-9-N, 1980.png
+File:FSPS Martha Street 018, Side 23 Curedale St, 18-9-N, 1980.png
+File:FSPS Martha Street 019, No 36, 18-7-F, 1979.png
+File:FSPS Martha Street 020, No 34, 18-7-F, 1979.png
+File:FSPS Martha Street 021, No 32, 18-7-F, 1979.png
+File:FSPS Martha Street 022, No 30, 18-7-F, 1979.png
+File:FSPS Martha Street 023, Side of No 138 Edmund St, 18-6-E, 1979.png
+File:FSPS Martha Street 024, Side of No 147 Edmund St, 18-5-D, 1979.png
+File:FSPS Martha Street 025, No 24, 18-5-D, 1979.png
+File:FSPS Martha Street 026, No 20, 18-5-D, 1979.png
+File:FSPS Martha Street 027, Side of 21 Trafford St, 18-4-C, 1979.png
+File:FSPS Martha Street 028, Side 141 Solomon St, 18-3-B, 1979.png
+File:FSPS Martha Street 029, Side 26 McCleery St, 18-3-B, 1979.png
+File:FSPS Martha Street 030, Side of 17 McCleery St, 18-2-A, 1979.png
+File:FSPS Martha Street 031, No 16, 18-2-A, 1979.png
+File:FSPS Martha Street 032, No 16, 18-2-A, 1979.png
+File:FSPS Martha Street 033, No 12, 17-2-P, 1978.png
+File:FSPS Martha Street 034, No 10, 17-2-P, 1978.png
+File:FSPS Martha Street 035, No 8, 17-2-P, 1978.png
+File:FSPS Martha Street 036, No 6, 17-2-P, 1978.png
+File:FSPS Martha Street 037, No 4, 17-1-P, 1978.png
+File:FSPS Martha Street 038, No 2, 17-1-P, 1978.png
+</gallery>

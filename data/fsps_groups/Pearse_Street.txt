@@ -1,0 +1,39 @@
+{{FSPS street|Pearse Street|34|ident=|folder=8|folder_order=12|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS Pearse Street 001, No 19, 4-4-C, 1979.png
+File:FSPS Pearse Street 002, No 17, 4-4-C, 1979.png
+File:FSPS Pearse Street 003, Nos 4-2, Michael Patroni, 4-2-E, 1978.png
+File:FSPS Pearse Street 004, No 3, 4-2-D, 1978.png
+File:FSPS Pearse Street 005, No 5 June Dianne Boykett, 4-2-D, 1978.png
+File:FSPS Pearse Street 006, No 9, Barbara Ann Bishop, 4-2-D, 1978.png
+File:FSPS Pearse Street 007, No 11, 4-2-D, 1978.png
+File:FSPS Pearse Street 008, No 15, 4-2-D, 1978.png
+File:FSPS Pearse Street 009, No 13, 4-2-D, 1978.png
+File:FSPS Pearse Street 010, No 36, 4-1-E, 1978.png
+File:FSPS Pearse Street 011, No 34, 4-1-E, 1978.png
+File:FSPS Pearse Street 012, No 30, 4-1-E, 1978.png
+File:FSPS Pearse Street 013, No 28, 4-1-E, 1978.png
+File:FSPS Pearse Street 014, No 26, 4-1-E, 1978.png
+File:FSPS Pearse Street 015, No 24, Salvatore Buontempo, 4-1-E, 1978.png
+File:FSPS Pearse Street 016, No 22, 4-1-E, 1978.png
+File:FSPS Pearse Street 017, No 20, 4-1-E, 1978.png
+File:FSPS Pearse Street 018, No 18, 4-1-E, 1978.png
+File:FSPS Pearse Street 019, No 16, 4-1-E, 1978.png
+File:FSPS Pearse Street 020, No 14, 4-1-E, 1978.png
+File:FSPS Pearse Street 021, Nos 12-10, Alfred John and Mary Barnes, 4-1-E, 1978.png
+File:FSPS Pearse Street 022, No 8, 4-1-E, 1978.png
+File:FSPS Pearse Street 023, No 32, 4-1-E, 1978.png
+File:FSPS Pearse Street 024, No 38, 4-4-B, 1979.png
+File:FSPS Pearse Street 025, No 40, 4-4-B, 1979.png
+File:FSPS Pearse Street 026, No 42, 4-4-B, 1979.png
+File:FSPS Pearse Street 027, No 44, 4-4-B, 1979.png
+File:FSPS Pearse Street 028, No 14, 4-2-D, 1978.png
+File:FSPS Pearse Street 029, 4-2-D, 1978.png
+File:FSPS Pearse Street 030, No 15A, 4-2-D, 1978.png
+File:FSPS Pearse Street 031, No 21, 4-4-C, 1979.png
+File:FSPS Pearse Street 032, No 25, 4-4-C, 1979.png
+File:FSPS Pearse Street 033, No 6, 4-2-E, 1978.png
+File:FSPS Pearse Street 034, No 23, 4-4-C, 1979.png
+</gallery>

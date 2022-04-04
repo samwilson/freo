@@ -1,0 +1,11 @@
+tmp/
+cache/
+vendor/
+node_modules/
+
+/output/*
+!/output/_redirects
+!/output/robots.txt
+!/output/favicon.ico
+!/output/favicon-16x16.png
+!/output/favicon-32x32.png

@@ -1,0 +1,34 @@
+{{FSPS street|John Street|30|ident=FSPSJS3|folder=6|folder_order=13|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:FSPS John Street 001, North Fremantle Primary, 5-3-C, 1980.png
+File:FSPS John Street 002, North Fremantle Primary, 5-3-C, 1980.png
+File:FSPS John Street 003, North Fremantle Primary, 5-3-C, 1980.png
+File:FSPS John Street 004, No 6, 5-1-B, 1978-80.png
+File:FSPS John Street 005, No 8, 5-1-B, 1978-80.png
+File:FSPS John Street 006, No 10, 5-1-B, 1978-80.png
+File:FSPS John Street 007, No 12, 5-1-B, 1978-80.png
+File:FSPS John Street 008, No 14, 5-1-B, 1978-80.png | No. 14 ([[:File:FSPS John Street 008, No 14, 5-1-B, 1978-80 (verso).png|verso]])
+File:FSPS John Street 009, No 16, 5-1-B, 1978-80.png
+File:FSPS John Street 010, Vacant lot between No 8 and No 12, 5-1-B, 1978-80.png
+File:FSPS John Street 011, Nos 18-20, 5-1-B, 1978-80.png
+File:FSPS John Street 012, No 22, 5-1-B, 1978-80.png
+File:FSPS John Street 013, No 24, 5-1-B, 1978-80.png
+File:FSPS John Street 014, No 26, 5-1-B, 1978-80.png
+File:FSPS John Street 015, No 38, 5-3-C, 1980.png
+File:FSPS John Street 016, No 42, 5-3-C, 1980.png
+File:FSPS John Street 017, No 44, 5-3-C, 1980.png
+File:FSPS John Street 018, No 44, R11, 1980.png
+File:FSPS John Street 019, No 46, R11, 1980.png
+File:FSPS John Street 020, No 46, 5-3-C, 1980.png
+File:FSPS John Street 021, Passmore Ave from John St, 5-1-B, 1978-80.png
+File:FSPS John Street 022, Nos 1-7, 5-2-D, 1978-80.png
+File:FSPS John Street 023, No 11, 5-2-D, 1978-80.png
+File:FSPS John Street 024, No 31, 5-3-E, 1980.png
+File:FSPS John Street 025, Side of No 31 John, 5-3-E, 1980.png
+File:FSPS John Street 026, No 33, 5-3-E, 1980.png
+File:FSPS John Street 027, No 35, 5-3-E, 1980.png
+File:FSPS John Street 028, No 37, 5-3-E, 1980.png
+File:FSPS John Street 029, No 39, 5-3-E, 1980.png
+File:FSPS John Street 030, No 41, 5-3-E, 1980.png
+</gallery>

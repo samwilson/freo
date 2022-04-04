@@ -1,0 +1,43 @@
+{{FSPS street|King William Street|38|ident=FSPSKWS|folder=7|folder_order=3|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:FSPS King William Street 001, No 4, 16-4-F, 1978.png
+File:FSPS King William Street 002, Nos 6-8, 16-5-F, 1978.png
+File:FSPS King William Street 003, No 10, 16-5-F, 1978.png
+File:FSPS King William Street 004, 16-5-F, 1978.png
+File:FSPS King William Street 005, Side of surgery, 17-12-E, 1978.png
+File:FSPS King William Street 006, Rear of surgery, 17-12-E, 1978.png
+File:FSPS King William Street 007, No 12, 17-12-E, 1978.png
+File:FSPS King William Street 008, No 14, 17-12-E, 1978.png
+File:FSPS King William Street 009, No 16, 17-12-E, 1978.png
+File:FSPS King William Street 010, No 18, 17-12-E, 1978.png
+File:FSPS King William Street 011, No 20, 17-12-E, 1978.png
+File:FSPS King William Street 012, No 22 lot 40, Michael Naidos, 17-12-E, 1978.png
+File:FSPS King William Street 013, No 24, 17-12-E, 1978.png
+File:FSPS King William Street 014, No 26, 17-12-E, 1978.png
+File:FSPS King William Street 015, No 28, 17-12-E, 1978.png
+File:FSPS King William Street 016, No 30, 17-12-E, 1978.png
+File:FSPS King William Street 017, No 32, 17-12-E, 1978.png
+File:FSPS King William Street 018, No 1, 18-5-G, 1978.png
+File:FSPS King William Street 019, No 3, 16-5-G, 1978.png
+File:FSPS King William Street 020, No 5, 16-5-G, 1978.png
+File:FSPS King William Street 021, Cnr Marine Tce, 16-5-G, 1978.png
+File:FSPS King William Street 022, No 7, 16-5-G, 1978.png
+File:FSPS King William Street 023, No 9, 16-5-G, 1978.png
+File:FSPS King William Street 024, No 11, 16-5-G, 1978.png
+File:FSPS King William Street 025, No 13, Jane and Norma Tapper, lot 48, 16-5-G, 1978.png
+File:FSPS King William Street 026, No 15, 17-13-F, 1978.png
+File:FSPS King William Street 027, No 17, 17-13-F, 1978.png
+File:FSPS King William Street 028, No 19, 17-13-F, 1978.png
+File:FSPS King William Street 029, No 21, 17-13-F, 1978.png
+File:FSPS King William Street 030, 17-12-E, 1978.png
+File:FSPS King William Street 031, cnr Attfield, 17-12-(F or E), 1978.png
+File:FSPS King William Street 032, No 23 Ante and Viktorija Borcic, Lot 57, 17-12-F, 1978.png
+File:FSPS King William Street 033, No 25, 17-12-F, 1978.png
+File:FSPS King William Street 034, No 27, 17-12-F, 1978.png
+File:FSPS King William Street 035, No 29, 17-12-F, 1978.png
+File:FSPS King William Street 036, No 31, 17-12-F, 1978.png
+File:FSPS King William Street 037, No 33, 17-12-F, 1978.png
+File:FSPS King William Street 038, maybe No 35, rear 131 Attfield St, 17-12-F, 1978.png
+</gallery>

@@ -1,0 +1,70 @@
+{{FSPS street|Queen Victoria Street|63|ident=FSPSQVS|folder=8|folder_order=5|folder_check=1}}
+
+<gallery widths=250px mode=nolines perrow=4>
+File:Empty.png
+File:Empty.png
+File:Empty.png
+File:FSPS Queen Victoria Street 001, Nos 6C-10, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 002, Nos 26-30, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 003, Between Elders and Shacks, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 004, Between Youngs and No 60, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 005, Nos 62-4, 7-1-B, 1980.png
+File:FSPS Queen Victoria Street 006, Nos 66-70, 7-1-B, 1980.png
+File:FSPS Queen Victoria Street 007, No 72, 7-1-B, 1980.png
+File:FSPS Queen Victoria Street 008, Nos 74-92, 7-1-B, 1980.png
+File:FSPS Queen Victoria Street 009, No 94-110, 7-1-B, 1980.png
+File:FSPS Queen Victoria Street 010, Nos 107-105-103, 6-2-A, 1980.png
+File:FSPS Queen Victoria Street 011, Nos 107-105-103, 6-2-A, 1980.png
+File:FSPS Queen Victoria Street 012, No 97, 6-1-A, 1980.png
+File:FSPS Queen Victoria Street 013, No 101-99, 6-1-A, 1980.png
+File:FSPS Queen Victoria Street 014, cnr Burt St, 6-2-A, 1980.png
+File:FSPS Queen Victoria Street 015, Nos 113-111-109, 6-2-A, 1980.png
+File:FSPS Queen Victoria Street 016, Nos 229-229A-229B, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 017, 4-3-9, 1979.png
+File:FSPS Queen Victoria Street 018, No 220, 4-8-H, 1979.png
+File:FSPS Queen Victoria Street 019, No 214, 4-5-H.png
+File:FSPS Queen Victoria Street 020, No 212, 4-5-H, 1979.png
+File:FSPS Queen Victoria Street 021, No 210, 4-5-H, 1979.png
+File:FSPS Queen Victoria Street 022, No 208, 4-5-H.png
+File:FSPS Queen Victoria Street 023, Side from Tydeman St, 4-5-H, 1979.png
+File:FSPS Queen Victoria Street 024, Cnr Burt, 7-1-C, 1980.png
+File:FSPS Queen Victoria Street 025, 7-1-C, 1980.png
+File:FSPS Queen Victoria Street 026, 7-1-C, 1980.png
+File:FSPS Queen Victoria Street 027, No 75, 7-1-C, 1980.png
+File:FSPS Queen Victoria Street 028, No 55, 7-5-1, 1980.png
+File:FSPS Queen Victoria Street 029, No 36-, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 030, Nos 32-34, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 031, Nos 12-14, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 032, No 16, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 033, Nos 18-24, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 034, Side of No 2 Edward, 7-6-J, 1980.png
+File:FSPS Queen Victoria Street 035, cnr James St, 7-1-C, 1980.png
+File:FSPS Queen Victoria Street 036, SW cnr James, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 037, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 038, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 039, Nos 51-3, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 040, Nos 47-49, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 041, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 042, Nos 31-33, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 043, No 29, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 044, Nos 23-27, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 045, No 21, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 046, No 19, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 047, No 19, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 048, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 049, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 050, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 051, No 3, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 052, No 1, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 053, Side of No 1, 7-5-I, 1980.png
+File:FSPS Queen Victoria Street 054, Nos 213-215-217, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 055, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 056, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 057, No 231, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 058, maybe Nos 233-237, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 059, Nos 239-245, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 060, Nos 255-261, note vacant lot between 245 and 255, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 061, No 261A, 4-2-F, 1978.png
+File:FSPS Queen Victoria Street 062, WA Ballet Co, 4-3-G, 1979.png
+File:FSPS Queen Victoria Street 063, Side of Harvest Rd, 4-3-G, 1979.png
+</gallery>
