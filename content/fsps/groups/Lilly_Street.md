@@ -57,7 +57,7 @@ files:
         caption: ~
     -
         filename: 'FSPS_Lilly_Street_017,_Vacant_lot_between_22_and_26,_17-1-P,_1978.png'
-        caption: ~
+        caption: 'Vacant lot between 22 & 26 ([[:File:FSPS Lilly Street 017, Vacant lot between 22 and 26, 17-1-P, 1978 (cropped).png|cropped]])'
     -
         filename: 'FSPS_Lilly_Street_018,_No_26,_17-1-P,_1978.png'
         caption: ~

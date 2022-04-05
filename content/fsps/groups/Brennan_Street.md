@@ -9,8 +9,8 @@ description: ~
 files:
     -
         filename: 'FSPS_Brennan_Street,_no_6,_12-3-B,_1979.png'
-        caption: ~
+        caption: 'No. 6'
     -
         filename: 'FSPS_Brennan_Street,_nos_4-2,_12-3-B,_1979.png'
-        caption: ~
+        caption: 'Nos. 2 & 4'
 ---

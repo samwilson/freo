@@ -24,7 +24,7 @@ files:
         caption: ~
     -
         filename: 'FSPS_Solomon_Street,_no._160,_18-11-L_1980.png'
-        caption: ~
+        caption: 'No. 160'
     -
         filename: 'FSPS_Solomon_Street_006,_No_144,_18-4-C,_1979.png'
         caption: ~
@@ -240,13 +240,13 @@ files:
         caption: ~
     -
         filename: 'FSPS_Solomon_Street,_no._157,_18-14-79.png'
-        caption: ~
+        caption: 'No. 157'
     -
         filename: 'FSPS_Solomon_Street,_no._65,_9-6-E_1978.png'
         caption: ~
     -
         filename: 'FSPS_Solomon_Street,_no._159,_18-14-79.png'
-        caption: ~
+        caption: 'No. 159'
     -
         filename: 'FSPS_Solomon_Street,_no._149,_18-14-79.png'
         caption: ~

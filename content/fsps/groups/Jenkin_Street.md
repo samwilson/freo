@@ -30,16 +30,16 @@ files:
         caption: ~
     -
         filename: 'FSPS_Jenkin_Street_008,_No_27,_19-1-A,_1978.png'
-        caption: ~
+        caption: 'No. 27 ([[:File:FSPS Jenkin Street 008 (verso).png|verso]])'
     -
         filename: 'FSPS_Jenkin_Street_009,_No_29,_demolished,_19-1-A,_1978.png'
-        caption: ~
+        caption: 'No. 29 ([[:File:FSPS Jenkin Street 009 (verso).png|verso]])'
     -
         filename: 'FSPS_Jenkin_Street_010,_No_31,_demolished,_19-1-A,_1978.png'
-        caption: ~
+        caption: 'No. 31 ([[:File:FSPS Jenkin Street 010 (verso).png|verso]])'
     -
         filename: 'FSPS_Jenkin_Street_011,_No_33,_19-1-A,_1978.png'
-        caption: ~
+        caption: 'No. 33 ([[:File:FSPS Jenkin Street 011 (verso).png|verso]])'
     -
         filename: 'FSPS_Jenkin_Street_012,_Mills_and_Wares_factory,_19-1-A,_1978.png'
         caption: ~
@@ -54,10 +54,10 @@ files:
         caption: ~
     -
         filename: 'FSPS_Jenkin_Street_016,_Nos_6-10,_16-6-H,_1978.png'
-        caption: ~
+        caption: 'Nos. 6–10 ([[:File:FSPS Jenkin Street 016 (verso).png|verso]])'
     -
         filename: 'FSPS_Jenkin_Street_017,_Nos_2-10,_16-6-H,_1978.png'
-        caption: ~
+        caption: 'Nos. 2–10 ([[:File:FSPS Jenkin Street 017 (verso).png|verso]])'
     -
         filename: 'FSPS_Jenkin_Street_018,_No_12-16,_16-6-H,_1978.png'
         caption: ~

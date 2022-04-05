@@ -9,17 +9,17 @@ description: ~
 files:
     -
         filename: 'FSPS_Amherst_Street,_No_63,_11-1-B,_1978.png'
-        caption: ~
+        caption: 'No. 63'
     -
         filename: 'FSPS_Amherst_Street,_53A,_11-1-B,_1978.png'
-        caption: ~
+        caption: 'No. 53A'
     -
         filename: 'FSPS_Amherst_Street,_57,_11-1-B,_1978.png'
-        caption: ~
+        caption: 'No. 57'
     -
         filename: 'FSPS_Amherst_Street,_55,_11-1-B,_1978.png'
-        caption: ~
+        caption: 'No. 55'
     -
         filename: 'FSPS_Amherst_Street,_59,_11-1-B,_1978.png'
-        caption: ~
+        caption: 'No. 59'
 ---

@@ -69,7 +69,7 @@ files:
         caption: ~
     -
         filename: FSPS_Hickory_Street_021.png
-        caption: ~
+        caption: 'Note ([[:File:FSPS Hickory Street 021 (verso).png|verso]])'
     -
         filename: 'FSPS_Hickory_Street_022,_No_12,_21-2-B,_1979.png'
         caption: ~

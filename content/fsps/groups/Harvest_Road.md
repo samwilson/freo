@@ -84,31 +84,31 @@ files:
         caption: ~
     -
         filename: 'FSPS_Harvest_Road_026,_No_36,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 36 ([[:File:FSPS Harvest Road 026, No 36, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_027,_No_38,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 38 ([[:File:FSPS Harvest Road 027, No 38, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_028,_No_40,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 40 ([[:File:FSPS Harvest Road 028, No 40, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_029,_No_42,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 42 ([[:File:FSPS Harvest Road 029, No 42, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_030,_No_44,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 44 ([[:File:FSPS Harvest Road 030, No 44, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_031,_No_46,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 46 ([[:File:FSPS Harvest Road 031, No 46, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_032,_No_48,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 48 ([[:File:FSPS Harvest Road 032, No 48, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_033,_No_50,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 50 ([[:File:FSPS Harvest Road 033, No 50, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_034,_No_52,_3-1-E,_1978.png'
-        caption: ~
+        caption: 'No. 52 ([[:File:FSPS Harvest Road 034, No 52, 3-1-E, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Harvest_Road_035,_No_54,_3-1-E,_1978.png'
         caption: ~

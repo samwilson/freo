@@ -75,10 +75,10 @@ files:
         caption: ~
     -
         filename: 'FSPS_Scott_Street_023,_No_35,_19-3-D,_1978.png'
-        caption: ~
+        caption: 'No. 35'
     -
         filename: 'FSPS_Scott_Street_024,_No_36,_19-1-B,_1978.png'
-        caption: ~
+        caption: 'No. 36 ([[:File:FSPS Scott Street 024, No 36, 19-1-B, 1978_modified.jpg|modified]])'
     -
         filename: 'FSPS_Scott_Street_025,_No_30,_19-1-B,_1978.png'
         caption: ~

@@ -35,7 +35,7 @@ class FspsBuildCommand extends Command {
             $files = [];
             foreach (explode("\n", $text) as $line) {
                 if (substr($line, 0, 2) == '{{') {
-                    $parts = array_filter(explode('|', trim($line, '{}')));
+                    $parts = array_filter(explode('|', trim($line, ' {}')));
                     if ($parts[0] !== 'FSPS street') {
                         break;
                     }
@@ -51,6 +51,7 @@ class FspsBuildCommand extends Command {
                         if ($param === 'ident') {
                             continue;
                         }
+                        $val = trim($val);
                         $metadata[$param] = is_numeric($val) ? (int)$val : $val;
                     }
                 } elseif (strpos($line, '<gallery') !== false) {
@@ -75,7 +76,7 @@ class FspsBuildCommand extends Command {
                     $imagefile = str_replace(' ', '_', $imagefile);
                 
                     $caption = ($pipePos !== false) ? trim(substr($line, $pipePos+1)) : null;
-                    if (!empty($caption)) {
+                    if (empty($caption)) {
                         $caption = null;
                     }
                     $files[] = [
