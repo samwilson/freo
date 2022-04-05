@@ -30,7 +30,7 @@ files:
         caption: ~
     -
         filename: 'FSPS_John_Street_008,_No_14,_5-1-B,_1978-80.png'
-        caption: ~
+        caption: 'No. 14 ([[:File:FSPS John Street 008, No 14, 5-1-B, 1978-80 (verso).png|verso]])'
     -
         filename: 'FSPS_John_Street_009,_No_16,_5-1-B,_1978-80.png'
         caption: ~

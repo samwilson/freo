@@ -9,14 +9,14 @@ description: 'See also [[commons:File:Plans_for_the_Park_Hotel,_corner_of_Parry_
 files:
     -
         filename: FSPS_Park_Hotel_envelope.png
-        caption: ~
+        caption: Envelope
     -
         filename: FSPS_Park_Hotel_negatives.png
-        caption: ~
+        caption: 'Both negatives'
     -
         filename: FSPS_Park_Hotel_negative_1.png
-        caption: ~
+        caption: 'Negative 1'
     -
         filename: FSPS_Park_Hotel_negative_2.png
-        caption: ~
+        caption: 'Negative 2'
 ---

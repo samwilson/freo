@@ -12,13 +12,13 @@ files:
         caption: ~
     -
         filename: 'FSPS_Hampton_Road_102,_Nos_62-64,_9-5-D,_1978.png'
-        caption: ~
+        caption: 'Nos 62 & 64 ([[:File:FSPS Hampton Road 102, Nos 62-64, 9-5-D, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Hampton_Road_103,_Nos_66-68,_9-5-D,_1978.png'
-        caption: ~
+        caption: 'Nos 66 & 68 ([[:File:FSPS Hampton Road 103, Nos 66-68, 9-5-D, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Hampton_Road_104,_Nos_70-72,_9-5-D,_1978.png'
-        caption: ~
+        caption: 'Nos 70 & 72 ([[:File:FSPS Hampton Road 104, Nos 70-72, 9-5-D, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Hampton_Road_105,_Nos_74-76,_9-5-D,_1978.png'
         caption: ~

@@ -18,20 +18,20 @@ files:
         caption: ~
     -
         filename: 'FSPS_Crandon_Street_001,_no_8,_12-6-E,_1978.png'
-        caption: ~
+        caption: 'No. 8'
     -
         filename: 'FSPS_Crandon_Street_002,_no_14,_12-6-E,_1978.png'
-        caption: ~
+        caption: 'No. 14'
     -
         filename: 'FSPS_Crandon_Street_003,_south_side_(opposite_nos_10,_12),_12-6-E,_1978.png'
-        caption: ~
+        caption: 'Opposite nos. 10 & 12'
     -
         filename: 'FSPS_Crandon_Street_004,_south_side_(opposite_nos_12,_14),_12-6-E.png'
-        caption: ~
+        caption: 'Opposite nos. 12 & 14'
     -
         filename: 'FSPS_Crandon_Street_005,_no_12,_12-6-E,_1978.png'
-        caption: ~
+        caption: 'No. 12'
     -
         filename: 'FSPS_Crandon_Street_006,_no_10,_12-6-E,_1978.png'
-        caption: ~
+        caption: 'No. 10'
 ---

@@ -171,7 +171,7 @@ files:
         caption: ~
     -
         filename: 'FSPS_Hampton_Road_055,_Nos_153-155,_17-9-L,_1978.png'
-        caption: ~
+        caption: 'Nos 153 & 155 ([[:File:FSPS Hampton Road 055, Nos 153-155, 17-9-L, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Hampton_Road_056,_No_155,_as_previously,_17-4-L,_1978.png'
         caption: ~

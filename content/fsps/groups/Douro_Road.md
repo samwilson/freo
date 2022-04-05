@@ -33,7 +33,7 @@ files:
         caption: ~
     -
         filename: 'FSPS_Douro_Road_009,_No_26,_19-4-FvI,_1978.png'
-        caption: ~
+        caption: 'No. 26 ([[:File:FSPS Douro Road 009verso, diagram.png|verso]])'
     -
         filename: 'FSPS_Douro_Road_010,_No_32,_19-4-FvI,_next_to_shop,_1978.png'
         caption: ~
@@ -63,7 +63,7 @@ files:
         caption: ~
     -
         filename: 'FSPS_Douro_Road_019,_No_50,_20-3-F,_1978.png'
-        caption: ~
+        caption: 'No 50 ([[:File:FSPS Douro Road 019verso, diagram.png|verso]])'
     -
         filename: 'FSPS_Douro_Road_020,_Cnr_South_Tce,_21-1-A,_1979.png'
         caption: ~

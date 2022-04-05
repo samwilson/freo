@@ -9,17 +9,17 @@ description: ~
 files:
     -
         filename: 'FSPS_Staples_Street,_No._18,_2-3-B_1980.png'
-        caption: ~
+        caption: 'No. 18'
     -
         filename: 'FSPS_Staples_Street,_No._17,_2-3-B_1980.png'
-        caption: ~
+        caption: 'No. 17'
     -
         filename: 'FSPS_Staples_Street,_No._16,_2-3-B_1980.png'
-        caption: ~
+        caption: 'No. 16'
     -
         filename: 'FSPS_Staples_Street,_View_north_side,_2-3-B_1980.png'
-        caption: ~
+        caption: 'View of the north side'
     -
         filename: 'FSPS_Staples_Street,_No._15,_2-3-B.png'
-        caption: ~
+        caption: 'No. 15'
 ---

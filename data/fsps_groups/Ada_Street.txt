@@ -1,6 +1,4 @@
-{{FSPS street|Ada Street|13| ident = FSPSAS2 | folder       = 1
- | folder_order = 1
- | folder_check = 1}}
+{{FSPS street|Ada Street|13| ident = FSPSAS2 | folder       = 1 | folder_order = 1 | folder_check = 1}}
 
 <gallery>
 FSPS Ada Street, No. 2, 16-4-E 1978.png|[[2 Ada Street, Fremantle|No. 2]]

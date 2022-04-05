@@ -9,14 +9,14 @@ description: ~
 files:
     -
         filename: 'FSPS_Dale_Street_001,_side_of_no_16_Lilly_St,_17-1-P,_1978.png'
-        caption: ~
+        caption: 'Side of No. 16 Lilly St'
     -
         filename: 'FSPS_Dale_Street_002,_no_2_(cul-de-sac),_17-1-P,_1978.png'
-        caption: ~
+        caption: 'No. 2'
     -
         filename: 'FSPS_Dale_Street_003,_Opposite_no_2_(vacant_block),_17-1-P,_1978.png'
-        caption: ~
+        caption: 'Opposite No. 2'
     -
         filename: 'FSPS_Dale_Street_004,_side_of_no_18_Lilly_St,_17-1-P,_1978.png'
-        caption: ~
+        caption: 'Side of No. 18 Lilly St'
 ---

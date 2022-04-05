@@ -18,7 +18,7 @@ files:
         caption: ~
     -
         filename: 'FSPS_Grey_Street_004,_No_6,_15-2-B,_1978.png'
-        caption: ~
+        caption: 'No. 6 ([[:File:FSPS Grey Street 005, No 8, 15-2-B, 1978 (verso).png|verso]])'
     -
         filename: 'FSPS_Grey_Street_005,_No_8,_15-2-B,_1978.png'
         caption: ~
