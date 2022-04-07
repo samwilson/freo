@@ -95,5 +95,4 @@ class FspsBuildCommand extends Command {
 
         return Command::SUCCESS;
     }
-
 }

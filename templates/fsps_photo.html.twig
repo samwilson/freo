@@ -1,0 +1,60 @@
+{% extends '_base.html.twig' %}
+
+{% block title_head %}
+    FSPS {{ page.metadata.group|replace({'_': ' '})}}, photo {{page.id|basename}} ::
+{% endblock %}
+
+{% block title_page %}
+{% endblock %}
+
+{% block main %}
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{page.link('/index')}}.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="{{page.link('/fsps/index')}}.html" title="Fremantle Society Photographic Survey">FSPS</a></li>
+            <li class="breadcrumb-item"><a href="{{page.link('/fsps/groups/'~page.metadata.group)}}.html">{{page.metadata.group|replace({'_': ' '})}}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Photo {{page.id|basename}}</li>
+        </ol>
+    </nav>
+
+    <h1>
+        {{page.metadata.group|replace({'_': ' '})}} {{page.id|basename}}
+    </h1>
+
+    {% set folder = database.query('SELECT folder FROM pages WHERE id="/fsps/groups/' ~ page.metadata.group ~ '"').fetchColumn() %}
+
+    {% if folder < 10 %}
+        {% set folder_name = 'Folder_0' ~ folder %}
+    {% else %}
+        {% set folder_name = 'Folder_' ~ folder %}
+    {% endif %}
+
+    {% set file1 = page.metadata.files.0 %}
+    <figure class="figure mx-auto">
+        <img src="https://archive.org/download/FSPS1978/display/{{folder_name}}/{{page.metadata.group}}/{{file1.filename|replace({'.png': '_display.jpg'})}}"
+            class="figure-img img-fluid rounded" />
+        <figcaption class="figure-caption">{{file1.caption}}</figcaption>
+    </figure>
+
+    <p>
+        <a href="https://archive.org/download/FSPS1978/full/{{folder_name}}/{{page.metadata.group}}/{{file1.filename}}" class="btn btn-secondary btn-sm active">
+            Download full-resolution version
+        </a>
+    </p>
+
+    <p>
+        Cite this photo as follows:
+    </p>
+
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+        <span property="cc:attributionName">Fremantle Society Inc.</span>,
+        {% if page.metadata.year %}{{page.metadata.year}}{% else %}1980{% endif %}.
+        <em>
+            <span property="dct:title">Fremantle Society Photographic Survey, {{page.metadata.group|replace({'_': ' '})}} photo {{page.id|basename}}</span>.
+        </em>
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener noreferrer"><abbr title="Creative Commons">CC</abbr> Attribution-ShareAlike 4.0 International</a>.
+        Retrieved from <a href="{{site.config.url}}{{page.id}}.html">{{site.config.url}}{{page.id}}.html</a>
+    </p>
+
+{% endblock %}

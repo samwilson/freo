@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        {% if page.metadata.title is defined %}
-            {{page.metadata.title}} ::
-        {% endif %}
+        {% block title_head %}
+            {% if page.metadata.title is defined %}
+                {{page.metadata.title}} ::
+            {% endif %}
+        {% endblock %}
         {{ site.title }}
     </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -55,9 +57,11 @@
 
     <main class="container flex-shrink-0 mt-4">
 
-        {% if page.metadata.title is defined %}
-            <h1>{{page.metadata.title}}</h1>
-        {% endif %}
+        {% block title_page %}
+            {% if page.metadata.title is defined %}
+                <h1>{{page.metadata.title}}</h1>
+            {% endif %}
+        {% endblock %}
 
         {% block main %}
             {{ page.body|md2html|raw }}

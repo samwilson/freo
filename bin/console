@@ -7,4 +7,5 @@ $application = new \Symfony\Component\Console\Application();
 $application->add(new \App\FspsScrapeCommand());
 $application->add(new \App\FspsBuildCommand());
 $application->add(new \App\FspsUploadCommand());
+$application->add(new \App\FspsPhotosCommand());
 $application->run();

@@ -24,12 +24,10 @@
             {% else %}
                 {% set folder_name = 'Folder_' ~ page.metadata.folder %}
             {% endif %}
-            {#<a href="{{page.link('/fsps/photos/'~page.metadata.title|replace({' ':'_'}))~'/'~(fileNum+1)}}.html" class="col-md">#}
-            <a href="https://archive.org/download/FSPS1978/full/{{folder_name}}/{{page.metadata.title|replace({' ': '_'})}}/{{file.filename}}" class="col-md">
+            <a href="{{page.link('/fsps/photos/'~page.metadata.title|replace({' ':'_'}))~'/'~(fileNum+1)}}.html" class="col-md">
                 <figure class="figure">
                     <img src="https://archive.org/download/FSPS1978/thumb/{{folder_name}}/{{page.metadata.title|replace({' ': '_'})}}/{{file.filename|replace({'.png': '_thumb.jpg'})}}"
-                        alt="" class="figure-img img-fluid rounded"
-                        />
+                        class="figure-img img-fluid rounded" />
                     <figcaption class="figure-caption">{{file.caption}}</figcaption>
                 </figure>
             </a>
