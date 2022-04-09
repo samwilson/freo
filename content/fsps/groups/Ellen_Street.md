@@ -166,4 +166,6 @@ files:
     -
         filename: 'FSPS_Ellen_Street_053,_No_97,_8-7-D.png'
         caption: ~
+streets:
+    - Ellen_Street
 ---

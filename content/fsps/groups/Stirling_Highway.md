@@ -6,6 +6,8 @@ folder: 4
 folder_order: 4
 folder_check: 1
 description: ~
+streets:
+    - Stirling_Highway
 files:
     -
         filename: 'FSPS_Stirling_Highway,_Weeties_building,_4-3-I_1979.png'

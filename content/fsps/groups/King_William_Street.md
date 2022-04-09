@@ -121,4 +121,6 @@ files:
     -
         filename: 'FSPS_King_William_Street_038,_maybe_No_35,_rear_131_Attfield_St,_17-12-F,_1978.png'
         caption: ~
+streets:
+    - King_William_Street
 ---

@@ -46,4 +46,6 @@ files:
     -
         filename: 'FSPS_Louisa_Street_013,_No_5,_16-3-D.png'
         caption: ~
+streets:
+    - Louisa_Street
 ---

@@ -88,4 +88,6 @@ files:
     -
         filename: 'FSPS_Trafford_Street_027,_No_30,_18-5-D,_1979.png'
         caption: ~
+streets:
+    - Trafford_Street
 ---

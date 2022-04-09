@@ -232,4 +232,6 @@ files:
     -
         filename: 'FSPS_Lefroy_Road_075,_Old_Beaconsfield_Primary,_18-4-13,_1979.png'
         caption: ~
+streets:
+    - Lefroy_Road
 ---

@@ -13,4 +13,6 @@ files:
     -
         filename: 'FSPS_Cantonment_Street_02,_no_11,_WE-3,_1980.png'
         caption: 'No. 11'
+streets:
+    - Cantonment_Street
 ---

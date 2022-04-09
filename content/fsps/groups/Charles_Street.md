@@ -61,4 +61,6 @@ files:
     -
         filename: 'FSPS_Charles_Street_18,_Side_of_Repco_Parts,_17-11-E,_1978.png'
         caption: 'Side of Repco Parts shop'
+streets:
+    - Charles_Street
 ---

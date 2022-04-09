@@ -76,4 +76,6 @@ files:
     -
         filename: 'FSPS_Suffolk_Street_023,_No_63_South_Tce,_14-4-B,_1978.png'
         caption: ~
+streets:
+    - Suffolk_Street
 ---

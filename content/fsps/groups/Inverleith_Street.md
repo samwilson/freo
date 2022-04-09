@@ -40,4 +40,6 @@ files:
     -
         filename: 'FSPS_Inverleith_Street_011,_Corner_block_vacant,_17-14-H,_1978.png'
         caption: ~
+streets:
+    - Inverleith_Street
 ---

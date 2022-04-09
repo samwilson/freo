@@ -118,4 +118,6 @@ files:
     -
         filename: 'FSPS_Hickory_Street_037,_Rear_South_Tce_3,_21-1-A,_1979.png'
         caption: ~
+streets:
+    - Hickory_Street
 ---

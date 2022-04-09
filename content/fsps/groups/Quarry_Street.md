@@ -109,4 +109,6 @@ files:
     -
         filename: 'FSPS_Quarry_Street_034,_No_51,_7-2-D,_1980.png'
         caption: ~
+streets:
+    - Quarry_Street
 ---

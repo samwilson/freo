@@ -64,4 +64,6 @@ files:
     -
         filename: 'FSPS_Alma_Street,_No_23,_12-6-E,_1978.png'
         caption: 'No. 23'
+streets:
+    - Alma_Street
 ---

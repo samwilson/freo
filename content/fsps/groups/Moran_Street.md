@@ -55,4 +55,6 @@ files:
     -
         filename: 'FSPS_Moran_Street_016,_Vacant_lot_maybe_No_10,_20-7-M,_1978.png'
         caption: ~
+streets:
+    - Moran_Street
 ---

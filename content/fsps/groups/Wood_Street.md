@@ -34,4 +34,6 @@ files:
     -
         filename: 'FSPS_Wood_Street_009,_No_93,_11-2-D,_1978.png'
         caption: ~
+streets:
+    - Wood_Street
 ---

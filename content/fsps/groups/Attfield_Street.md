@@ -316,4 +316,6 @@ files:
     -
         filename: 'FSPS_Attfield_Street,_vacant_blocks,_17-7-C2,_1978.png'
         caption: 'Vacant blocks'
+streets:
+    - Attfield_Street
 ---

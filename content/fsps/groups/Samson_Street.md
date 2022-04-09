@@ -139,4 +139,6 @@ files:
     -
         filename: 'FSPS_Samson_Street_044,_No_6,_10-3-D,_1978.png'
         caption: ~
+streets:
+    - Samson_Street
 ---

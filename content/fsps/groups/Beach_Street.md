@@ -16,4 +16,6 @@ files:
     -
         filename: 'FSPS_Beach_Street_2,_7-1-B_1980.png'
         caption: 'Beach Street'
+streets:
+    - Beach_Street
 ---

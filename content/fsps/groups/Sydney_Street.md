@@ -52,4 +52,6 @@ files:
     -
         filename: 'FSPS_Sydney_Street_015,_No_13,_16-6-H,_1978.png'
         caption: ~
+streets:
+    - Sydney_Street
 ---

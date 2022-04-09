@@ -46,4 +46,6 @@ files:
     -
         filename: 'FSPS_Douglas_Street_013,_Nos_13_and_11,_13-4-D.png'
         caption: 'Nos. 11 & 13'
+streets:
+    - Douglas_Street
 ---

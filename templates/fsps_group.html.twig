@@ -17,6 +17,16 @@
         {{ page.metadata.description|md2html|raw }}
     {% endif %}
 
+    {% if page.metadata.streets is defined and page.metadata.streets %}
+        <p>For more information about the streets in these photos here, see:</p>
+        <ol>
+            {% for street_ident in page.metadata.streets %}
+                {% set street = database.query( 'SELECT * FROM pages WHERE id = "/streets/' ~ street_ident ~ '"' ).fetch() %}
+                <li><a href="{{page.link(street.id)}}.html">{{street.title}}</a></li>
+            {% endfor %}
+        </ol>
+    {% endif %}
+
     <div class="row">
         {% for fileNum, file in page.metadata.files %}
             {% if page.metadata.folder < 10 %}

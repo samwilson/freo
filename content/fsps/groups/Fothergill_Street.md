@@ -49,4 +49,6 @@ files:
     -
         filename: 'FSPS_Fothergill_Street_014,_No_29,_cnr_Solomon,_9-2-A,_1978.png'
         caption: ~
+streets:
+    - Fothergill_Street
 ---

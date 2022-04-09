@@ -94,4 +94,6 @@ files:
     -
         filename: 'FSPS_Malcolm_Street_029,_No_9,_6-4-D,_1979.png'
         caption: 'No. 9'
+streets:
+    - Malcolm_Street
 ---

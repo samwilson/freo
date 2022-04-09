@@ -52,4 +52,6 @@ files:
     -
         filename: 'FSPS_Knutsford_Street_015,_No_2,_8-4-H,_1978.png'
         caption: ~
+streets:
+    - Knutsford_Street
 ---

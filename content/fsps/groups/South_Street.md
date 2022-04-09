@@ -379,4 +379,6 @@ files:
     -
         filename: 'FSPS_South_Street_124,_No_88,_10-1-E,_1978.png'
         caption: ~
+streets:
+    - South_Street
 ---

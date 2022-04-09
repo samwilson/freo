@@ -28,4 +28,6 @@ files:
     -
         filename: 'FSPS_Coral_Street_007,_no_8,_16-2-C.png'
         caption: ~
+streets:
+    - Coral_Street
 ---

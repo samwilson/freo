@@ -91,4 +91,6 @@ files:
     -
         filename: 'FSPS_Howard_Street_028,_No_26,_14-2-D,_1978.png'
         caption: ~
+streets:
+    - Howard_Street
 ---

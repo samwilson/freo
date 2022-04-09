@@ -106,4 +106,6 @@ files:
     -
         filename: 'FSPS_Marine_Terrace_033,_cnr_Douro_Rd,_Garage,_19-7-K,_1978.png'
         caption: ~
+streets:
+    - Marine_Terrace
 ---

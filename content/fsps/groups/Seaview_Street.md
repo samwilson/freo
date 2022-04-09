@@ -121,4 +121,6 @@ files:
     -
         filename: 'FSPS_Seaview_Street_038,_Side_of_66_Lefroy,_18-9-N,_1980.png'
         caption: ~
+streets:
+    - Seaview_Street
 ---

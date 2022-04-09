@@ -55,4 +55,6 @@ files:
     -
         filename: 'FSPS_Francisco_Street_016,_Side_of_cnr_Silver_St,_17-6-C,_1978.png'
         caption: ~
+streets:
+    - Francisco_Street
 ---

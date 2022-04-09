@@ -148,4 +148,6 @@ files:
     -
         filename: 'FSPS_Tuckfield_Street_047,_Barracks_between_Burt_and_Canning_Hwy_(D),_6-1-A,_1980.png'
         caption: ~
+streets:
+    - Tuckfield_Street
 ---

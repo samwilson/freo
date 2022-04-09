@@ -22,4 +22,6 @@ files:
     -
         filename: 'FSPS_Amherst_Street,_59,_11-1-B,_1978.png'
         caption: 'No. 59'
+streets:
+    - Amherst_Street
 ---

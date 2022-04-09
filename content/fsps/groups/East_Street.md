@@ -64,4 +64,6 @@ files:
     -
         filename: 'FSPS_East_Street_019,_No_49,_8-7-D.png'
         caption: 'No. 49'
+streets:
+    - East_Street
 ---

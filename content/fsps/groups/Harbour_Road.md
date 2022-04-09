@@ -58,4 +58,6 @@ files:
     -
         filename: 'FSPS_Harbour_Road_017,_No_20,_19-6-H,_1978.png'
         caption: ~
+streets:
+    - Harbour_Road
 ---

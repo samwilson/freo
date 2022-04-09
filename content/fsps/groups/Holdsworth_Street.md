@@ -61,4 +61,6 @@ files:
     -
         filename: 'FSPS_Holdsworth_Street_018,_No_42,_8-4-G,_1978.png'
         caption: ~
+streets:
+    - Holdsworth_Street
 ---

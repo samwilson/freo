@@ -100,4 +100,6 @@ files:
     -
         filename: 'FSPS_Stevens_Street,_No_8,_12-6-E_1978.png'
         caption: 'No. 8'
+streets:
+    - Stevens_Street
 ---

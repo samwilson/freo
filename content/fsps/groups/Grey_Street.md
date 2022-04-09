@@ -67,4 +67,6 @@ files:
     -
         filename: 'FSPS_Grey_Street_020,_No_5,_15-3-C,_1978.png'
         caption: ~
+streets:
+    - Grey_Street
 ---

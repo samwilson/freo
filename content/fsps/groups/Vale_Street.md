@@ -28,4 +28,6 @@ files:
     -
         filename: 'FSPS_Vale_Street_007,_Between_Skinner_and_No_2,_6-5-E,_1979.png'
         caption: ~
+streets:
+    - Vale_Street
 ---

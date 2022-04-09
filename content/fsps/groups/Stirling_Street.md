@@ -64,4 +64,6 @@ files:
     -
         filename: 'FSPS_Stirling_Street_019,_No_8,_8-4-F,_1978.png'
         caption: ~
+streets:
+    - Stirling_Street
 ---

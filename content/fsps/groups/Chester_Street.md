@@ -151,4 +151,6 @@ files:
     -
         filename: 'FSPS_Chester_Street_001,_No_3,_17-14-J,_1978.png'
         caption: 'No. 3'
+streets:
+    - Chester_Street
 ---

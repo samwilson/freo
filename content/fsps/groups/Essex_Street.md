@@ -31,4 +31,6 @@ files:
     -
         filename: 'FSPS_Essex_Street_008,_No_5,_14-4-A,_1978.png'
         caption: ~
+streets:
+    - Essex_Street
 ---

@@ -109,4 +109,6 @@ files:
     -
         filename: 'FSPS_Hulbert_Street_034,_No_32,_21-5-D,_1979.png'
         caption: ~
+streets:
+    - Hulbert_Street
 ---

@@ -67,4 +67,6 @@ files:
     -
         filename: 'FSPS_Commercial_Street_020,_No_20,_19-5-G,_1978.png'
         caption: 'No. 20'
+streets:
+    - Commercial_Street
 ---

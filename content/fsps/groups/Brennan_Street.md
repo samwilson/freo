@@ -13,4 +13,6 @@ files:
     -
         filename: 'FSPS_Brennan_Street,_nos_4-2,_12-3-B,_1979.png'
         caption: 'Nos. 2 & 4'
+streets:
+    - Brennan_Street
 ---

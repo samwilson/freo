@@ -115,4 +115,6 @@ files:
     -
         filename: 'FSPS_Carnac_Street_036,_side_of_34_South_Street,_13-4-D.png'
         caption: 'Side of no. 34 South Street'
+streets:
+    - Carnac_Street
 ---

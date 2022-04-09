@@ -61,4 +61,6 @@ files:
     -
         filename: 'FSPS_Orient_Street_018,_Nos_22-24_(no_No_20),_19-4-E,_1978.png'
         caption: ~
+streets:
+    - Orient_Street
 ---

@@ -46,4 +46,6 @@ files:
     -
         filename: 'FSPS_Ada_Street,_No._9-11,_16-4-F_1978.png'
         caption: 'Nos. 9–11'
+streets:
+    - Ada_Street
 ---

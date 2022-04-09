@@ -43,4 +43,6 @@ files:
     -
         filename: 'FSPS_Parmelia_Street_012,_No_2,_19-3-D,_1978.png'
         caption: ~
+streets:
+    - Parmelia_Street
 ---

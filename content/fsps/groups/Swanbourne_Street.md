@@ -136,4 +136,6 @@ files:
     -
         filename: 'FSPS_Swanbourne_Street_043,_No_53,_9-8-F,_1978.png'
         caption: ~
+streets:
+    - Swanbourne_Street
 ---

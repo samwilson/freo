@@ -73,4 +73,6 @@ files:
     -
         filename: 'FSPS_Ashburton_Terrace,_No_26,_10-3-C,_1978.png'
         caption: 'No. 26'
+streets:
+    - Ashburton_Terrace
 ---

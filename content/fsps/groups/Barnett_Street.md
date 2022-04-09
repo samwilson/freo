@@ -49,4 +49,6 @@ files:
     -
         filename: 'FSPS_Barnett_Street_14,_Council_change_rooms,_7-4-G,_1980.png'
         caption: 'No. 13 (council change rooms)'
+streets:
+    - Barnett_Street
 ---

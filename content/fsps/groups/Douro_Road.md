@@ -109,4 +109,6 @@ files:
     -
         filename: 'FSPS_Douro_Road_034,_No_33,_21-7-E,_1980.png'
         caption: ~
+streets:
+    - Douro_Road
 ---

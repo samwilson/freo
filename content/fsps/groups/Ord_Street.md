@@ -67,4 +67,6 @@ files:
     -
         filename: 'FSPS_Ord_Street_020,_No_12,_8-5-E,_1978.png'
         caption: ~
+streets:
+    - Ord_Street
 ---

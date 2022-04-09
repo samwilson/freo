@@ -8,4 +8,5 @@ $application->add(new \App\FspsScrapeCommand());
 $application->add(new \App\FspsBuildCommand());
 $application->add(new \App\FspsUploadCommand());
 $application->add(new \App\FspsPhotosCommand());
+$application->add(new \App\StreetsCommand());
 $application->run();

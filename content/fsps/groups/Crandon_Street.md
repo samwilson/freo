@@ -34,4 +34,6 @@ files:
     -
         filename: 'FSPS_Crandon_Street_006,_no_10,_12-6-E,_1978.png'
         caption: 'No. 10'
+streets:
+    - Crandon_Street
 ---

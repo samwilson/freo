@@ -31,4 +31,6 @@ files:
     -
         filename: 'FSPS_Parry_Street_008,_Cnr_Holdsworth,_8-3-G,_1978.png'
         caption: ~
+streets:
+    - Parry_Street
 ---

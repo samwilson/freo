@@ -61,4 +61,6 @@ files:
     -
         filename: 'FSPS_Watkins_Street_018,_Side_of_98_Solomon_from_Watkins,_next_to_No_4,_10-4-B,_1978.png'
         caption: ~
+streets:
+    - Watkins_Street
 ---

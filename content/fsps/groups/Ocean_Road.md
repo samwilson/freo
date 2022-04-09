@@ -28,4 +28,6 @@ files:
     -
         filename: 'FSPS_Ocean_Road_007,_Side_30_Thomas_St,_21-7-E,_1980.png'
         caption: ~
+streets:
+    - Ocean_Road
 ---

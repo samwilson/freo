@@ -58,4 +58,6 @@ files:
     -
         filename: 'FSPS_Maxwell_Street_017,_No_31,_20-5-J,_1978.png'
         caption: ~
+streets:
+    - Maxwell_Street
 ---

@@ -46,4 +46,6 @@ files:
     -
         filename: 'FSPS_Dorothy_Street_013,_No_14,_6-2-B,_1980.png'
         caption: 'No. 14'
+streets:
+    - Dorothy_Street
 ---

@@ -37,4 +37,6 @@ files:
     -
         filename: 'FSPS_Elder_Place_010,_Cnr_Edward,_7-6-J,_1980.png'
         caption: ~
+streets:
+    - Elder_Place
 ---

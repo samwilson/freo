@@ -61,4 +61,6 @@ files:
     -
         filename: 'FSPS_Price_Street_018,_No_18,_15-3-D,_1978.png'
         caption: ~
+streets:
+    - Price_Street
 ---

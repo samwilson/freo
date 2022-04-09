@@ -82,4 +82,6 @@ files:
     -
         filename: 'FSPS_Arundel_Street,_Oceania_Trading_Store,_14-1-D.png'
         caption: 'Oceania Trading Store'
+streets:
+    - Arundel_Street
 ---

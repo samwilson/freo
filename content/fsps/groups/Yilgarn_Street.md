@@ -28,4 +28,6 @@ files:
     -
         filename: 'FSPS_Yilgarn_Street_007,_No_11,_11-3-E,_1978.png'
         caption: ~
+streets:
+    - Yilgarn_Street
 ---

@@ -76,4 +76,6 @@ files:
     -
         filename: 'FSPS_Little_Howard_Street_023,_Nos_24-26,_1979.png'
         caption: ~
+streets:
+    - Little_Howard_Street
 ---

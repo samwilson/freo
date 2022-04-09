@@ -67,4 +67,6 @@ files:
     -
         filename: 'FSPS_Manning_Street_020,_No_23,_side_from_unmarked_lane,_13-7-A,_1980.png'
         caption: ~
+streets:
+    - Manning_Street
 ---

@@ -22,4 +22,6 @@ files:
     -
         filename: 'FSPS_Henville_Street_005,_No_1,_Michael_Beech,_12-5-F,_1979.png'
         caption: ~
+streets:
+    - Henville_Street
 ---

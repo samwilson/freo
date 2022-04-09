@@ -1,0 +1,17 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+    {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
+        <a href="https://www.wikidata.org/wiki/{{ page.metadata.wikidata }}">{{ page.metadata.wikidata }}</a>:
+        {{ wikidata( page.metadata.wikidata ).descriptions.en.value }}
+    {% endif %}
+
+    <p>Related <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a> groups:</p>
+    <ol>
+        {% for p in database.query('SELECT p.* FROM pages p, json_each(p.streets) j WHERE "/streets/"||j.value LIKE "'~page.id~'" ORDER BY p.title DESC') %}
+            <li><a href="{{page.link(p.id)}}.html">{{p.title}}</a> ({{p.photo_count}} photos)</li>
+        {% endfor %}
+    </ol>
+
+{% endblock %}

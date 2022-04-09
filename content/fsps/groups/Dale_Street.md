@@ -19,4 +19,6 @@ files:
     -
         filename: 'FSPS_Dale_Street_004,_side_of_no_18_Lilly_St,_17-1-P,_1978.png'
         caption: 'Side of No. 18 Lilly St'
+streets:
+    - Dale_Street
 ---

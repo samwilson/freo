@@ -34,4 +34,6 @@ files:
     -
         filename: 'FSPS_James_Street_009,_Nos_12-14,_7-1-D,_1980.png'
         caption: ~
+streets:
+    - James_Street
 ---

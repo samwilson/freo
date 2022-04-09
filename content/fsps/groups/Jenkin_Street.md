@@ -136,4 +136,6 @@ files:
     -
         filename: 'FSPS_Jenkin_Street_043,_No_70,_20-4,_G,_1978.png'
         caption: ~
+streets:
+    - Jenkin_Street
 ---

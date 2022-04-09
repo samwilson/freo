@@ -40,4 +40,6 @@ files:
     -
         filename: 'FSPS_Reuben_Street_011,_Side_of_St_Pauls,_18-1-A,_1979.png'
         caption: ~
+streets:
+    - Reuben_Street
 ---

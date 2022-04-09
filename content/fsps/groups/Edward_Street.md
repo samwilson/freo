@@ -16,4 +16,6 @@ files:
     -
         filename: 'FSPS_Edward_Street_003,_Cnr_Elder_Pl,_7-6-J,_1980.png'
         caption: ~
+streets:
+    - Edward_Street
 ---

@@ -55,4 +55,6 @@ files:
     -
         filename: 'FSPS_Norfolk_Street_016,_No_18_or_20,_14-5-A,_1978.png'
         caption: ~
+streets:
+    - Norfolk_Street
 ---

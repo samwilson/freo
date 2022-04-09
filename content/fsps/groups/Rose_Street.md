@@ -67,4 +67,6 @@ files:
     -
         filename: 'FSPS_Rose_Street_020,_No_18,_16-3-D.png'
         caption: ~
+streets:
+    - Rose_Street
 ---

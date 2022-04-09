@@ -118,4 +118,6 @@ files:
     -
         filename: 'FSPS_Livingstone_Street_037,_No_24,_20-7-O,_1978.png'
         caption: ~
+streets:
+    - Livingstone_Street
 ---

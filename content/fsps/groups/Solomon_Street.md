@@ -448,4 +448,6 @@ files:
     -
         filename: 'FSPS_Solomon_Street,_no._1,_9-2-A_1978.png'
         caption: ~
+streets:
+    - Solomon_Street
 ---

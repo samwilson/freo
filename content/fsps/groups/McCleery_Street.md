@@ -112,4 +112,6 @@ files:
     -
         filename: 'FSPS_McCleery_Street_035,_No_19,_18-13-H.png'
         caption: ~
+streets:
+    - McCleery_Street
 ---

@@ -31,4 +31,6 @@ files:
     -
         filename: 'FSPS_Skinner_Street,_part_of_no._3,_7-3-E_1980.png'
         caption: 'Part of no. 3'
+streets:
+    - Skinner_Street
 ---

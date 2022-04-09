@@ -109,4 +109,6 @@ files:
     -
         filename: 'FSPS_Scott_Street_034,_No_31,_19-2-C,_1978.png'
         caption: ~
+streets:
+    - Scott_Street
 ---

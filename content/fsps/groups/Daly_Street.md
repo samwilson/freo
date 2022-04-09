@@ -175,4 +175,6 @@ files:
     -
         filename: 'FSPS_Daly_Street_056,_No_79,_rear_of_30_Thomas_St,_21-7-E,_1980.png'
         caption: ~
+streets:
+    - Daly_Street
 ---

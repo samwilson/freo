@@ -160,4 +160,6 @@ files:
     -
         filename: 'FSPS_Lilly_Street_051,_No_50,_17-10-M,_1978.png'
         caption: ~
+streets:
+    - Lilly_Street
 ---

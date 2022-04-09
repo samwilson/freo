@@ -70,4 +70,6 @@ files:
     -
         filename: 'FSPS_Mardie_Street_021,_No_30,_18-10-M,_1980.png'
         caption: ~
+streets:
+    - Mardie_Street
 ---

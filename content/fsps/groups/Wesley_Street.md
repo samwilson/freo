@@ -82,4 +82,6 @@ files:
     -
         filename: 'FSPS_Wesley_Street_025,_No_8,_17-4-L,_1978.png'
         caption: ~
+streets:
+    - Wesley_Street
 ---

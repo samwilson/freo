@@ -61,4 +61,6 @@ files:
     -
         filename: 'FSPS_Agnes_Street,_Back_and_side_of_155_Edmund_Street,_18-13-79.png'
         caption: 'Rear and side of no. 155 Edmund Street'
+streets:
+    - Agnes_Street
 ---

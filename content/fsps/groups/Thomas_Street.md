@@ -85,4 +85,6 @@ files:
     -
         filename: 'FSPS_Thomas_Street_026,_No_30,_21-7-E,_1980.png'
         caption: ~
+streets:
+    - Thomas_Street
 ---

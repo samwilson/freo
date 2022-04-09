@@ -10,4 +10,6 @@ files:
     -
         filename: 'FSPS_Beard_Street,_20-8-N,_1978.png'
         caption: 'House number unknown, possibly number 1 or 3, probably demolished (prior to 2021)'
+streets:
+    - Beard_Street
 ---

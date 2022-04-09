@@ -196,4 +196,6 @@ files:
     -
         filename: 'FSPS_Queen_Victoria_Street_063,_Side_of_Harvest_Rd,_4-3-G,_1979.png'
         caption: ~
+streets:
+    - Queen_Victoria_Street
 ---

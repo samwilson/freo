@@ -25,4 +25,6 @@ files:
     -
         filename: 'FSPS_Shuffrey_Street_006,_No_1,_7-4-G,_1980.png'
         caption: ~
+streets:
+    - Shuffrey_Street
 ---

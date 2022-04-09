@@ -25,4 +25,6 @@ files:
     -
         filename: 'FSPS_Belmont_Street,_no_3,_17-14-H,_1978.png'
         caption: 'No. 3'
+streets:
+    - Belmont_Street
 ---

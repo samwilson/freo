@@ -730,4 +730,6 @@ files:
     -
         filename: 'FSPS_South_Terrace_241,_No._4-12,_WE-3_1980.png'
         caption: ~
+streets:
+    - South_Terrace
 ---

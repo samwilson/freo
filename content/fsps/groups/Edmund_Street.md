@@ -202,4 +202,6 @@ files:
     -
         filename: 'FSPS_Edmund_Street_065,_Side_of_No_164,_18-11-K,_1980.png'
         caption: ~
+streets:
+    - Edmund_Street
 ---

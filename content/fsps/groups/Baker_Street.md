@@ -19,4 +19,6 @@ files:
     -
         filename: 'FSPS_Baker_Street_4,_no_12,_10-1-E_1978.png'
         caption: 'No. 12'
+streets:
+    - Baker_Street
 ---

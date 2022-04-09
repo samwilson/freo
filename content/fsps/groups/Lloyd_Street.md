@@ -25,4 +25,6 @@ files:
     -
         filename: 'FSPS_Lloyd_Street_006,_No_2,_20-2-C,_1978.png'
         caption: 'No. 2'
+streets:
+    - Lloyd_Street
 ---

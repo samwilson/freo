@@ -22,4 +22,6 @@ files:
     -
         filename: 'FSPS_Bateman_Street_5,_no_9,_8-5-E_1978.png'
         caption: 'No. 9'
+streets:
+    - Bateman_Street
 ---

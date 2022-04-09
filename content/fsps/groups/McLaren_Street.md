@@ -70,4 +70,6 @@ files:
     -
         filename: 'FSPS_McLaren_Street_021,_No_4,_19-2-C,_1978.png'
         caption: ~
+streets:
+    - McLaren_Street
 ---

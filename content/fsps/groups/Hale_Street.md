@@ -64,4 +64,6 @@ files:
     -
         filename: 'FSPS_Hale_Street_017,_No_30,_20-8-N,_1978.png'
         caption: ~
+streets:
+    - Hale_Street
 ---

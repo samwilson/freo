@@ -91,4 +91,6 @@ files:
     -
         filename: 'FSPS_Russell_Street_028,_No_1,_15-2-B,_1978.png'
         caption: ~
+streets:
+    - Russell_Street
 ---

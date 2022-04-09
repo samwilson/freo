@@ -31,4 +31,6 @@ files:
     -
         filename: 'FSPS_Finnerty_Street_008,_No_28,_7-3-E,_1980.png'
         caption: ~
+streets:
+    - Finnerty_Street
 ---

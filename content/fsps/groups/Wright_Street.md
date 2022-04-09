@@ -6,6 +6,8 @@ folder: 4
 folder_order: 5
 folder_check: 1
 description: ~
+streets:
+    - Wright_Street
 files:
     -
         filename: 'FSPS_Wright_Street,_5,_11-3-E_1978.png'

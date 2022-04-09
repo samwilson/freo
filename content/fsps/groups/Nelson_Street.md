@@ -79,4 +79,6 @@ files:
     -
         filename: 'FSPS_Nelson_Street_024,_No_22,_Side_from_Attfield_St,_17-7-C2,_1978.png'
         caption: ~
+streets:
+    - Nelson_Street
 ---

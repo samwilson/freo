@@ -28,4 +28,6 @@ files:
     -
         filename: 'FSPS_Loukes_Street_007,_No_7,_C-8-6,_1978.png'
         caption: 'No. 7'
+streets:
+    - Loukes_Street
 ---

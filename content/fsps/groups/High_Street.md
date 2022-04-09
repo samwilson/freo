@@ -163,4 +163,6 @@ files:
     -
         filename: 'FSPS_High_Street_052,_East_St_side_of_No_218,_8-7-D.png'
         caption: ~
+streets:
+    - High_Street
 ---

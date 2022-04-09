@@ -76,4 +76,6 @@ files:
     -
         filename: 'FSPS_Silver_Street,_no._13_(internal_corner_with_Francisco_Street),_17-8-C2_1978.png'
         caption: 'No. 13 (internal corner with Francisco Street'
+streets:
+    - Silver_Street
 ---

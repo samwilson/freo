@@ -61,4 +61,6 @@ files:
     -
         filename: 'FSPS_Curedale_Street_018,_no_35,_(cnr_of_Lefroy),_18-9-N,_1980.png'
         caption: ~
+streets:
+    - Curedale_Street
 ---

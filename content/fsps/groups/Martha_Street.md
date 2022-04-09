@@ -121,4 +121,6 @@ files:
     -
         filename: 'FSPS_Martha_Street_038,_No_2,_17-1-P,_1978.png'
         caption: ~
+streets:
+    - Martha_Street
 ---

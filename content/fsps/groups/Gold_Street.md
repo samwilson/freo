@@ -97,4 +97,6 @@ files:
     -
         filename: 'FSPS_Gold_Street_031,_No_33,_17-7-C2,_1978.png'
         caption: 'No. 33'
+streets:
+    - Gold_Street
 ---
