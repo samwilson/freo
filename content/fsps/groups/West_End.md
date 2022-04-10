@@ -6,6 +6,28 @@ folder: 12
 folder_order: 3
 folder_check: 1
 description: ~
+streets:
+    - Ellen_Street
+    - Nairn_Street
+    - Croke_Street
+    - Parry_Street
+    - Adelaide_Street
+    - Bannister_Street
+    - Market_Street
+    - Pakenham_Street
+    - High_Street
+    - Collie_Street
+    - Essex_Street
+    - Marine_Terrace
+    - South_Terrace
+    - Mouat_Street
+    - Phillimore_Street
+    - Henry_Street
+    - Cliff_Street
+    - Croke_Lane
+    - Amherst_Street
+    - Hulbert_Street
+    - William_Street
 files:
     -
         filename: 'FSPS_West_End_001,_note_card.png'

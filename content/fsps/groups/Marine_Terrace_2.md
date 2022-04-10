@@ -6,6 +6,8 @@ folder: 13
 folder_order: 9
 folder_check: 1
 description: ~
+streets:
+    - Marine_Terrace
 files:
     -
         filename: 'FSPS_Marine_Terrace_001,_No_94,_cnr_Russel_St,_15-1-A,_1978.png'

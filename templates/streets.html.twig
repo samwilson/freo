@@ -2,7 +2,7 @@
 
 {% block main %}
 
-    <ol style="columns:30ex auto">
+    <ol class="columns">
         {% for p in database.query('SELECT * FROM pages WHERE template="street" ORDER BY title ASC') %}
             <li>
                 <a href="{{page.link(p.id)}}.html">{{p.title}}</a>

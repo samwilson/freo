@@ -6,6 +6,8 @@ folder: 5
 folder_order: 2
 folder_check: 1
 description: 'Christiana Parade is now (2021) called Christina Parade.'
+streets:
+    - Christina_Parade
 files:
     -
         filename: 'FSPS_Christiana_Parade_001,_no_1,_1-2-E,_1980.png'

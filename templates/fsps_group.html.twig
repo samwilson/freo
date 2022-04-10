@@ -22,7 +22,13 @@
         <ol>
             {% for street_ident in page.metadata.streets %}
                 {% set street = database.query( 'SELECT * FROM pages WHERE id = "/streets/' ~ street_ident ~ '"' ).fetch() %}
-                <li><a href="{{page.link(street.id)}}.html">{{street.title}}</a></li>
+                <li>
+                    {% if street %}
+                        <a href="{{page.link(street.id)}}.html">{{street.title}}</a>
+                    {% else %}
+                        {{ street_ident|replace({'_': ' '}) }}
+                    {% endif %}
+                </li>
             {% endfor %}
         </ol>
     {% endif %}

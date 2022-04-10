@@ -7,6 +7,8 @@ folder_order: 1
 folder_check: 1
 description: |
     Continues from [Wray Avenue](Wray_Avenue,_continued.html).
+streets:
+    - Wray_Avenue
 files:
     -
         filename: 'FSPS_Wray_Avenue_051,_Nos_48-50,_12-3-D,_1979.png'

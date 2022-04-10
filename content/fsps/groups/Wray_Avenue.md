@@ -5,7 +5,7 @@ photo_count: 50
 folder: 11
 folder_order: 11
 folder_check: 1
-description: "Continues at: [Wray Avenue, continued](Wray_Avenue,_continued.html)\n"
+description: "Continues at: [Wray Avenue, continued](Wray_Avenue,_continued.html)"
 files:
     -
         filename: 'FSPS_Wray_Avenue_001,_No_20,_12-3-B,_1979.png'

@@ -6,6 +6,8 @@ folder: 2
 folder_order: 6
 folder_check: 1
 description: ~
+streets:
+    - Bellevue_Terrace
 files:
     -
         filename: 'FSPS_Bellvue_Terrace,_no6,_9-2-A,_1978.png'

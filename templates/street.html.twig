@@ -7,11 +7,24 @@
         {{ wikidata( page.metadata.wikidata ).descriptions.en.value }}
     {% endif %}
 
-    <p>Related <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a> groups:</p>
-    <ol>
-        {% for p in database.query('SELECT p.* FROM pages p, json_each(p.streets) j WHERE "/streets/"||j.value LIKE "'~page.id~'" ORDER BY p.title DESC') %}
+    {% if page.body %}
+        {{ page.body|md2html|raw }}
+    {% endif %}
+
+    {% set fsps_groups = database.query('SELECT p.* FROM pages p, json_each(p.streets) j WHERE j.value LIKE "'~(page.id|basename)~'" ORDER BY p.title DESC') %}
+    {% set list_items %}
+        {% for p in fsps_groups %}
             <li><a href="{{page.link(p.id)}}.html">{{p.title}}</a> ({{p.photo_count}} photos)</li>
         {% endfor %}
-    </ol>
+    {% endset %}
+    {% if list_items %}
+        <p>Related <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a> groups:</p>
+        <ol class="columns">
+            {{ list_items }}
+        </ol>
+    {% endif %}
+
+    {% import "_macros.twig" as macros %}
+    {{ macros.comments() }}
 
 {% endblock %}

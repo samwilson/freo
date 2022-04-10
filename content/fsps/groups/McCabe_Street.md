@@ -6,6 +6,8 @@ folder: 7
 folder_order: 8
 folder_check: 1
 description: ~
+streets:
+    - McCabe_Street
 files:
     -
         filename: 'FSPS_McCabe_Street_001,_Side_of_No_140_Stirling_Hwy,_1-1-A,_1980.png'

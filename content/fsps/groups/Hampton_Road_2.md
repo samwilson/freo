@@ -6,6 +6,8 @@ folder: 14
 folder_order: 4
 folder_check: 1
 description: ~
+streets:
+    - Hampton_Road
 files:
     -
         filename: 'FSPS_Hampton_Road_101,_Nos_58-60,_9-5-D,_1978.png'

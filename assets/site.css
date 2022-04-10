@@ -1,0 +1,4 @@
+ol.columns,
+ul.columns {
+    columns: 30ex auto;
+}

@@ -6,9 +6,13 @@
         <p>
             This is a website about the places and people of <a href="https://en.wikipedia.org/wiki/Fremantle">Fremantle, Western Australia</a>.
             It is (as of 2022) a work-in-progress, and so far contains
-            {{ database.query('SELECT ROUND(SUM(photo_count)) AS tot FROM pages WHERE template="fsps_group"').fetchColumn()|format_number({}) }}
+            {{ database.query('SELECT COUNT(*) AS tot FROM pages').fetchColumn()|format_number({}) }}
+            pages, including
+            {{ database.query('SELECT COUNT(*) AS tot FROM pages WHERE template="street"').fetchColumn()|format_number({}) }}
+            <a href="{{page.link('/streets/index')}}.html">streets</a> and
+            {{ database.query('SELECT SUM(photo_count) AS tot FROM pages WHERE template="fsps_group"').fetchColumn()|format_number({}) }}
             photos from the 1978–80 <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a>.
-            More material will be added.
+            More material is being added.
         </p>
     </article>
 

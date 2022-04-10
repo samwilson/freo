@@ -6,6 +6,8 @@ folder: 14
 folder_order: 3
 folder_check: 1
 description: ~
+streets:
+    - Hampton_Road
 files:
     -
         filename: 'FSPS_Hampton_Road_001,_No_19,_between_Alma_and_Fothergill,_9-4-C,_1978.png'

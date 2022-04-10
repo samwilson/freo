@@ -57,12 +57,7 @@
         Retrieved from <a href="{{site.config.url}}{{page.id}}.html">{{site.config.url}}{{page.id}}.html</a>
     </p>
 
-    <script src="https://utteranc.es/client.js"
-        repo="samwilson/freo"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-    </script>
+    {% import "_macros.twig" as macros %}
+    {{ macros.comments() }}
 
 {% endblock %}
