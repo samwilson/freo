@@ -2,10 +2,14 @@
 
 {% block main %}
 
-    {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
-        <a href="https://www.wikidata.org/wiki/{{ page.metadata.wikidata }}">{{ page.metadata.wikidata }}</a>:
-        {{ wikidata( page.metadata.wikidata ).descriptions.en.value }}
-    {% endif %}
+    <p>
+        {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
+            <a href="https://www.wikidata.org/wiki/{{ page.metadata.wikidata }}">{{ page.metadata.wikidata }}</a>:
+            {{ wikidata( page.metadata.wikidata ).descriptions.en.value }}
+        {% else %}
+            No <a href="https://www.wikidata.org">Wikidata</a> item exists for this street yet.
+        {% endif %}
+    </p>
 
     {% if page.body %}
         {{ page.body|md2html|raw }}
@@ -17,7 +21,7 @@
             <li><a href="{{page.link(p.id)}}.html">{{p.title}}</a> ({{p.photo_count}} photos)</li>
         {% endfor %}
     {% endset %}
-    {% if list_items %}
+    {% if (list_items|trim|length) > 0 %}
         <p>Related <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a> groups:</p>
         <ol class="columns">
             {{ list_items }}
