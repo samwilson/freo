@@ -2,30 +2,69 @@
 
 {% block main %}
 
+    {% set wikidata_item = false %}
+    {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
+        {% set wikidata_item = wikidata( page.metadata.wikidata ) %}
+        {% set prop_connects_with = 'P2789' %}
+        {% set prop_commons_cat = 'P373' %}
+        {% set prop_osm_relation = 'P402' %}
+    {% endif %}
+
     <p>
-        {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
+        {% if wikidata_item %}
             <a href="https://www.wikidata.org/wiki/{{ page.metadata.wikidata }}">{{ page.metadata.wikidata }}</a>:
-            {{ wikidata( page.metadata.wikidata ).descriptions.en.value }}
+            {{ wikidata_item.descriptions.en.value }}
         {% else %}
             No <a href="https://www.wikidata.org">Wikidata</a> item exists for this street yet.
         {% endif %}
     </p>
 
+    <dl class="row">
+        {% if wikidata_item  %}
+
+            {% if attribute( wikidata_item.claims, prop_connects_with ) is defined %}
+                <dt class="col-sm-2">Connects with:</dt>
+                <dd class="col-sm-10">
+                    <ol>
+                        {% for conn in attribute( wikidata_item.claims, prop_connects_with ) %}
+                            {% set connLabel = wikidata( conn.mainsnak.datavalue.value.id ).labels.en.value %}
+                            <li><a href="{{ page.link( 'streets/'~(connLabel|replace({' ': '_'})) ) }}.html">{{ connLabel }}</a></li>
+                        {% endfor %}
+                    </ol>
+                </dd>
+            {% endif %}
+
+            {% if attribute( wikidata_item.claims, prop_commons_cat ) is defined %}
+                <dt class="col-sm-2">Wikimedia Commons:</dt>
+                <dd class="col-sm-10">
+                    {% set commons_cat =  attribute( wikidata_item.claims, prop_commons_cat ) %}
+                    {% if commons_cat %}
+                        <a href="https://commons.wikimedia.org/wiki/Category:{{ commons_cat.0.mainsnak.datavalue.value|replace({' ':'_'}) }}">{{ commons_cat.0.mainsnak.datavalue.value }}</a>
+                    {% endif %}
+                </dd>
+            {% endif %}
+
+        {% endif %}
+
+        {% set fsps_groups = database.query('SELECT p.* FROM pages p, json_each(p.streets) j WHERE j.value LIKE "'~(page.id|basename)~'" ORDER BY p.title DESC') %}
+        {% set list_items %}
+            {% for p in fsps_groups %}
+                <li><a href="{{page.link(p.id)}}.html">{{p.title}}</a> ({{p.photo_count}} photos)</li>
+            {% endfor %}
+        {% endset %}
+        {% if (list_items|trim|length) > 0 %}
+            <dt class="col-sm-2">Related <a href="{{page.link('/fsps/index')}}.html" title="Fremantle Society Photographic Survey">FSPS</a> groups:</dt>
+            <dd class="col-sm-10">
+                <ol>
+                    {{ list_items }}
+                </ol>
+            </dd>
+        {% endif %}
+
+    </dl>
+
     {% if page.body %}
         {{ page.body|md2html|raw }}
-    {% endif %}
-
-    {% set fsps_groups = database.query('SELECT p.* FROM pages p, json_each(p.streets) j WHERE j.value LIKE "'~(page.id|basename)~'" ORDER BY p.title DESC') %}
-    {% set list_items %}
-        {% for p in fsps_groups %}
-            <li><a href="{{page.link(p.id)}}.html">{{p.title}}</a> ({{p.photo_count}} photos)</li>
-        {% endfor %}
-    {% endset %}
-    {% if (list_items|trim|length) > 0 %}
-        <p>Related <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a> groups:</p>
-        <ol class="columns">
-            {{ list_items }}
-        </ol>
     {% endif %}
 
     {% import "_macros.twig" as macros %}
