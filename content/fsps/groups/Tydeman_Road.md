@@ -7,7 +7,7 @@ folder_order: 3
 folder_check: 1
 description: ~
 streets:
-    - Tyedeman_Road
+    - Tydeman_Road
 files:
     -
         filename: 'FSPS_Tydeman_Road_001,_Cnr_Queen_Vic_St,_4-2-E,_1978.png'

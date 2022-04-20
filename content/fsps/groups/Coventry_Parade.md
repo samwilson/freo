@@ -25,4 +25,6 @@ files:
     -
         filename: 'FSPS_Coventry_Parade_006,_cnr_Stirling_Hwy,_1-1-B,_1980.png'
         caption: ~
+streets:
+    - Coventry_Parade
 ---

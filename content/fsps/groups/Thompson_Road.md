@@ -109,4 +109,6 @@ files:
     -
         filename: 'FSPS_Thompson_Road_034,_No_88,_cnr_Christiana,_1-3-FGH,_1980.png'
         caption: ~
+streets:
+    - Thompson_Road
 ---

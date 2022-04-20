@@ -1,6 +1,7 @@
 <?php
 namespace App;
 
+use GuzzleHttp\Client;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -15,20 +16,23 @@ class StreetsCommand extends Command {
     }
 
     protected function execute(InputInterface $input, OutputInterface $output) {
-        $bbox = '-32.07675654031872, 115.73779106140137, -32.039876235544234, 115.7687759399414';
+        // The area ID comes from the Overpass API (it's not the relation ID).
         $query = '
-            [out:json][timeout:25];
+            [out:json][timeout:60];
+            area(id:3611346296)->.freo;
             (
-              relation["type"="route"]["route"="road"](' . $bbox . ');
-              way["highway"]["name"](' . $bbox . ');
+              relation["type"="route"]["route"="road"](area.freo);
+              way["highway"]["name"](area.freo);
             );
             out body;
             >;
             out skel qt;
         ';
+        $output->writeln("Fetching street data from OpenStreetMap");
         $url = 'https://overpass-api.de/api/interpreter?data=' . urlencode($query);
         $json = file_get_contents($url);
         if (!$json) {
+            $output->write("Unable to decode: " . $json);
             return Command::FAILURE;
         }
         $data = json_decode($json, true);
@@ -39,10 +43,12 @@ class StreetsCommand extends Command {
             }
             $name = $element['tags']['name'];
             if (stripos($name, 'State Route') !== false
+                || stripos($name, 'National Route') !== false
                 || stripos($name, 'Arcade') !== false
-                || stripos($name, 'Highway Exit') !== false
+                || stripos($name, 'Exit') !== false
+                || stripos($name, 'PSP') !== false
             ) {
-                // Ignore state route relations and arcades.
+                // Ignore some types of streets/routes/etc.
                 continue;
             }
             if (!isset($streets[$name])) {
@@ -57,11 +63,20 @@ class StreetsCommand extends Command {
         }
         $site = new Site(dirname(__DIR__));
         foreach ($streets as $street) {
-            $yaml = Yaml::dump($street, 4, 4, Yaml::DUMP_NULL_AS_TILDE);
+
             $filename = str_replace([' ', "'"], ['_', '-'], $street['title']);
             $outfilepath = dirname(__DIR__).'/content/streets/'.$filename.'.md';
+            if (file_exists($outfilepath)) {
+                $streetPage = new Page($site, '/streets/' . $filename);
+                $metadata = array_merge($streetPage->getMetadata(), $street);
+                $body = $streetPage->getBody();
+            } else {
+                $metadata = $street;
+                $body = '';
+            }
+            $yaml = Yaml::dump($metadata, 4, 4, Yaml::DUMP_NULL_AS_TILDE);
             $output->writeln('Saving: '.$outfilepath);
-            file_put_contents($outfilepath, "---\n$yaml---\n");
+            file_put_contents($outfilepath, "---\n$yaml---\n$body");
 
             $groupFile = dirname(__DIR__).'/content/fsps/groups/'.$filename.'.md';
             if (file_exists($groupFile)) {

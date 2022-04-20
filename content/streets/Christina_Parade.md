@@ -1,4 +1,4 @@
 ---
 template: street
-title: Christina Parade
+title: 'Christina Parade'
 ---

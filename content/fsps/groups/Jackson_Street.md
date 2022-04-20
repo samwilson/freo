@@ -49,4 +49,6 @@ files:
     -
         filename: 'FSPS_Jackson_Street_014,_4-4-B,_1979.png'
         caption: ~
+streets:
+    - Jackson_Street
 ---

@@ -40,4 +40,6 @@ files:
     -
         filename: 'FSPS_Burns_Street,_no_10,_4-5-H,_1979.png'
         caption: 'No. 10'
+streets:
+    - Burns_Street
 ---

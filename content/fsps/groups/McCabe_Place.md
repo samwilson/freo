@@ -10,4 +10,6 @@ files:
     -
         filename: 'FSPS_McCabe_Place_001,_1-1-B,_1980.png'
         caption: ~
+streets:
+    - McCabe_Place
 ---

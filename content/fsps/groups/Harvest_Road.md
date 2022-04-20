@@ -127,4 +127,6 @@ files:
     -
         filename: 'FSPS_Harvest_Road_040,_No_60,_3-2-B,_1978.png'
         caption: ~
+streets:
+    - Harvest_Road
 ---

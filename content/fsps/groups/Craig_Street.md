@@ -10,4 +10,6 @@ files:
     -
         filename: 'FSPS_Craig_Street,_between_Stirling_Hwy_and_Thompson_Rd,_1-3-FGH,_1980.png'
         caption: ~
+streets:
+    - Craig_Street
 ---

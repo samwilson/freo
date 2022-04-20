@@ -88,4 +88,6 @@ files:
     -
         filename: 'FSPS_Ainslie_Road,_No._30,_3-2-A_1978.png'
         caption: 'No. 30'
+streets:
+    - Ainslie_Road
 ---

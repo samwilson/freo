@@ -34,4 +34,6 @@ files:
     -
         filename: 'FSPS_Alfred_Road,_View_of_Section_E_from_corner_of_Rule_Street_and_Alfred_Road,_2-4-E_1980.png'
         caption: 'View of Section E from corner of Rule Street and Alfred Road'
+streets:
+    - Alfred_Road
 ---

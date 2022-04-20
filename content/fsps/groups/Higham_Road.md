@@ -55,4 +55,6 @@ files:
     -
         filename: 'FSPS_Higham_Road_016,_Side_of_No_10_from_Alfred_St,_3-3-C,_1978.png'
         caption: ~
+streets:
+    - Higham_Road
 ---

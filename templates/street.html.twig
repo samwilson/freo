@@ -63,6 +63,11 @@
 
     </dl>
 
+    {% if wikidata_item and wikidata_item.sitelinks.enwiki.title is defined %}
+        {{ wikipedia('en', wikidata_item.sitelinks.enwiki.title)|raw }}
+        <p><a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title}}">Read more on Wikipedia…</a></p>
+    {% endif %}
+
     {% if page.body %}
         {{ page.body|md2html|raw }}
     {% endif %}

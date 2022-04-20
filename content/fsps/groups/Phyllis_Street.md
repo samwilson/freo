@@ -25,4 +25,6 @@ files:
     -
         filename: 'FSPS_Phyllis_Street_006,_No_3,_2-4-E,_1980.png'
         caption: ~
+streets:
+    - Phyllis_Street
 ---

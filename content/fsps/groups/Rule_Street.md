@@ -49,4 +49,6 @@ files:
     -
         filename: 'FSPS_Rule_Street_014,_No_8,_Robert_Edward_and_Kay_Humphries,_3-2-D,_1978.png'
         caption: ~
+streets:
+    - Rule_Street
 ---

@@ -97,4 +97,6 @@ files:
     -
         filename: 'FSPS_John_Street_030,_No_41,_5-3-E,_1980.png'
         caption: ~
+streets:
+    - John_Street
 ---

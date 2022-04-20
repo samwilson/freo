@@ -22,4 +22,6 @@ files:
     -
         filename: 'FSPS_Staples_Street,_No._15,_2-3-B.png'
         caption: 'No. 15'
+streets:
+    - Staples_Street
 ---

@@ -109,4 +109,6 @@ files:
     -
         filename: 'FSPS_Pearse_Street_034,_No_23,_4-4-C,_1979.png'
         caption: ~
+streets:
+    - Pearse_Street
 ---

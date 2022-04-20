@@ -34,4 +34,6 @@ files:
     -
         filename: 'FSPS_Turton_Street_009,_Side_No_25_Harvest_Rd,_5-1-B,_1978-80.png'
         caption: ~
+streets:
+    - Turton_Street
 ---

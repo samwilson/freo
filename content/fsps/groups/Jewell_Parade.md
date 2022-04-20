@@ -49,4 +49,6 @@ files:
     -
         filename: 'FSPS_Jewell_Parade_014,_cnr_Jackson_St,_4-1-E,_1978.png'
         caption: ~
+streets:
+    - Jewell_Parade
 ---

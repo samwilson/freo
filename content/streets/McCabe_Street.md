@@ -1,4 +1,4 @@
 ---
 template: street
-title: McCabe Street
+title: 'McCabe Street'
 ---
