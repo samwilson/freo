@@ -1,0 +1,4 @@
+---
+template: buildings
+title: Buildings
+---

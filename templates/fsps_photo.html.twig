@@ -1,10 +1,35 @@
 {% extends '_base.html.twig' %}
 
+{% set folder = database.query('SELECT folder FROM pages WHERE id="/fsps/groups/' ~ page.metadata.group ~ '"').fetchColumn() %}
+
+{% if folder < 10 %}
+    {% set folder_name = 'Folder_0' ~ folder %}
+{% else %}
+    {% set folder_name = 'Folder_' ~ folder %}
+{% endif %}
+
+{% set file1 = page.metadata.files.0 %}
+
 {% block title_head %}
     FSPS {{ page.metadata.group|replace({'_': ' '})}}, photo {{page.id|basename}} ::
 {% endblock %}
 
 {% block title_page %}
+{% endblock %}
+
+{% block head %}
+    <meta name="DC.title" content="Fremantle Society Photographic Survey, {{ page.metadata.group|replace({'_': ' '})}}, photo {{page.id|basename}}" />
+    <meta name="DC.creator" content="Fremantle Society Inc." />
+    <meta name="DC.coverage" content="{% if page.metadata.year %}{{page.metadata.year}}{% else %}1978–80{% endif %}" />
+    <meta name="DC.description" content="" />
+    <meta name="DC.format" content="Photographic print" />
+    <meta name="DC.identifier" content="{{page.id}}" />
+    <meta name="DC.rights" content="Creative Commons Attribution-ShareAlike 4.0 International" />
+    <meta name="DC.subject" content="Fremantle, Western Australia" />
+    <meta name="DC.type" content="Image" />
+    <meta name="PA.thumbnail" content="https://archive.org/download/FSPS1978/thumb/{{folder_name}}/{{page.metadata.group}}/{{file1.filename|replace({'.png': '_thumb.jpg'})}}" />
+    <meta name="PA.viewcopy" content="https://archive.org/download/FSPS1978/display/{{folder_name}}/{{page.metadata.group}}/{{file1.filename|replace({'.png': '_display.jpg'})}}" />
+    <meta name="PA.location" content="{{site.config.url}}{{page.id}}.html" />
 {% endblock %}
 
 {% block main %}
@@ -19,22 +44,27 @@
     </nav>
 
     <h1>
-        {{page.metadata.group|replace({'_': ' '})}} {{page.id|basename}}
+        {{page.metadata.group|replace({'_': ' '})}}, photo {{page.id|basename}}
     </h1>
 
-    {% set folder = database.query('SELECT folder FROM pages WHERE id="/fsps/groups/' ~ page.metadata.group ~ '"').fetchColumn() %}
-
-    {% if folder < 10 %}
-        {% set folder_name = 'Folder_0' ~ folder %}
-    {% else %}
-        {% set folder_name = 'Folder_' ~ folder %}
+    {# Remove blank building entries. #}
+    {% if page.metadata.buildings|filter(v => v != '')|length > 0 %}
+        <p>
+            Buildings:
+            {% for building_id in page.metadata.buildings %}
+                {% set building = database.query('SELECT * FROM pages WHERE id="/buildings/' ~ building_id ~ '"').fetch() %}
+                <a href="{{ page.link( '/buildings/'~building_id ) }}.html">{{building.title}}</a>
+            {% endfor %}
+        </p>
     {% endif %}
 
-    {% set file1 = page.metadata.files.0 %}
     <figure class="figure mx-auto">
         <img src="https://archive.org/download/FSPS1978/display/{{folder_name}}/{{page.metadata.group}}/{{file1.filename|replace({'.png': '_display.jpg'})}}"
             class="figure-img img-fluid rounded" />
-        <figcaption class="figure-caption">{{file1.caption}}</figcaption>
+        <figcaption class="figure-caption">
+            {{file1.caption|md2html|raw}}
+            {# <p class="text-muted"><code>{{ file1.filename }}</code></a></p> #}
+        </figcaption>
     </figure>
 
     <p>

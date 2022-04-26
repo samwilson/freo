@@ -44,7 +44,10 @@
                 <figure class="figure">
                     <img src="https://archive.org/download/FSPS1978/thumb/{{folder_name}}/{{page.metadata.title|replace({' ': '_'})}}/{{file.filename|replace({'.png': '_thumb.jpg'})}}"
                         class="figure-img img-fluid rounded" />
-                    <figcaption class="figure-caption">{{file.caption}}</figcaption>
+                    <figcaption class="figure-caption">
+                        {% if file.caption %}{{file.caption|md2html|raw}}{% endif %}
+                        <p class="text-muted">{{file.filename|replace({'_': ' '})}}</p>
+                    </figcaption>
                 </figure>
             </a>
             {% if loop.index % 4 == 0 %}

@@ -6,6 +6,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Yaml\Yaml;
+use Symfony\Component\Process\Process;
 
 class FspsPhotosCommand extends Command {
 
@@ -26,20 +27,52 @@ class FspsPhotosCommand extends Command {
                 continue;
             }
             $this->io->section($page->getId());
+            $groupId = basename($page->getId());
+
+            $buildingFolder = false;
+
             foreach ($metadata['files'] as $photoNum => $fileInfo) {
-                $groupId = basename($page->getId());
-                $filename = $baseDir.'/content/fsps/photos/' . $groupId . '/' . ($photoNum + 1) . '.md';
+                $photoId = '/fsps/photos/' . $groupId . '/' . ($photoNum + 1);
+                $filename = $baseDir.'/content/' . $photoId . '.md';
+
+                $photoPage = new Page($site, $photoId);
+                if (isset($photoPage->getMetadata()['buildings'][0]) && $photoPage->getMetadata()['buildings'][0]) {
+                    $this->io->writeln('Already done: ' . $photoId . '  --  building: '.$photoPage->getMetadata()['buildings'][0].')');
+                    continue;
+                }
+
+                if (!$buildingFolder) {
+                    $buildingFolder = str_replace(' ', '_', $this->io->ask('Building folder name (without underscores):', $groupId));
+                }
 
                 preg_match('/.*(19[0-9]{2}).*/', $fileInfo['filename'], $yearMatches);
                 $year = $yearMatches[1] ?? null;
 
+                preg_match('/.*Nos?_([0-9-]+).*/i', $fileInfo['filename'], $streetNumMatches);
+                $streetNum = $streetNumMatches[1] ?? '';
+
+                $groupPage = new Page($site, '/fsps/groups/' . $groupId);
+                $folder = 'Folder_' . str_pad($groupPage->getMetadata()['folder'], 2, '0');
+                $displayUrl = "https://archive.org/download/FSPS1978/display/$folder/$groupId/". str_replace('.png', '_display.jpg', $fileInfo['filename']);
+
+                $process = new Process(['firefox', $displayUrl]);
+                $process->run();
+
+                $possibleBuildingTitle = $streetNum . ' ' . str_replace('_', ' ', $buildingFolder);
+                $buildingTitle = $this->io->ask( 'Building title from <info>' . $fileInfo['filename'] . '</info>:', $possibleBuildingTitle );
+                $buildingIdPart = $buildingFolder . '/' . str_replace(' ', '_', $buildingTitle);
+
+                $buildingMeta = [
+                    'template' => 'building',
+                    'title' => $buildingTitle,
+                ];
                 $photoMeta = [
                     'template' => 'fsps_photo',
                     'group' => $groupId,
                     'year' => $year,
                     'description' => null,
-                    'places' => [
-                        ''
+                    'buildings' => [
+                        $buildingIdPart,
                     ],
                     'coordinates' => null,
                     'heading' => null,
@@ -54,14 +87,22 @@ class FspsPhotosCommand extends Command {
                         ]
                     ],
                 ];
-                if (!is_dir(dirname($filename))) {
-                    mkdir(dirname($filename), 0755, true);
-                }
-                $yaml = Yaml::dump($photoMeta, 4, 4, Yaml::DUMP_NULL_AS_TILDE);
-                file_put_contents($filename, "---\n$yaml---\n");
-                $this->io->writeln($filename);
+
+                $this->writeFile($filename, $photoMeta);
+
+                $buildingFilename = $baseDir.'/content/buildings/' . $buildingIdPart . '.md';
+                $this->writeFile($buildingFilename, $buildingMeta);
             }
         }
         return Command::SUCCESS;
+    }
+
+    private function writeFile($filename, $metadata) {
+        if (!is_dir(dirname($filename))) {
+            mkdir(dirname($filename), 0755, true);
+        }
+        $yaml = Yaml::dump($metadata, 4, 4, Yaml::DUMP_NULL_AS_TILDE);
+        file_put_contents($filename, "---\n$yaml---\n");
+        $this->io->writeln($filename);
     }
 }

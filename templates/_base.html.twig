@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
           integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ page.link('/assets/site.css') }}" />
+
+    <head profile="http://dublincore.org/documents/dc-html/">
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+    <link rel="schema.PA" href="http://www.pictureaustralia.org/schemas/pa/" />
+    {% block head %}{% endblock %}
+
     <script>
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
@@ -40,6 +46,7 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="{{page.link('/index')}}.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ page.link('/streets/index') }}.html">Streets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ page.link('/buildings/index') }}.html">Buildings</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="{{ page.link('/fsps/index') }}.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                             FSPS
@@ -81,7 +88,7 @@
     '|e('url') }}">Leave a comment</a>
             </li>
             <li class="list-inline-item">
-                <a href="https://github.com/samwilson/freo/edit/master/content{{ page.id }}{{ site.ext }}">Edit this page</a>
+                <a href="https://github.com/samwilson/freo/edit/main/content{{ page.id }}{{ site.ext }}">Edit this page</a>
             </li>
         </ul>
     </footer>

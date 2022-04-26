@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    {% set sql %}
+        SELECT id
+            FROM pages
+            WHERE template != "sitemap"
+                AND substr( id, 1, {{ page.id|dirname|length }} ) == "{{ page.id|dirname }}"
+            ORDER BY id ASC
+    {% endset %}
+
+    {% for p in database.query( sql ) %}
+        <url>
+            <loc>{{ site.config.url }}{{ p.id }}.html</loc>
+        </url>
+   {% endfor %}
+
+</urlset>
