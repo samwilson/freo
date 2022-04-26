@@ -33,7 +33,7 @@ class FspsPhotosCommand extends Command {
 
             foreach ($metadata['files'] as $photoNum => $fileInfo) {
                 $photoId = '/fsps/photos/' . $groupId . '/' . ($photoNum + 1);
-                $filename = $baseDir.'/content/' . $photoId . '.md';
+                $filename = $baseDir.'/content' . $photoId . '.md';
 
                 $photoPage = new Page($site, $photoId);
                 if (isset($photoPage->getMetadata()['buildings'][0]) && $photoPage->getMetadata()['buildings'][0]) {
