@@ -42,7 +42,7 @@ class FspsPhotosCommand extends Command {
                 }
 
                 if (!$buildingFolder) {
-                    $buildingFolder = str_replace(' ', '_', $this->io->ask('Building folder name (without underscores):', $groupId));
+                    $buildingFolder = str_replace(' ', '_', $this->io->ask('Building folder name (underscores will be added):', $groupId));
                 }
 
                 preg_match('/.*(19[0-9]{2}).*/', $fileInfo['filename'], $yearMatches);
@@ -52,7 +52,7 @@ class FspsPhotosCommand extends Command {
                 $streetNum = $streetNumMatches[1] ?? '';
 
                 $groupPage = new Page($site, '/fsps/groups/' . $groupId);
-                $folder = 'Folder_' . str_pad($groupPage->getMetadata()['folder'], 2, '0');
+                $folder = 'Folder_' . str_pad($groupPage->getMetadata()['folder'], 2, '0', STR_PAD_LEFT);
                 $displayUrl = "https://archive.org/download/FSPS1978/display/$folder/$groupId/". str_replace('.png', '_display.jpg', $fileInfo['filename']);
 
                 $process = new Process(['firefox', $displayUrl]);
