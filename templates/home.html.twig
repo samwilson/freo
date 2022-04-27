@@ -2,18 +2,37 @@
 
 {% block main %}
 
-    <article class="container">
+    <article>
         <p>
             This is a website about the places and people of <a href="https://en.wikipedia.org/wiki/Fremantle">Fremantle, Western Australia</a>.
-            It is (as of 2022) a work-in-progress, and so far contains
+            It is (as of {{ "now"|date("F Y") }}) a work-in-progress, and so far contains
             {{ database.query('SELECT COUNT(*) AS tot FROM pages').fetchColumn()|format_number({}) }}
             pages, including
+
             {{ database.query('SELECT COUNT(*) AS tot FROM pages WHERE template="street"').fetchColumn()|format_number({}) }}
-            <a href="{{page.link('/streets/index')}}.html">streets</a> and
+            <a href="{{page.link('/streets/index')}}.html">streets</a>,
+
+            {{ database.query('SELECT COUNT(*) AS tot FROM pages WHERE template="building"').fetchColumn()|format_number({}) }}
+            <a href="{{page.link('/buildings/index')}}.html">buildings</a>, and
+
             {{ database.query('SELECT SUM(photo_count) AS tot FROM pages WHERE template="fsps_group"').fetchColumn()|format_number({}) }}
-            photos from the 1978–80 <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a>.
-            More material is being added.
+            photos from the <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a>.
+
+            More material is being added regularly.
         </p>
+
+        <h2>Contributing</h2>
+        <p>
+            Everyone is invited to add content to this website!
+            You can do so by leaving comments on any pages (most pages have a comment form at the bottom),
+            or by directly editing the content (there's an edit link in the footer of every page).
+            To do either of these you need to <a href="https://github.com/login">log in to Github</a> (first creating an account if you don't have one).
+        </p>
+        <p>
+            To contribute photos of Fremantle, please upload them to <a href="https://commons.wikimedia.org">Wikimedia Commons</a>
+            and then leave a comment on the relevant page here letting us know the filenames of your photos.
+        </p>
+
     </article>
 
 {% endblock %}

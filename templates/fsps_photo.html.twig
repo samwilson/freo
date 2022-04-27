@@ -18,6 +18,7 @@
 {% endblock %}
 
 {% block head %}
+    <link rel="schema.PA" href="http://www.pictureaustralia.org/schemas/pa/" />
     <meta name="DC.title" content="Fremantle Society Photographic Survey, {{ page.metadata.group|replace({'_': ' '})}}, photo {{page.id|basename}}" />
     <meta name="DC.creator" content="Fremantle Society Inc." />
     <meta name="DC.coverage" content="{% if page.metadata.year %}{{page.metadata.year}}{% else %}1978–80{% endif %}" />

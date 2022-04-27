@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
+<head profile="http://dublincore.org/documents/dc-html/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
@@ -15,9 +15,7 @@
           integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ page.link('/assets/site.css') }}" />
 
-    <head profile="http://dublincore.org/documents/dc-html/">
     <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
-    <link rel="schema.PA" href="http://www.pictureaustralia.org/schemas/pa/" />
     {% block head %}{% endblock %}
 
     <script>
@@ -33,7 +31,7 @@
         })();
     </script>
 </head>
-<body class="d-flex flex-column h-100">
+<body>
 
     <header class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -48,7 +46,9 @@
                     <li class="nav-item"><a class="nav-link" href="{{ page.link('/streets/index') }}.html">Streets</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ page.link('/buildings/index') }}.html">Buildings</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ page.link('/fsps/index') }}.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ page.link('/fsps/index') }}.html"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"
+                            title="Fremantle Society Photographic Survey (1978&ndash;80)">
                             FSPS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -62,7 +62,7 @@
         </nav>
     </header>
 
-    <main class="container flex-shrink-0 mt-4">
+    <main class="container mt-4">
 
         {% block title_page %}
             {% if page.metadata.title is defined %}
@@ -75,20 +75,28 @@
         {% endblock %}
     </main>
 
-    <footer class="noprint footer mt-auto py-3 container small">
+    <footer class="noprint footer mt-4 py-3 container small">
         <hr />
 
         <ul class="small list-inline">
+            <li class="list-inline-item">
+                Site last updated {{ "now"|date("Y-m-d") }}.
+            </li>
+            <li class="list-inline-item">
+                All content &copy;
+                <a href="http://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Attribution-ShareAlike 4.0 International">CC-BY-SA</a>
+                (unless otherwise noted).
+            </li>
             <li class="list-inline-item">
                 <a href="https://github.com/samwilson/freo/issues/new?title=[Comment]&labels=comment&body={{ '
     Commenting about: ' ~ site.config.url ~ page.id ~ '.html
 
     [Please add your comment here. You can delete this line.]
 
-    '|e('url') }}">Leave a comment</a>
+    '|e('url') }}">Leave a comment.</a>
             </li>
             <li class="list-inline-item">
-                <a href="https://github.com/samwilson/freo/edit/main/content{{ page.id }}{{ site.ext }}">Edit this page</a>
+                <a href="https://github.com/samwilson/freo/edit/main/content{{ page.id }}{{ site.ext }}">Edit this page.</a>
             </li>
         </ul>
     </footer>
