@@ -12,7 +12,12 @@
     },
     "scripts": {
         "build": [
+            "Composer\\Config::disableProcessTimeout",
             "basildon ."
+        ],
+        "deploy": [
+            "Composer\\Config::disableProcessTimeout",
+            "netlify deploy --prod --dir ./output/"
         ]
     }
 }
