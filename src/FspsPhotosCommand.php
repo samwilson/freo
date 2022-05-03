@@ -37,7 +37,7 @@ class FspsPhotosCommand extends Command {
 
                 $photoPage = new Page($site, $photoId);
                 if (isset($photoPage->getMetadata()['buildings'][0]) && $photoPage->getMetadata()['buildings'][0]) {
-                    $this->io->writeln('Already done: ' . $photoId . '  --  building: '.$photoPage->getMetadata()['buildings'][0].')');
+                    $this->io->writeln('Already done: ' . $photoId . '  --  building: '.$photoPage->getMetadata()['buildings'][0]);
                     continue;
                 }
 
@@ -60,7 +60,7 @@ class FspsPhotosCommand extends Command {
 
                 $possibleBuildingTitle = $streetNum . ' ' . str_replace('_', ' ', $buildingFolder);
                 $buildingTitle = $this->io->ask( 'Building title from <info>' . $fileInfo['filename'] . '</info>:', $possibleBuildingTitle );
-                $buildingIdPart = $buildingFolder . '/' . str_replace(' ', '_', $buildingTitle);
+                $buildingIdPart = $buildingFolder . '/' . str_replace(' ', '_', preg_replace('/[^a-zA-Z0-9 _-]/', '',$buildingTitle));
 
                 $buildingMeta = [
                     'template' => 'building',
