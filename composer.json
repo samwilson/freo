@@ -15,6 +15,10 @@
             "Composer\\Config::disableProcessTimeout",
             "basildon ."
         ],
+        "test": [
+            "Composer\\Config::disableProcessTimeout",
+            "htmltest"
+        ],
         "deploy": [
             "Composer\\Config::disableProcessTimeout",
             "netlify deploy --prod --dir ./output/"

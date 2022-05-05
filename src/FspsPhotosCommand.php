@@ -43,6 +43,7 @@ class FspsPhotosCommand extends Command {
 
                 if (!$buildingFolder) {
                     $buildingFolder = str_replace(' ', '_', $this->io->ask('Building folder name (underscores will be added):', $groupId));
+                    //$buildingFolder = $groupId;
                 }
 
                 preg_match('/.*(19[0-9]{2}).*/', $fileInfo['filename'], $yearMatches);
@@ -55,12 +56,27 @@ class FspsPhotosCommand extends Command {
                 $folder = 'Folder_' . str_pad($groupPage->getMetadata()['folder'], 2, '0', STR_PAD_LEFT);
                 $displayUrl = "https://archive.org/download/FSPS1978/display/$folder/$groupId/". str_replace('.png', '_display.jpg', $fileInfo['filename']);
 
-                $process = new Process(['firefox', $displayUrl]);
-                $process->run();
+                $possibleBuildingTitle = $buildingFolder . '/' . $streetNum . '_' . $buildingFolder;
+                $buildingTitle = $this->io->choice( 'Building title from <info>' . $fileInfo['filename'] . '</info>:', [
+                    $possibleBuildingTitle,
+                    'Open image',
+                    'Other'
+                ], $possibleBuildingTitle );
+                if ($buildingTitle === 'Open image') {
+                    $process = new Process(['firefox', $displayUrl]);
+                    $process->run();
+                }
+                if ($buildingTitle === 'Open image' || $buildingTitle === 'Other') {
+                    $buildingTitle = $this->io->ask('Full name', $possibleBuildingTitle);
+                }
 
-                $possibleBuildingTitle = $streetNum . ' ' . str_replace('_', ' ', $buildingFolder);
-                $buildingTitle = $this->io->ask( 'Building title from <info>' . $fileInfo['filename'] . '</info>:', $possibleBuildingTitle );
-                $buildingIdPart = $buildingFolder . '/' . str_replace(' ', '_', preg_replace('/[^a-zA-Z0-9 _-]/', '',$buildingTitle));
+                $buildingIdPart = str_replace(' ', '_', preg_replace('/[^a-zA-Z0-9 _\/-]/', '', $buildingTitle));
+
+                $titleParts = explode('/', $buildingIdPart);
+                if (count($titleParts) !== 2) {
+                    throw new \Exception('Bad title, please include a slash: ' . $buildingIdPart);
+                }
+                $buildingTitle = str_replace('_', ' ', $titleParts[1]);
 
                 $buildingMeta = [
                     'template' => 'building',
