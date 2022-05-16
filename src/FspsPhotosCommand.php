@@ -60,8 +60,12 @@ class FspsPhotosCommand extends Command {
                 $buildingTitle = $this->io->choice( 'Building title from <info>' . $fileInfo['filename'] . '</info>:', [
                     $possibleBuildingTitle,
                     'Open image',
+                    'Skip',
                     'Other'
                 ], $possibleBuildingTitle );
+                if ($buildingTitle === 'Skip') {
+                    continue;
+                }
                 if ($buildingTitle === 'Open image') {
                     $process = new Process(['firefox', $displayUrl]);
                     $process->run();

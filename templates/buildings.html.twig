@@ -2,12 +2,23 @@
 
 {% block main %}
 
-    <ol class="columns">
-        {% for p in database.query('SELECT * FROM pages WHERE template="building" ORDER BY title ASC') %}
-            <li>
-                <a href="{{page.link(p.id)}}.html">{{p.title}}</a>
-            </li>
-        {% endfor %}
-    </ol>
+    <p>
+        {{ database.query('SELECT COUNT(*) AS tot FROM pages WHERE template="building"').fetchColumn()|format_number({}) }} buildings.
+    </p>
+
+    {% set groups = database.query('SELECT SUBSTR(SUBSTR(id, 12 ), 0, INSTR(SUBSTR(id, 12 ), "/")) AS g FROM pages WHERE template="building" GROUP BY g ORDER BY g').fetchAll %}
+    {% for group in groups %}
+
+        <h2>{{group.g|replace({'_': ' '})}}</h2>
+
+        <ol class="columns">
+            {% for p in database.query('SELECT * FROM pages WHERE id LIKE "/buildings/'~group.g~'/%" ORDER BY title ASC') %}
+                <li>
+                    <a href="{{page.link(p.id)}}.html">{{p.title}}</a> 
+                </li>
+            {% endfor %}
+        </ol>
+
+    {% endfor %}
 
 {% endblock %}
