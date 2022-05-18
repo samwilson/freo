@@ -8,15 +8,6 @@ folder_check: 1
 description: ~
 files:
     -
-        filename: Empty.png
-        caption: ~
-    -
-        filename: Empty.png
-        caption: ~
-    -
-        filename: Empty.png
-        caption: ~
-    -
         filename: 'FSPS_Crandon_Street_001,_no_8,_12-6-E,_1978.png'
         caption: 'No. 8'
     -

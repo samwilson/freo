@@ -1,6 +1,6 @@
 {
     "require": {
-        "samwilson/basildon": "^2.1",
+        "samwilson/basildon": "^3.0",
         "addwiki/mediawiki-api": "^2.0",
         "symfony/var-dumper": "^5.4",
         "symfony/console": "^5.4"
@@ -10,17 +10,19 @@
             "App\\": "./src/"
         }
     },
+    "config": {
+        "process-timeout": 0
+    },
     "scripts": {
         "build": [
-            "Composer\\Config::disableProcessTimeout",
-            "basildon ."
+            "basildon build ."
         ],
         "test": [
-            "Composer\\Config::disableProcessTimeout",
+            "@build",
             "htmltest"
         ],
         "deploy": [
-            "Composer\\Config::disableProcessTimeout",
+            "@build",
             "netlify deploy --prod --dir ./output/"
         ]
     }
