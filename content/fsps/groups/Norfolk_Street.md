@@ -1,6 +1,6 @@
 ---
 template: fsps_group
-title: 'Forfolk Street'
+title: 'Norfolk Street'
 photo_count: 16
 folder: 8
 folder_order: 2

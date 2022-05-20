@@ -40,6 +40,11 @@ class FspsPhotosCommand extends Command {
                     $this->io->writeln('Already done: ' . $photoId . '  --  building: '.$photoPage->getMetadata()['buildings'][0]);
                     continue;
                 }
+                if (!$photoPage->getMetadata()['buildings']) {
+                    continue;
+                }
+                // dump(isset($photoPage->getMetadata()['buildings'])
+                // , !$photoPage->getMetadata()['buildings']);
 
                 if (!$buildingFolder) {
                     $buildingFolder = str_replace(' ', '_', $this->io->ask('Building folder name (underscores will be added):', $groupId));
