@@ -56,6 +56,9 @@ class FspsPhotosCommand extends Command {
 
                 preg_match('/.*Nos?_([0-9-]+).*/i', $fileInfo['filename'], $streetNumMatches);
                 $streetNum = $streetNumMatches[1] ?? '';
+                if (!is_numeric($streetNum)) {
+                    continue;
+                }
 
                 $groupPage = new Page($site, '/fsps/groups/' . $groupId);
                 $folder = 'Folder_' . str_pad($groupPage->getMetadata()['folder'], 2, '0', STR_PAD_LEFT);
