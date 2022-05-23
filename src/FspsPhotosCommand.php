@@ -46,15 +46,10 @@ class FspsPhotosCommand extends Command {
                 // dump(isset($photoPage->getMetadata()['buildings'])
                 // , !$photoPage->getMetadata()['buildings']);
 
-                if (!$buildingFolder) {
-                    $buildingFolder = str_replace(' ', '_', $this->io->ask('Building folder name (underscores will be added):', $groupId));
-                    //$buildingFolder = $groupId;
-                }
-
                 preg_match('/.*(19[0-9]{2}).*/', $fileInfo['filename'], $yearMatches);
                 $year = $yearMatches[1] ?? null;
 
-                preg_match('/.*Nos?_([0-9-]+).*/i', $fileInfo['filename'], $streetNumMatches);
+                preg_match('/.*Nos?_([0-9-]+[A-Z]?).*/i', $fileInfo['filename'], $streetNumMatches);
                 $streetNum = $streetNumMatches[1] ?? '';
                 if (!is_numeric($streetNum)) {
                     continue;
@@ -64,6 +59,9 @@ class FspsPhotosCommand extends Command {
                 $folder = 'Folder_' . str_pad($groupPage->getMetadata()['folder'], 2, '0', STR_PAD_LEFT);
                 $displayUrl = "https://archive.org/download/FSPS1978/display/$folder/$groupId/". str_replace('.png', '_display.jpg', $fileInfo['filename']);
 
+                if (!$buildingFolder) {
+                    $buildingFolder = str_replace(' ', '_', $this->io->ask('Building folder name (underscores will be added):', $groupId));
+                }
                 $possibleBuildingTitle = $buildingFolder . '/' . $streetNum . '_' . $buildingFolder;
                 $buildingTitle = $this->io->choice( 'Building title from <info>' . $fileInfo['filename'] . '</info>:', [
                     $possibleBuildingTitle,
