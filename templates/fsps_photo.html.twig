@@ -48,6 +48,10 @@
         {{page.metadata.group|replace({'_': ' '})}}, photo {{page.id|basename}}
     </h1>
 
+    {% if page.metadata.year %}
+        <p>Year: {{page.metadata.year}}</p>
+    {% endif %}
+
     {# Remove blank building entries. #}
     {% if page.metadata.buildings and page.metadata.buildings|filter(v => v != '')|length > 0 %}
         <p>
@@ -57,15 +61,19 @@
                 <a href="{{ page.link( '/buildings/'~building_id ) }}.html">{{building.title}}</a>
             {% endfor %}
         </p>
+    {% else %}
+        <p>This photo has not yet been associated with any <a href="{{ page.link('/buildings/index') }}.html">buildings</a>.</p>
+        <p>If you have information about the buildings or anything else in this photo, please leave a comment below.</p>
     {% endif %}
+
+    <p>Caption:</p>
+    <blockquote>{{file1.caption|md2html|raw}}</blockquote>
 
     <figure class="figure mx-auto">
         <img src="https://archive.org/download/FSPS1978/display/{{folder_name}}/{{page.metadata.group}}/{{file1.filename|replace({'.png': '_display.jpg'})}}"
             class="figure-img img-fluid rounded" />
-        <figcaption class="figure-caption">
-            {{file1.caption|md2html|raw}}
-            {# <p class="text-muted"><code>{{ file1.filename }}</code></a></p> #}
-        </figcaption>
+        {# <figcaption class="figure-caption">
+        </figcaption> #}
     </figure>
 
     <p>
@@ -74,19 +82,23 @@
         </a>
     </p>
 
+    <p>Filename: <code>{{ file1.filename }}</code></a></p>
+
     <p>
         Cite this photo as follows:
     </p>
 
-    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-        <span property="cc:attributionName">Fremantle Society Inc.</span>,
-        {% if page.metadata.year %}{{page.metadata.year}}{% else %}1980{% endif %}.
-        <em>
-            <span property="dct:title">Fremantle Society Photographic Survey, {{page.metadata.group|replace({'_': ' '})}} photo {{page.id|basename}}</span>.
-        </em>
-        <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener noreferrer"><abbr title="Creative Commons">CC</abbr> Attribution-ShareAlike 4.0 International</a>.
-        Retrieved from <a href="{{site.config.url}}{{page.id}}.html">{{site.config.url}}{{page.id}}.html</a>
-    </p>
+    <blockquote>
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+            <span property="cc:attributionName">Fremantle Society Inc.</span>,
+            {% if page.metadata.year %}{{page.metadata.year}}{% else %}1980{% endif %}.
+            <em>
+                <span property="dct:title">Fremantle Society Photographic Survey, {{page.metadata.group|replace({'_': ' '})}} photo {{page.id|basename}}</span>.
+            </em>
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener noreferrer"><abbr title="Creative Commons">CC</abbr> Attribution-ShareAlike 4.0 International</a>.
+            Retrieved from <a href="{{site.config.url}}{{page.id}}.html">{{site.config.url}}{{page.id}}.html</a>
+        </p>
+    </blockquote>
 
     {% import "_macros.twig" as macros %}
     {{ macros.comments() }}
