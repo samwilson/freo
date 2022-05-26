@@ -49,9 +49,9 @@ class FspsPhotosCommand extends Command {
                 preg_match('/.*(19[0-9]{2}).*/', $fileInfo['filename'], $yearMatches);
                 $year = $yearMatches[1] ?? null;
 
-                preg_match('/.*Nos?_([0-9-]+[A-Z]?).*/i', $fileInfo['filename'], $streetNumMatches);
+                preg_match('/.*Nos?.?([0-9-]+[A-Z]?).*/i', $fileInfo['filename'], $streetNumMatches);
                 $streetNum = $streetNumMatches[1] ?? '';
-                if (!is_numeric($streetNum)) {
+                if (!$streetNum) {
                     continue;
                 }
 

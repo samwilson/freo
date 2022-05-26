@@ -1,4 +1,0 @@
----
-template: photos
-title: Photos
----

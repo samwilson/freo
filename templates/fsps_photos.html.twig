@@ -1,0 +1,29 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+    <p>
+        There are {{ database.query('SELECT COUNT(*) AS count FROM pages WHERE template = "fsps_photo"').fetchColumn()|format_number({}) }} photos
+        in the <a href="{{ page.link('/fsps/index') }}.html">Fremantle Society Photographic Survey</a>.
+    </p>
+
+    <h2>With no buildings identified</h2>
+    <p>
+        These photos need to have any buildings in them identified.
+        The buildings get their own pages, and are linked to from the photo pages.
+    </p>
+    {% set sql %}
+        SELECT p.id, i.value AS filename
+        FROM pages p, json_each(files) j, json_each(j.value) i
+        WHERE template='fsps_photo' AND buildings = '[""]' AND i.key='filename'
+    {% endset %}
+    <table>
+    {% for p in database.query(sql) %}
+        <tr>
+            <td><a href="{{page.link(p.id)}}.html"><code>{{ p.id }}</code></a>
+            <td><code>{{ p.filename }}</code></td>
+        </tr>
+    {% endfor %}
+    </table>
+
+{% endblock %}

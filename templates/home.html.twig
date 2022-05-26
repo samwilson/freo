@@ -9,7 +9,7 @@
             {{ database.query('SELECT COUNT(*) AS tot FROM pages').fetchColumn()|format_number({}) }}
             pages, including
 
-            {{ database.query('SELECT COUNT(*) AS tot FROM pages WHERE template="street"').fetchColumn()|format_number({}) }}
+            {{ database.query("SELECT COUNT(*) AS tot FROM pages WHERE template='street'").fetchColumn()|format_number({}) }}
             <a href="{{page.link('/streets/index')}}.html">streets</a>,
 
             {{ database.query('SELECT COUNT(*) AS tot FROM pages WHERE template="building"').fetchColumn()|format_number({}) }}
