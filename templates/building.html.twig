@@ -6,38 +6,40 @@
         {{ page.body|md2html|raw }}
     {% endif %}
 
-    <h2>Photos</h2>
-
     {% set sql %}
     SELECT photos.*
         FROM pages photos, json_each(photos.buildings) buildings
         WHERE photos.template="fsps_photo"
             AND "/buildings/"||buildings.value = "{{page.id}}"
     {% endset %}
+    {% set photos = database.query(sql).fetchAll() %}
 
-    <div class="row">
-        {% for photo in database.query(sql) %}
+    {% if photos|length > 0 %}
+        <h2>Photos</h2>
+        <div class="row">
+            {% for photo in photos %}
 
-            {% set folder = database.query('SELECT folder FROM pages WHERE id="/fsps/groups/' ~ photo.group ~ '"').fetchColumn() %}
-            {% if folder < 10 %}
-                {% set folder_name = 'Folder_0' ~ folder %}
-            {% else %}
-                {% set folder_name = 'Folder_' ~ folder %}
-            {% endif %}
-            {% set file1 = json_decode(photo.files).0 %}
-            {% set thumb_filename = file1.filename|replace({'.png': '_thumb.jpg'}) %}
+                {% set folder = database.query('SELECT folder FROM pages WHERE id="/fsps/groups/' ~ photo.group ~ '"').fetchColumn() %}
+                {% if folder < 10 %}
+                    {% set folder_name = 'Folder_0' ~ folder %}
+                {% else %}
+                    {% set folder_name = 'Folder_' ~ folder %}
+                {% endif %}
+                {% set file1 = json_decode(photo.files).0 %}
+                {% set thumb_filename = file1.filename|replace({'.png': '_thumb.jpg'}) %}
 
-            <a href="{{page.link(photo.id)}}.html" class="col-md">
-                <figure class="figure">
-                    <img src="https://archive.org/download/FSPS1978/thumb/{{folder_name}}/{{photo.group}}/{{thumb_filename}}"
-                        class="figure-img img-fluid rounded" />
-                    <figcaption class="figure-caption">
-                        FSPS {{photo.group|replace({'_': ' '})}}, photo {{photo.id|basename}}.
-                    </figcaption>
-                </figure>
-            </a>
-        {% endfor %}
-    </div>
+                <a href="{{page.link(photo.id)}}.html" class="col-md">
+                    <figure class="figure">
+                        <img src="https://archive.org/download/FSPS1978/thumb/{{folder_name}}/{{photo.group}}/{{thumb_filename}}"
+                            class="figure-img img-fluid rounded" />
+                        <figcaption class="figure-caption">
+                            FSPS {{photo.group|replace({'_': ' '})}}, photo {{photo.id|basename}}.
+                        </figcaption>
+                    </figure>
+                </a>
+            {% endfor %}
+        </div>
+    {% endif %}
 
     {% import "_macros.twig" as macros %}
     {{ macros.comments() }}

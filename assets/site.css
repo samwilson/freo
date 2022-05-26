@@ -2,3 +2,16 @@ ol.columns,
 ul.columns {
     columns: 30ex auto;
 }
+
+blockquote {
+    line-height:1.2em;
+    margin: 0 3em;
+}
+
+.footnotes {
+    font-size: smaller;
+}
+
+.footnotes li > * {
+    display: inline;
+}
