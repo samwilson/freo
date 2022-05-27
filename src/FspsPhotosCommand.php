@@ -49,10 +49,17 @@ class FspsPhotosCommand extends Command {
                 preg_match('/.*(19[0-9]{2}).*/', $fileInfo['filename'], $yearMatches);
                 $year = $yearMatches[1] ?? null;
 
-                preg_match('/.*Nos?.?([0-9-]+[A-Z]?).*/i', $fileInfo['filename'], $streetNumMatches);
+                preg_match('/.*No[.s]?.?([0-9-]+[A-Z]?).*/i', $fileInfo['filename'], $streetNumMatches);
                 $streetNum = $streetNumMatches[1] ?? '';
                 if (!$streetNum) {
                     continue;
+                }
+                if (str_contains($streetNum, '-')) {
+                    $numParts = explode( '-', $streetNum );
+                    if (count($numParts) == 2 && is_numeric($numParts[0]) && is_numeric($numParts[1])) {
+                        sort($numParts);
+                        $streetNum = $numParts[0] . '-' . $numParts[1];
+                    }
                 }
 
                 $groupPage = new Page($site, '/fsps/groups/' . $groupId);
@@ -74,7 +81,7 @@ class FspsPhotosCommand extends Command {
                 }
                 if ($buildingTitle === 'Open image') {
                     $process = new Process(['firefox', $displayUrl]);
-                    $process->run();
+                    $process->mustRun();
                 }
                 if ($buildingTitle === 'Open image' || $buildingTitle === 'Other') {
                     $buildingTitle = $this->io->ask('Full name', $possibleBuildingTitle);
