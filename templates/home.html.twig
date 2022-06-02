@@ -12,10 +12,10 @@
             {{ database.query("SELECT COUNT(*) AS tot FROM pages WHERE template='street'").fetchColumn()|format_number({}) }}
             <a href="{{page.link('/streets/index')}}.html">streets</a>,
 
-            {{ database.query('SELECT COUNT(*) AS tot FROM pages WHERE template="building"').fetchColumn()|format_number({}) }}
+            {{ database.query("SELECT COUNT(*) AS tot FROM pages WHERE template='building'").fetchColumn()|format_number({}) }}
             <a href="{{page.link('/buildings/index')}}.html">buildings</a>, and
 
-            {{ database.query('SELECT SUM(photo_count) AS tot FROM pages WHERE template="fsps_group"').fetchColumn()|format_number({}) }}
+            {{ database.query("SELECT SUM(photo_count) AS tot FROM pages WHERE template='fsps_group'").fetchColumn()|format_number({}) }}
             photos from the <a href="{{page.link('/fsps/index')}}.html">Fremantle Society Photographic Survey</a>.
 
             More material is being added regularly.

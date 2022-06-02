@@ -3,7 +3,7 @@
 {% block main %}
 
     <ol class="columns">
-        {% for p in database.query('SELECT * FROM pages WHERE template="street" ORDER BY title ASC') %}
+        {% for p in database.query("SELECT * FROM pages WHERE template='street' ORDER BY title ASC").fetchAll() %}
             <li>
                 <a href="{{page.link(p.id)}}.html">{{p.title}}</a>
             </li>
