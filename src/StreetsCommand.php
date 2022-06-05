@@ -66,18 +66,17 @@ class StreetsCommand extends Command {
 
             $filename = str_replace([' ', "'"], ['_', '-'], $street['title']);
             $outfilepath = dirname(__DIR__).'/content/streets/'.$filename.'.md';
+            $streetPage = new Page($site, '/streets/' . $filename);
             if (file_exists($outfilepath)) {
-                $streetPage = new Page($site, '/streets/' . $filename);
                 $metadata = array_merge($streetPage->getMetadata(), $street);
                 $body = $streetPage->getBody();
             } else {
                 $metadata = $street;
                 $body = '';
             }
-            $yaml = Yaml::dump($metadata, 4, 4, Yaml::DUMP_NULL_AS_TILDE);
-            $output->writeln('Saving: '.$outfilepath);
-            file_put_contents($outfilepath, "---\n$yaml---\n$body");
+            $streetPage->write($metadata, $body);
 
+            /* Groups are all done.
             $groupFile = dirname(__DIR__).'/content/fsps/groups/'.$filename.'.md';
             if (file_exists($groupFile)) {
                 $output->writeln('Adding to FSPS group');
@@ -90,6 +89,7 @@ class StreetsCommand extends Command {
                 $output->writeln('Saving: '.$groupFile);
                 file_put_contents($groupFile, "---\n$yaml2---\n");
             }
+            */
         }
         return Command::SUCCESS;
     }

@@ -14,7 +14,12 @@
         <ol class="columns">
             {% for p in database.query('SELECT * FROM pages WHERE id LIKE "/buildings/'~group.g~'/%" ORDER BY title ASC') %}
                 <li>
-                    <a href="{{page.link(p.id)}}.html">{{p.title}}</a> 
+                    {% set title = p.title %}
+                    {% if p.wikidata is defined and p.wikidata %}
+                        {% set wikidata_item = wikidata( p.wikidata ) %}
+                        {% set title = wikidata_item.labels.en.value %}
+                    {% endif %}
+                    <a href="{{page.link(p.id)}}.html">{{ title }}</a> 
                 </li>
             {% endfor %}
         </ol>

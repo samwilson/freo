@@ -1,4 +1,4 @@
 ---
 template: building
-title: '32-34 Adelaide Street'
+wikidata: Q73005318
 ---

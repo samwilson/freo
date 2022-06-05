@@ -1,9 +1,128 @@
 {% extends '_base.html.twig' %}
 
+{% set wikidata_item = false %}
+{% if page.metadata.title is defined %}
+    {% set title = page.metadata.title %}
+{% endif %}
+{% set streets = [ page.id|dirname|slice(11)|replace({'_':' '}) ] %}
+{% if page.metadata.streets is defined and page.metadata.streets|length > 0 %}
+    {% set streets = page.metadata.streets %}
+{% endif %}
+{% if page.metadata.coords is defined %}
+    {% set coords = page.metadata.coords %}
+{% endif %}
+{% if page.metadata.wikidata is defined and page.metadata.wikidata %}
+    {% set wikidata_item = wikidata( page.metadata.wikidata ) %}
+    {% set prop_inherit_id = 'P2618' %}
+    {% set prop_commons_cat = 'P373' %}
+    {% set prop_inception = 'P571' %}
+    {% set prop_coords = 'P625' %}
+    {% set prop_located_on_street = 'P669' %}
+    {% set title = wikidata_item.labels.en.value %}
+    {% if attribute(wikidata_item.claims, prop_located_on_street) is defined %}
+        {% for street_claim in attribute(wikidata_item.claims, prop_located_on_street) %}
+            {% set street_item = wikidata( street_claim.mainsnak.datavalue.value.id ) %}
+            {% if street_item.labels.en.value not in streets %}
+                {% set streets = streets|merge([street_item.labels.en.value]) %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+    {% if attribute(wikidata_item.claims, prop_coords).0.mainsnak.datavalue.value is defined %}
+        {% set coords = attribute(wikidata_item.claims, prop_coords).0.mainsnak.datavalue.value %}
+    {% endif %}
+{% endif %}
+
+{% block title_head %}
+    {{ title }} ::
+{% endblock %}
+
+{% block title_page %}
+    <h1>{{ title }}</h1>
+{% endblock %}
+
+{% set map_id = 'map' %}
+
+{% block head %}
+    {% if coords is defined %}
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+            integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+            crossorigin="" />
+    {% endif %}
+{% endblock %}
+
+{% block foot %}
+    {% if coords is defined %}
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+            integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+            crossorigin=""></script>
+        <script>
+            var map = L.map('{{ map_id }}').setView([{{ coords.latitude }}, {{ coords.longitude }}], 16);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+            }).addTo(map);
+            var marker = L.marker([{{ coords.latitude }}, {{ coords.longitude }}]).addTo(map);
+        </script>
+    {% endif %}
+{% endblock %}
+
 {% block main %}
+
+    <div class="float-right row align-items-center ml-3 shadow-sm p-1" style="width:30%">
+
+        <div class="col-3">Street{% if streets|length > 1 %}s{% endif %}:</div>
+        <div class="col-9">
+            {% for street in streets %}
+                <a href="{{ page.link('streets/'~street|replace({' ':'_'})) }}.html">{{ street }}</a>
+                {% if not loop.last %}<br />{% endif %}
+            {% endfor %}
+        </div>
+
+        {% if wikidata_item %}
+            <div class="col-3">Wikidata:</div>
+            <div class="col-9">
+                <a href="https://www.wikidata.org/wiki/{{ wikidata_item.id }}">{{ wikidata_item.id }}</a>
+            </div>
+
+            {% if attribute( wikidata_item.claims, prop_inherit_id ) is defined %}
+                {% set inherit_id = attribute( wikidata_item.claims, prop_inherit_id ).0.mainsnak.datavalue.value %}
+                <div class="col-3">inHerit:</div>
+                <div class="col-9">
+                    <a href="http://inherit.stateheritage.wa.gov.au/public/p/{{ inherit_id }}">
+                        {{ inherit_id }}
+                    </a>
+                </div>
+            {% endif %}
+
+            {% if attribute( wikidata_item.claims, prop_commons_cat ) is defined %}
+                {% set commons_cat = attribute( wikidata_item.claims, prop_commons_cat ) %}
+                {% if commons_cat %}
+                    <div class="col-3">Wikimedia Commons:</div>
+                    <div class="col-9">
+                        <a href="https://commons.wikimedia.org/wiki/Category:{{ commons_cat.0.mainsnak.datavalue.value|replace({' ':'_'}) }}">
+                            {{ commons_cat.0.mainsnak.datavalue.value }}
+                        </a>
+                    </div>
+                {% endif %}
+            {% endif %}
+
+        {% endif %}
+
+        {% if coords is defined %}
+            <div class="col-12 my-3">
+               <div id="{{ map_id }}" style="height:250px"></div>
+            </div>
+        {% endif %}
+    </div>
 
     {% if page.body %}
         {{ page.body|md2html|raw }}
+    {% endif %}
+
+    {% if wikidata_item and wikidata_item.sitelinks.enwiki.title is defined %}
+        <h2>Wikipedia</h2>
+        {{ wikipedia('en', wikidata_item.sitelinks.enwiki.title)|raw }}
+        <p><a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title}}">Read more on Wikipedia…</a></p>
     {% endif %}
 
     {% set sql %}
@@ -41,6 +160,7 @@
         </div>
     {% endif %}
 
+    <h2 id="comments" style="clear:right">Comments</h2>
     {% import "_macros.twig" as macros %}
     {{ macros.comments() }}
 

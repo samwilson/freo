@@ -1,4 +1,4 @@
 ---
 template: building
-title: '23 William Street'
+wikidata: Q28950932
 ---

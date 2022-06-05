@@ -1,4 +1,4 @@
 ---
 template: building
-wikidata: Q28382509
+wikidata: Q28225169
 ---

@@ -1,4 +1,4 @@
 ---
 template: building
-title: '134 Solomon Street'
+wikidata: Q28378415
 ---
