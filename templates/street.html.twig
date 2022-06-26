@@ -1,4 +1,5 @@
 {% extends '_base.html.twig' %}
+{% import "_macros.twig" as macros %}
 
 {% block main %}
 
@@ -10,59 +11,6 @@
         {% set prop_osm_relation = 'P402' %}
     {% endif %}
 
-    <p>
-        {% if wikidata_item %}
-            <a href="https://www.wikidata.org/wiki/{{ page.metadata.wikidata }}">{{ page.metadata.wikidata }}</a>:
-            {{ wikidata_item.descriptions.en.value }}
-        {% else %}
-            No <a href="https://www.wikidata.org">Wikidata</a> item exists for this street yet.
-        {% endif %}
-    </p>
-
-    <dl class="row">
-        {% if wikidata_item  %}
-
-            {% if attribute( wikidata_item.claims, prop_connects_with ) is defined %}
-                <dt class="col-sm-2">Connects with:</dt>
-                <dd class="col-sm-10">
-                    <ol>
-                        {% for conn in attribute( wikidata_item.claims, prop_connects_with ) %}
-                            {% set connLabel = wikidata( conn.mainsnak.datavalue.value.id ).labels.en.value %}
-                            <li><a href="{{ page.link( 'streets/'~(connLabel|replace({' ': '_'})) ) }}.html">{{ connLabel }}</a></li>
-                        {% endfor %}
-                    </ol>
-                </dd>
-            {% endif %}
-
-            {% if attribute( wikidata_item.claims, prop_commons_cat ) is defined %}
-                <dt class="col-sm-2">Wikimedia Commons:</dt>
-                <dd class="col-sm-10">
-                    {% set commons_cat =  attribute( wikidata_item.claims, prop_commons_cat ) %}
-                    {% if commons_cat %}
-                        <a href="https://commons.wikimedia.org/wiki/Category:{{ commons_cat.0.mainsnak.datavalue.value|replace({' ':'_'}) }}">{{ commons_cat.0.mainsnak.datavalue.value }}</a>
-                    {% endif %}
-                </dd>
-            {% endif %}
-
-        {% endif %}
-
-        {% set fsps_groups = database.query('SELECT p.* FROM pages p, json_each(p.streets) j WHERE j.value LIKE "'~(page.id|basename)~'" ORDER BY p.title DESC') %}
-        {% set list_items %}
-            {% for p in fsps_groups %}
-                <li><a href="{{page.link(p.id)}}.html">{{p.title}}</a> ({{p.photo_count}} photos)</li>
-            {% endfor %}
-        {% endset %}
-        {% if (list_items|trim|length) > 0 %}
-            <dt class="col-sm-2">Related <a href="{{page.link('/fsps/index')}}.html" title="Fremantle Society Photographic Survey">FSPS</a> groups:</dt>
-            <dd class="col-sm-10">
-                <ol>
-                    {{ list_items }}
-                </ol>
-            </dd>
-        {% endif %}
-
-    </dl>
-
     {% if wikidata_item and wikidata_item.sitelinks.enwiki.title is defined %}
         {{ wikipedia('en', wikidata_item.sitelinks.enwiki.title)|raw }}
         <p><a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title}}">Read more on Wikipedia…</a></p>
@@ -72,7 +20,76 @@
         {{ page.body|md2html|raw }}
     {% endif %}
 
-    {% import "_macros.twig" as macros %}
+    {% set buildings = database.query('SELECT * FROM pages WHERE template="building" AND id LIKE "/buildings/'~(page.id|basename)~'/%" ORDER BY id DESC').fetchAll() %}
+    {% if buildings %}
+        <ul class="list-unstyled row row-cols-1 row-cols-md-4">
+            {% for building in buildings %}
+                <li class="col mb-4">
+                    <a href="{{ page.link(building.id) }}.html" class="text-dark card">
+                        <img src="{{ macros.get_fsps_image_url(database, building.id, 'thumb') }}" class="card-img-top"
+                             alt="Scanned photo of this building, from the FSPS.">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ building.title }}</h5>
+                            <div class="card-text">
+                                {% if building.description %}
+                                    {{ building.description|md2html|raw }}
+                                {% endif %}
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <h2>See also</h2>
+    <ul>
+        {% set fsps_groups = database.query('SELECT p.* FROM pages p, json_each(p.streets) j WHERE template="fsps_group" AND j.value LIKE "'~(page.id|basename)~'" ORDER BY p.title DESC') %}
+        {% set list_items %}
+            {% for p in fsps_groups %}
+                <li><a href="{{page.link(p.id)}}.html">{{p.title}}</a> ({{p.photo_count}} photos)</li>
+            {% endfor %}
+        {% endset %}
+        {% if (list_items|trim|length) > 0 %}
+            <li>
+                In the <a href="{{page.link('/fsps/index')}}.html" title="Fremantle Society Photographic Survey">Fremantle Society Photographic Survey</a>:
+                <ul>
+                    {{ list_items }}
+                </ul>
+            </li>
+        {% endif %}
+
+        {% if wikidata_item  %}
+
+            <li>
+                <a href="https://www.wikidata.org/wiki/{{ page.metadata.wikidata }}">
+                    Wikidata item  {{ page.metadata.wikidata -}}
+                </a>:
+                {{ wikidata_item.labels.en.value }}
+            </li>
+
+            {% if attribute( wikidata_item.claims, prop_connects_with ) is defined %}
+                {% for conn in attribute( wikidata_item.claims, prop_connects_with ) %}
+                    {% set connLabel = wikidata( conn.mainsnak.datavalue.value.id ).labels.en.value %}
+                    <li><a href="{{ page.link( 'streets/'~(connLabel|replace({' ': '_'})) ) }}.html">{{ connLabel }}</a></li>
+                {% endfor %}
+            {% endif %}
+
+            {% if attribute( wikidata_item.claims, prop_commons_cat ) is defined %}
+                <li>
+                    {% set commons_cat =  attribute( wikidata_item.claims, prop_commons_cat ) %}
+                    {% if commons_cat %}
+                        <a href="https://commons.wikimedia.org/wiki/Category:{{ commons_cat.0.mainsnak.datavalue.value|replace({' ':'_'}) }}">
+                            {{ commons_cat.0.mainsnak.datavalue.value }}
+                        </a>
+                        on Wikimedia Commons
+                    {% endif %}
+                </li>
+            {% endif %}
+
+        {% endif %}
+    </ul>
+
     {{ macros.comments() }}
 
 {% endblock %}

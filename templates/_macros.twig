@@ -13,3 +13,27 @@
         async>
     </script>
 {% endmacro %}
+
+{# Get the Internet Archive URL for an FSPS photo of the given building. #}
+{% macro get_fsps_image_url( database, building_id, size='thumb' ) %}
+    {% set sql %}
+    SELECT photos.*
+        FROM pages photos, json_each(photos.buildings) buildings
+        WHERE photos.template="fsps_photo"
+            AND "/buildings/"||buildings.value = "{{ building_id }}"
+    {% endset %}
+    {% set photo = database.query(sql).fetch() %}
+    {% if photo %}
+        {% set folder = database.query('SELECT folder FROM pages WHERE id="/fsps/groups/' ~ photo.group ~ '"').fetchColumn() %}
+        {% if folder < 10 %}
+            {% set folder_name = 'Folder_0' ~ folder %}
+        {% else %}
+            {% set folder_name = 'Folder_' ~ folder %}
+        {% endif %}
+        {% set file1 = json_decode(photo.files).0 %}
+        {% set filename = file1.filename|replace({'.png': '_' ~ size ~ '.jpg'}) %}
+
+        https://archive.org/download/FSPS1978/{{ size }}/{{ folder_name }}/{{ photo.group }}/{{ filename }}
+
+    {% endif %}
+{% endmacro %}

@@ -1,4 +1,5 @@
 {% extends '_base.html.twig' %}
+{% import "_macros.twig" as macros %}
 
 {% set wikidata_item = false %}
 {% if page.metadata.title is defined %}
@@ -68,7 +69,14 @@
 
 {% block main %}
 
-    <div class="float-right row align-items-center ml-3 shadow-sm p-1" style="width:30%">
+    <div class="float-md-right row align-items-center mb-4 ml-md-3 shadow-sm p-1 col-md-4">
+
+        <div class="col-12">
+            {% set fsps_image_url = macros.get_fsps_image_url(database, page.id, 'thumb') %}
+            {% if fsps_image_url %}
+                <img src="{{ fsps_image_url }}" alt="Scanned photo of this building, from the FSPS." class="image-fluid">
+            {% endif %}
+        </div>
 
         <div class="col-3">Street{% if streets|length > 1 %}s{% endif %}:</div>
         <div class="col-9">
@@ -108,12 +116,37 @@
 
         {% endif %}
 
+        {% set sql %}
+        SELECT photos.*
+            FROM pages photos, json_each(photos.buildings) buildings
+            WHERE photos.template="fsps_photo"
+                AND "/buildings/"||buildings.value = "{{page.id}}"
+        {% endset %}
+        {% set fsps_photos = database.query(sql).fetchAll() %}
+        {% if fsps_photos|length > 0 %}
+            <div class="col-3"><a href="{{ page.link('/fsps/index') }}.html" title="Fremantle Society Photographic Survey">FSPS</a>:</div>
+            <div class="col-9">
+                {% for fsps_photo in fsps_photos %}
+                    {{ fsps_photo.group|replace({'_': ' '})}}, 
+                    <a href="{{ page.link(fsps_photo.id) }}.html">
+                        photo {{fsps_photo.id|basename}}
+                    </a>
+                {% endfor %}
+            </div>
+        {% endif %}
+
         {% if coords is defined %}
             <div class="col-12 my-3">
                <div id="{{ map_id }}" style="height:250px"></div>
             </div>
         {% endif %}
     </div>
+
+    {% if page.metadata.description is defined and page.metadata.description %}
+        <div class="lead">
+            {{ page.metadata.description|md2html|raw }}
+        </div>
+    {% endif %}
 
     {% if page.body %}
         {{ page.body|md2html|raw }}
@@ -125,43 +158,7 @@
         <p><a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title}}">Read more on Wikipedia…</a></p>
     {% endif %}
 
-    {% set sql %}
-    SELECT photos.*
-        FROM pages photos, json_each(photos.buildings) buildings
-        WHERE photos.template="fsps_photo"
-            AND "/buildings/"||buildings.value = "{{page.id}}"
-    {% endset %}
-    {% set photos = database.query(sql).fetchAll() %}
-
-    {% if photos|length > 0 %}
-        <h2>Photos</h2>
-        <div class="row">
-            {% for photo in photos %}
-
-                {% set folder = database.query('SELECT folder FROM pages WHERE id="/fsps/groups/' ~ photo.group ~ '"').fetchColumn() %}
-                {% if folder < 10 %}
-                    {% set folder_name = 'Folder_0' ~ folder %}
-                {% else %}
-                    {% set folder_name = 'Folder_' ~ folder %}
-                {% endif %}
-                {% set file1 = json_decode(photo.files).0 %}
-                {% set thumb_filename = file1.filename|replace({'.png': '_thumb.jpg'}) %}
-
-                <a href="{{page.link(photo.id)}}.html" class="col-md">
-                    <figure class="figure">
-                        <img src="https://archive.org/download/FSPS1978/thumb/{{folder_name}}/{{photo.group}}/{{thumb_filename}}"
-                            class="figure-img img-fluid rounded" />
-                        <figcaption class="figure-caption">
-                            FSPS {{photo.group|replace({'_': ' '})}}, photo {{photo.id|basename}}.
-                        </figcaption>
-                    </figure>
-                </a>
-            {% endfor %}
-        </div>
-    {% endif %}
-
     <h2 id="comments" style="clear:right">Comments</h2>
-    {% import "_macros.twig" as macros %}
     {{ macros.comments() }}
 
 {% endblock %}
