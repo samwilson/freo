@@ -71,12 +71,12 @@
 
     <div class="float-md-right row align-items-center mb-4 ml-md-3 shadow-sm p-1 col-md-4">
 
-        <div class="col-12">
-            {% set fsps_image_url = macros.get_fsps_image_url(database, page.id, 'thumb') %}
-            {% if fsps_image_url %}
+        {% set fsps_image_url = macros.get_fsps_image_url(database, page.id, 'thumb')|trim %}
+        {% if fsps_image_url %}
+            <div class="col-12">
                 <img src="{{ fsps_image_url }}" alt="Scanned photo of this building, from the FSPS." class="image-fluid">
-            {% endif %}
-        </div>
+            </div>
+        {% endif %}
 
         <div class="col-3">Street{% if streets|length > 1 %}s{% endif %}:</div>
         <div class="col-9">

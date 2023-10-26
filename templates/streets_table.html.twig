@@ -1,0 +1,59 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+    <p>
+        This is the index to streets' data.
+        There is also a more succinct <a href="{{page.link('/streets/index')}}.html">main index</a> to the streets.
+    </p>
+
+    <table class="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Named after</th>
+                <th>Wikidata</th>
+                <th><a href="{{page.link('/fsps/index')}}.html" title="Fremantle Society Photographic Survey">FSPS</a> groups</th>
+                <th>Photo?<th>
+            </tr>
+        </thead>
+        {% for p in database.query("SELECT * FROM pages WHERE template='street' ORDER BY title ASC").fetchAll() %}
+            {% if p.wikidata %}
+                {% set wditem = wikidata(p.wikidata) %}
+            {% else %}
+                {% set wditem = false %}
+            {% endif %}
+            <tr>
+                <td>
+                    <a href="{{page.link(p.id)}}.html">{{p.title}}</a>
+                </td>
+                <td>
+                    {% if wditem.claims.P138 is defined %}
+                        {% for named_after in wditem.claims.P138 %}
+                            {% set named_after_item = wikidata(named_after.mainsnak.datavalue.value.id) %}
+                            {{named_after_item.labels.en.value}}{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </td>
+                <td>
+                    {% if p.wikidata %}
+                        <a href="https://www.wikidata.org/wiki/{{p.wikidata}}">{{p.wikidata}}</a>
+                    {% endif %}
+                </td>
+                <td>
+                    {% set fsps_groups = database.query('SELECT p.* FROM pages p, json_each(p.streets) streets
+                        WHERE template="fsps_group" AND streets.value LIKE "'~(p.id|basename)~'" ORDER BY id DESC').fetchAll() %}
+                    {% for fsps_group in fsps_groups %}
+                        <a href="{{page.link(fsps_group.id)}}.html">{{fsps_group.title}}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </td>
+                <td>
+                    {% if wditem.claims.P18 is defined %}
+                        <a href="https://commons.wikimedia.org/wiki/File:{{wditem.claims.P18.0.mainsnak.datavalue.value|replace({' ':'_'})}}">Yes</a>
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}
