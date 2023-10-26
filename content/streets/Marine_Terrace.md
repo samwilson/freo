@@ -1,6 +1,7 @@
 ---
 template: street
 title: 'Marine Terrace'
+wikidata: Q6764233
 ---
 Also known as *Marine Parade*.[^1]
 
