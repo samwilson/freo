@@ -14,7 +14,7 @@
                 <th>Named after</th>
                 <th>Wikidata</th>
                 <th><a href="{{page.link('/fsps/index')}}.html" title="Fremantle Society Photographic Survey">FSPS</a> groups</th>
-                <th>Photo?<th>
+                <th>Photo?</th>
             </tr>
         </thead>
         {% for p in database.query("SELECT * FROM pages WHERE template='street' ORDER BY title ASC").fetchAll() %}
