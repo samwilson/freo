@@ -4,6 +4,7 @@
     {% set street_count = 0 %}
     {% set etymology_count = 0 %}
     {% set women_count = 0 %}
+    {% set nonwomen_count = 0 %}
     {% for s in database.query("SELECT * FROM pages WHERE template='street'").fetchAll() %}
         {% set street_count = street_count + 1 %}
         {% if s.wikidata is defined and s.wikidata %}
@@ -16,6 +17,8 @@
                         {% for sex in named_after_item.claims.P21 %}
                             {% if sex.mainsnak.datavalue.value.id == 'Q6581072' %}
                                 {% set women_count = women_count + 1 %}
+                            {% else %}
+                                {% set nonwomen_count = nonwomen_count + 1 %}
                             {% endif %}
                         {% endfor %}
                     {% endif %}
@@ -26,9 +29,9 @@
 
     <p>
         This is the main index to all <strong>{{street_count}} streets</strong> in Fremantle.
-        We have recorded <strong>etymology data for {{etymology_count}}</strong> streets; of these,
-        <strong>{{ (women_count/etymology_count) | format_number(style='percent') }}
-        are named after women</strong>.
+        We have recorded <strong>etymology data for {{etymology_count}}</strong> streets; of the ones named after people,
+        <strong>{{ (women_count/nonwomen_count) | format_number(style='percent') }}
+        of the people are women</strong>.
     </p>
 
     <p>
@@ -38,7 +41,19 @@
     <ol class="columns">
         {% for p in database.query("SELECT * FROM pages WHERE template='street' ORDER BY title ASC").fetchAll() %}
             <li>
+
+                {% if p.wikidata is defined and p.wikidata %}
+                    {% set street_item = wikidata(p.wikidata) %}
+                    {% if street_item.sitelinks.enwiki is defined %}
+                        <a href="https://en.wikipedia.org/wiki/{{street_item.sitelinks.enwiki.title}}" title="Read more on Wikipedia">{#
+                            #}<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Tango_style_Wikipedia_Icon_no_shadow.svg/20px-Tango_style_Wikipedia_Icon_no_shadow.svg.png"
+                                 alt="Wikipedia logo" width="20" height="20" />{#
+                        #}</a>
+                    {% endif %}
+                {% endif %}
+
                 <a href="{{page.link(p.id)}}.html">{{p.title}}</a>
+
                 {% set buildings = database.query('SELECT * FROM pages WHERE template="building" AND id LIKE "/buildings/'~(p.id|basename)~'/%" ORDER BY id DESC').fetchAll() %}
                 {% if buildings|length %}
                     {{buildings|length}}&nbsp;building{% if (buildings|length) > 1 %}s{% endif %}

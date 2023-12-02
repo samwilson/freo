@@ -1,6 +1,6 @@
 ---
 template: fsps_group
-title: 'Rueben Street'
+title: 'Reuben Street'
 photo_count: 11
 folder: 9
 folder_order: 4
