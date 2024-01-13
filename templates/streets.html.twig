@@ -1,6 +1,9 @@
 {% extends '_base.html.twig' %}
 
+{% set PROP_NAME = 'P2561' %}
+
 {% block main %}
+    {% set all_streets = [] %}
     {% set street_count = 0 %}
     {% set etymology_count = 0 %}
     {% set women_count = 0 %}
@@ -24,7 +27,22 @@
                     {% endif %}
                 {% endfor %}
             {% endif %}
+
+            {# Other names #}
+            {% if street_item.claims[PROP_NAME] is defined %}
+                {% for name in street_item.claims[PROP_NAME] %}
+                    {% if name.mainsnak.datavalue.value.text != s.title %}
+                        {% set all_streets = all_streets|merge([{
+                            is_alias: true,
+                            title: name.mainsnak.datavalue.value.text,
+                            alias_of: s
+                        }]) %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
         {% endif %}
+        {% set all_streets = all_streets|merge([s]) %}
     {% endfor %}
 
     <p>
@@ -36,10 +54,12 @@
 
     <p>
         There is also a <a href="{{page.link('/streets/table')}}.html">tabular view</a> available for this data.
+        Note also that the number of items shown below is larger than the total number of streets
+        because former and alternative names are also included (for easier navigation).
     </p>
 
     <ol class="columns">
-        {% for p in database.query("SELECT * FROM pages WHERE template='street' ORDER BY title ASC").fetchAll() %}
+        {% for p in all_streets|sort((a, b) => a.title <=> b.title) %}
             <li>
 
                 {% if p.wikidata is defined and p.wikidata %}
@@ -52,11 +72,17 @@
                     {% endif %}
                 {% endif %}
 
-                <a href="{{page.link(p.id)}}.html">{{p.title}}</a>
+                {% if p.is_alias is not defined %}
+                    <a href="{{page.link(p.id)}}.html">{{p.title}}</a>
 
-                {% set buildings = database.query('SELECT * FROM pages WHERE template="building" AND id LIKE "/buildings/'~(p.id|basename)~'/%" ORDER BY id DESC').fetchAll() %}
-                {% if buildings|length %}
-                    {{buildings|length}}&nbsp;building{% if (buildings|length) > 1 %}s{% endif %}
+                    {% set buildings = database.query('SELECT * FROM pages WHERE template="building" AND id LIKE "/buildings/'~(p.id|basename)~'/%" ORDER BY id DESC').fetchAll() %}
+                    {% if buildings|length %}
+                        {{buildings|length}}&nbsp;building{% if (buildings|length) > 1 %}s{% endif %}
+                    {% endif %}
+                {% endif %}
+
+                {% if p.is_alias is defined %}
+                    <em>{{p.title}}</em>, see <a href="{{page.link(p.alias_of.id)}}.html">{{p.alias_of.title}}</a>
                 {% endif %}
             </li>
         {% endfor %}

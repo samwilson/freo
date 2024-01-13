@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Page Not Found</title>
+    <style>
+        body {
+            background: rgb(14, 30, 37);
+            color: white;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 22px;
+            line-height: 24px;
+        }
+        .main {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            max-width: 364px;
+            padding: 24px;
+            background: white;
+            color: rgb(14, 30, 37);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px 0 rgba(14, 30, 37, .16);
+        }
+        a {
+            margin: 0;
+            text-decoration: none;
+            font-weight: 600;
+            line-height: 24px;
+            color: #00ad9f;
+        }
+        a:hover,
+        a:focus {
+            text-decoration: underline;
+            color: #007A70;
+        }
+        p:last-of-type {
+            margin-bottom: 0;
+        }
+    </style>
+
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="https://stats.archives.org.au/";
+            _paq.push([
+                'setDocumentTitle',
+                '404/URL = ' +  encodeURIComponent(document.location.pathname+document.location.search)
+                    + '/From = ' + encodeURIComponent(document.referrer)
+            ]);
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '8']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+
+</head>
+<body>
+    <main class="main">
+        <div class="card">
+            <h1>404 Page Not Found</h1>
+            <p>The page you are looking for does not exist.</p>
+            <p>
+                <a id="back-link" href="{{page.link('/index')}}.html">
+                    Go to the homepage
+                </a>
+                <br>
+                <span>— or —</span>
+                <br>
+                <a title="Report an issue with this website" id="button404"
+                    href="https://github.com/samwilson/freo/issues/new?title=Page%20not%20found">
+                    Tell us what you were looking for
+                </a>
+            </p>
+        </div>
+    </main>
+<script>
+    {# URL for the report button. #}
+    document.getElementById('button404').href += '&body='+encodeURIComponent('(Issue reported via: '+document.location + ')');
+</script>
+</body>
+</html>
+
