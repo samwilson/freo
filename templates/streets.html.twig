@@ -1,6 +1,7 @@
 {% extends '_base.html.twig' %}
 
 {% set PROP_NAME = 'P2561' %}
+{% set PROP_COMMONS_CAT = 'P373' %}
 
 {% block main %}
     {% set all_streets = [] %}
@@ -66,9 +67,13 @@
                     {% set street_item = wikidata(p.wikidata) %}
                     {% if street_item.sitelinks.enwiki is defined %}
                         <a href="https://en.wikipedia.org/wiki/{{street_item.sitelinks.enwiki.title}}" title="Read more on Wikipedia">{#
-                            #}<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Tango_style_Wikipedia_Icon_no_shadow.svg/20px-Tango_style_Wikipedia_Icon_no_shadow.svg.png"
-                                 alt="Wikipedia logo" width="20" height="20" />{#
+                            #}<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/20px-Wikipedia-logo-v2.svg.png"
+                                 alt="Wikipedia logo" width="20" height="18" />{#
                         #}</a>
+                    {% endif %}
+                    {% if street_item.claims[PROP_COMMONS_CAT] is defined %}
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Commons_logo_icon.svg/15px-Commons_logo_icon.svg.png"
+                            width="15" height="20" alt="Camera icon" title="This street has a photo gallery" />
                     {% endif %}
                 {% endif %}
 

@@ -13,15 +13,59 @@
 
     {% if wikidata_item and wikidata_item.sitelinks.enwiki.title is defined %}
         {{ wikipedia('en', wikidata_item.sitelinks.enwiki.title)|raw }}
-        <p><a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title}}">Read more on Wikipedia…</a></p>
+        <p>
+            <a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title}}" title="Read more on Wikipedia">{#
+                #}<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Tango_style_Wikipedia_Icon_no_shadow.svg/20px-Tango_style_Wikipedia_Icon_no_shadow.svg.png"
+                    alt="Wikipedia logo" width="20" height="20" />{#
+            #} Read more on Wikipedia…</a>
+        </p>
     {% endif %}
 
     {% if page.body %}
         {{ page.body|md2html|raw }}
     {% endif %}
 
+    {% if wikidata_item and wikidata_item.claims[prop_commons_cat] is defined %}
+        <h2>Photos</h2>
+        {% set commons_cat = 'Category:' ~ wikidata_item.claims[prop_commons_cat].0.mainsnak.datavalue.value|replace({' ':'_'}) %}
+        <ul class="list-unstyled row row-cols-1 row-cols-md-4">
+            {% set files = get_json('https://commons.wikimedia.org/w/api.php?action=query&format=json&list=categorymembers&formatversion=2&cmtype=file&cmtitle=' ~ commons_cat) %}
+            {% for file in files.query.categorymembers %}
+                <li class="col mb-4">
+                    {% set commons = commons(file.title|slice(5)) %}
+                    <a href="{{commons.imageinfo.0.descriptionurl}}" class="text-dark card">
+                        <img src="{{ commons.imageinfo.0.thumburl }}" class="card-img-top"
+                             alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <div class="card-text">
+                                {% if commons.labels.en.value is defined %}
+                                    {{ commons.labels.en.value }}
+                                {% endif %}
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            {% endfor %}
+            <li class="col mb-4">
+                <a href="https://commons.wikimedia.org/wiki/Special:UploadWizard?categories={{commons_cat}}"
+                    class="text-dark card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Missing_image_icon_with_camera_and_upload_arrow.svg/520px-Missing_image_icon_with_camera_and_upload_arrow.svg.png"
+                        class="card-img-top" alt="Upload-file icon">
+                    <div class="card-body">
+                        <h5 class="card-title">Upload your own photos here!</h5>
+                        <div class="card-text">
+                            Help record the history of Fremantle.
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    {% endif %}
+
     {% set buildings = database.query('SELECT * FROM pages WHERE template="building" AND id LIKE "/buildings/'~(page.id|basename)~'/%" ORDER BY id DESC').fetchAll() %}
     {% if buildings %}
+        <h2>Buildings</h2>
         <ul class="list-unstyled row row-cols-1 row-cols-md-4">
             {% for building in buildings %}
                 <li class="col mb-4">
