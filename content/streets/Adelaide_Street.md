@@ -1,5 +1,5 @@
 ---
 template: street
-title: 'Adelaide Street'
+title: Adelaide Street
 wikidata: Q4681786
 ---

@@ -66,8 +66,10 @@
         <p>If you have information about the buildings or anything else in this photo, please leave a comment below.</p>
     {% endif %}
 
-    <p>Caption:</p>
-    <blockquote>{{file1.caption|md2html|raw}}</blockquote>
+    {% if file1.caption %}
+        <p>Caption:</p>
+        <blockquote>{{file1.caption|md2html|raw}}</blockquote>
+    {% endif %}
 
     <figure class="figure mx-auto">
         <img src="https://archive.org/download/FSPS1978/display/{{folder_name}}/{{page.metadata.group}}/{{file1.filename|replace({'.png': '_display.jpg'})}}"
