@@ -1,9 +1,12 @@
 {% extends '_base.html.twig' %}
 
 {% block main %}
+    {% import "_macros.twig" as macros %}
+
+    {% set streets = database.query("SELECT * FROM pages WHERE template='street' ORDER BY title ASC").fetchAll() %}
 
     <p>
-        This is the index to streets' data.
+        This is the index to the data about all {{streets|length}} streets documented on this site.
         There is also a more succinct <a href="{{page.link('/streets/index')}}.html">main index</a> to the streets.
     </p>
 
@@ -17,7 +20,7 @@
                 <th>Photo?</th>
             </tr>
         </thead>
-        {% for p in database.query("SELECT * FROM pages WHERE template='street' ORDER BY title ASC").fetchAll() %}
+        {% for p in streets %}
             {% if p.wikidata %}
                 {% set wditem = wikidata(p.wikidata) %}
             {% else %}

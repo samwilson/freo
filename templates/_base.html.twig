@@ -1,3 +1,4 @@
+{% import "_macros.twig" as macros %}
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head profile="http://dublincore.org/documents/dc-html/">
@@ -93,7 +94,7 @@ Please add your comment here. You can delete this line.
 '|e('url') }}">Leave a comment.</a>
             </li>
             <li class="list-inline-item">
-                <a href="https://github.com/samwilson/freo/edit/main/content{{ page.id }}{{ site.ext }}">Edit this page.</a>
+                <a href="{{ macros.edit_url( page.id ) }}">Edit this page.</a>
             </li>
         </ul>
     </footer>

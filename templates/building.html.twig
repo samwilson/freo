@@ -69,11 +69,17 @@
 
 {% block main %}
 
-    <div class="float-md-right row align-items-center mb-4 ml-md-3 shadow-sm p-1 col-md-4">
+    {% if not page.body %}
+        <div class="alert alert-warning" role="alert">
+            <p>This building does not yet have a description. You can <a href="{{macros.edit_url(page.id)}}">edit this page</a> to add one!</p>
+        </div>
+    {% endif %}
+
+    <div class="float-md-right row align-items-center mb-4 mr-0 ml-md-3 shadow-sm p-1 col-md-4">
 
         {% set fsps_image_url = macros.get_fsps_image_url(database, page.id, 'thumb')|trim %}
         {% if fsps_image_url %}
-            <div class="col-12">
+            <div class="col-12 text-center">
                 <img src="{{ fsps_image_url }}" alt="Scanned photo of this building, from the FSPS." class="image-fluid">
             </div>
         {% endif %}
