@@ -2,6 +2,10 @@
 template: building
 title: '1 Ada Street'
 wikidata: Q73008128
+images:
+  - fsps: Ada_Street
+    num: 11
+    caption: 
 description: Single-story masonry and iron detached house, built in about 1910.
 ---
 The house was built for Alfred West, who lived in it until about 1930, after which Mary and Albert Seymour bought it.[^1]
