@@ -1,2 +1,9 @@
 title: Freo Archives
 url: https://freo.archives.org.au
+output_exclude:
+  - "|_redirects|"
+  - "|robots.txt|"
+  - "|favicon.*|"
+  - "|site.webmanifest|"
+  - "|android.*.png|"
+  - "|apple.*.png|"
