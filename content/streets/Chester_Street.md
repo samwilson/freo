@@ -1,4 +1,5 @@
 ---
 template: street
-title: 'Chester Street'
+title: Chester Street
+wikidata: Q124457504
 ---

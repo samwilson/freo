@@ -17,7 +17,7 @@
                 <th>Named after</th>
                 <th>Wikidata</th>
                 <th><a href="{{page.link('/fsps/index')}}.html" title="Fremantle Society Photographic Survey">FSPS</a> groups</th>
-                <th>Photo?</th>
+                <th>Photos</th>
             </tr>
         </thead>
         {% for p in streets %}
@@ -52,7 +52,25 @@
                 </td>
                 <td>
                     {% if wditem.claims.P18 is defined %}
-                        <a href="https://commons.wikimedia.org/wiki/File:{{wditem.claims.P18.0.mainsnak.datavalue.value|replace({' ':'_'})}}">Yes</a>
+                        <a href="https://commons.wikimedia.org/wiki/File:{{wditem.claims.P18.0.mainsnak.datavalue.value|replace({' ':'_'})}}"
+                            title="This street has a main image">
+                            Yes
+                        </a>
+                    {% elseif wditem %}
+                        No
+                    {% endif %}
+                    {% if wditem %}
+                        {% set depicts_query %}
+                            SELECT (count(?file) as ?count) WHERE { ?file wdt:P180 wd:{{wditem.id}} }
+                        {% endset %}
+                        {% set depicts_count = commons_query(depicts_query).0.count %}
+                        {% if depicts_count %}
+                            -
+                            <a href="https://commons.wikimedia.org/wiki/Special:MediaSearch?search=haswbstatement%3AP180%3D{{wditem.id}}"
+                                target="_blank" title="View all (opens in a new tab)">
+                                {{depicts_count|number_format}}
+                            </a>
+                        {% endif %}
                     {% endif %}
                 </td>
             </tr>

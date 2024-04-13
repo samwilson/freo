@@ -66,9 +66,15 @@ The photos were stored in 9 boxes (until 2021 when they were digitized).
 Eight boxes were cloth-covered cardboard and a (larger) one was polypropylene.
 They were labelled as follows:
 
-1. Christiana – G.
-1. South Street then Suffolk – V.
-1. W. – Z. West End
+1. A to Chester
+2. Christiana to G
+3. H
+4. I - K (pkt unlabelled)
+5. L – Moran
+6. McCabe – Shuffrey
+7. S to Stirling (but not South St)
+8. South St then Suffolk – V
+9. W – Z and West End
 
 ## Digitisation
 
