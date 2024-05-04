@@ -1,4 +1,5 @@
 ---
 template: building
-title: '15 Pakenham Street'
+title: Willshire and Feely Building, 15 Pakenham Street
+wikidata: Q66976663
 ---
